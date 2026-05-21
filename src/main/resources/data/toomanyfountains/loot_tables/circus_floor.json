@@ -5,41 +5,41 @@
       "bonus_rolls": 0,
       "entries": [
         {
-          "type": "minecraft:item",
-          "functions": [
+          "type": "minecraft:alternatives",
+          "children": [
             {
-              "add": false,
-              "count": {
-                "type": "minecraft:constant",
-                "value": 1
-              },
-              "function": "minecraft:set_count"
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:match_tool",
+                  "predicate": {
+                    "enchantments": [
+                      {
+                        "enchantment": "minecraft:silk_touch",
+                        "levels": {
+                          "min": 1
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "name": "toomanyfountains:circus_floor"
             },
             {
-              "function": "minecraft:explosion_decay"
+              "type": "minecraft:item",
+              "conditions": [
+                {
+                  "condition": "minecraft:survives_explosion"
+                }
+              ],
+              "name": "toomanyfountains:circus_boards"
             }
-          ],
-          "name": "toomanyfountains:circus_boards"
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:constant",
-                "value": 1
-              },
-              "function": "minecraft:set_count"
-            },
-            {
-              "function": "minecraft:explosion_decay"
-            }
-          ],
-          "name": "minecraft:purple_carpet"
+          ]
         }
       ],
       "rolls": 1
     }
-  ]
+  ],
+  "random_sequence": "toomanyfountains:blocks/circus_floor"
 }
