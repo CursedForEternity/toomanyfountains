@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "toomanyfountains:item/jellite"
+    "layer0": "toomanyfountains:item/jellite_ingot"
   }
 }

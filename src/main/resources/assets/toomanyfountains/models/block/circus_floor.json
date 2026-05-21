@@ -1,0 +1,9 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "toomanyfountains:block/circus_board_top",
+    "particle": "toomanyfountains:block/circus_floor_side",
+    "side": "toomanyfountains:block/circus_floor_side",
+    "top": "toomanyfountains:block/circus_floor_top"
+  }
+}

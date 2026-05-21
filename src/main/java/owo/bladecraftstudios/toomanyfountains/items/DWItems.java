@@ -13,7 +13,7 @@ public class DWItems {
 
     public static final RegistryObject<Item> RAW_JELLITE = ITEMS.register("raw_jellite",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> JELLITE = ITEMS.register("jellite",
+    public static final RegistryObject<Item> JELLITE = ITEMS.register("jellite_ingot",
             () -> new Item(new Item.Properties()));
 
     public static void register(IEventBus eventBus) {
