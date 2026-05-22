@@ -25,6 +25,8 @@ public class TooManyFountains {
     public static final String MODID = "toomanyfountains";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    @SuppressWarnings("removal")
     public TooManyFountains() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
