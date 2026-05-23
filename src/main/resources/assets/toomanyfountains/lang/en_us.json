@@ -2,9 +2,11 @@
   "block.toomanyfountains.circus_boards": "Circus Boards",
   "block.toomanyfountains.circus_floor": "Circus Floor",
   "block.toomanyfountains.jellite_ore": "Jellite Ore",
+  "block.toomanyfountains.mushite": "Mushite",
   "item.toomanyfountains.jellite_ingot": "Jellite Ingot",
   "item.toomanyfountains.raw_jellite": "Raw Jellite",
   "block.toomanyfountains.mushite": "Mushite",
   "creativetab.circus_dw": "Circus Ashes",
-  "creativetab.shroom_dw": "Fungi Growth"
+  "creativetab.shroom_dw": "Fungi Growth",
+  "dwitems.tabs.main": "Too Many Fountains - Items"
 }
