@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_bottom_top",
+	"textures": {
+		"bottom": "C:/Users/Bayle/Downloads/dwtextures/fungite.png",
+		"side": "C:/Users/Bayle/Downloads/dwtextures/fungal_fungite.png",
+		"top": "C:/Users/Bayle/Downloads/dwtextures/fungal_grass.png"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [18, 18, 18],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#top"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom"}
+			}
+		}
+	]
+}

@@ -3,7 +3,10 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"north": "C:/Users/Bayle/Downloads/dwtextures/jellite_ore.png"
+		"2": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_top",
+		"down": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_bottom",
+		"particle": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_side.png",
+		"north": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_side.png"
 	},
 	"elements": [
 		{
@@ -14,8 +17,8 @@
 				"east": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "east"},
 				"south": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "south"},
 				"west": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "west"},
-				"up": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "up"},
-				"down": {"uv": [0, 0, 16, 16], "texture": "#north", "cullface": "down"}
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down", "cullface": "down"}
 			}
 		}
 	]

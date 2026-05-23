@@ -1,0 +1,22 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"bottom": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_planks.png"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#missing", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#missing", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#missing", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#missing", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#bottom", "cullface": "down"}
+			}
+		}
+	]
+}
