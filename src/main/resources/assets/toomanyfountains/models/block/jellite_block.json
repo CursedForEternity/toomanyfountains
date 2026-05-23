@@ -3,7 +3,7 @@
 	"credit": "Made with Blockbench",
 	"parent": "block/block",
 	"textures": {
-		"north": "C:/Users/Bayle/Downloads/dwtextures/jellite_ore.png"
+		"north": "C:/Users/Bayle/Downloads/dwtextures/jellite_block"
 	},
 	"elements": [
 		{

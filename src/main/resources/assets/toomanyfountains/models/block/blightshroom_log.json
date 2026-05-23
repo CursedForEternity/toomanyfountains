@@ -1,0 +1,25 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/cube_column",
+	"textures": {
+		"2": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_bottom",
+		"end": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_top",
+		"side": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_side.png",
+		"particle": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_bottom"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 18, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#side"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#end"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2"}
+			}
+		}
+	]
+}

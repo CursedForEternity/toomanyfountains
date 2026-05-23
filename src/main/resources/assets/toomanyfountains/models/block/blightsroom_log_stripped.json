@@ -1,0 +1,24 @@
+{
+	"format_version": "1.21.11",
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"west": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_stripped.png",
+		"up": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_top_stripped",
+		"down": "C:/Users/Bayle/Downloads/dwtextures/blightshroom_log_bottom_stripped"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#missing", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#missing", "cullface": "east"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#missing", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#west", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#up", "cullface": "up"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#down", "cullface": "down"}
+			}
+		}
+	]
+}
