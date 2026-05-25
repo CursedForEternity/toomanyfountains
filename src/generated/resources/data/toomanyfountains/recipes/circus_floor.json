@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "D": {
+      "item": "toomanyfountains:circus_boards"
+    },
+    "S": {
+      "item": "minecraft:purple_carpet"
+    }
+  },
+  "pattern": [
+    "S",
+    "D"
+  ],
+  "result": {
+    "item": "toomanyfountains:circus_floor"
+  },
+  "show_notification": true
+}

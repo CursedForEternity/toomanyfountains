@@ -3,10 +3,7 @@ package owo.bladecraftstudios.toomanyfountains.blocks;
 import net.minecraft.tags.InstrumentTags;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.*;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.DropExperienceBlock;
-import net.minecraft.world.level.block.SoundType;
+import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
@@ -22,7 +19,7 @@ public class DWBlocks {
             DeferredRegister.create(ForgeRegistries.BLOCKS, TooManyFountains.MODID);
 
     public static final RegistryObject<Block> CIRCUS_BOARDS = registerBlock("circus_boards",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.BAMBOO_WOOD)));
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.BAMBOO_WOOD)));
     public static final RegistryObject<Block> CIRCUS_FLOOR = registerBlock("circus_floor",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOL)));
     public static final RegistryObject<Block> JELLITE_ORE = registerBlock("jellite_ore",

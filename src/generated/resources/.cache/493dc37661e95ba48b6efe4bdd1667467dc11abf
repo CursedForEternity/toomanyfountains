@@ -1,0 +1,4 @@
+// 1.20.1	2026-05-25T19:21:42.8898022	Tags for minecraft:block mod id toomanyfountains
+0fa535484a8c13ccd99a2be2b506364b03f97b13 data/minecraft/tags/blocks/mineable/axe.json
+277a640f40c22d1c4f8bf85d1b1ea12d2738f1c2 data/minecraft/tags/blocks/mineable/pickaxe.json
+f7ac9f8aa4de83d0fbd7e5fc19f3f204c4443fb7 data/minecraft/tags/blocks/needs_stone_tool.json

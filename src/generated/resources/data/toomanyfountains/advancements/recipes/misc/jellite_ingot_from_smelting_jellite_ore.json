@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_jellite_ore": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "toomanyfountains:jellite_ore"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "toomanyfountains:jellite_ingot_from_smelting_jellite_ore"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_jellite_ore",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "toomanyfountains:jellite_ingot_from_smelting_jellite_ore"
+    ]
+  },
+  "sends_telemetry_event": false
+}
