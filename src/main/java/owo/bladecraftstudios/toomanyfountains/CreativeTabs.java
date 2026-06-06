@@ -22,6 +22,7 @@ public class CreativeTabs {
         output.accept(DWItems.JELLITE.get());
         output.accept(DWBlocks.JELLITE_ORE.get());
         output.accept(DWBlocks.MUSHITE.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_PLANKS.get());
     }).build());
 
     public static void register(IEventBus eventBus){
