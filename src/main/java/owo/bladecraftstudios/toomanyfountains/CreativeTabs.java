@@ -23,6 +23,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.JELLITE_ORE.get());
         output.accept(DWBlocks.MUSHITE.get());
         output.accept(DWBlocks.BLIGHTSHROOM_PLANKS.get());
+        output.accept(DWBlocks.MUSHSNOW.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("A Cold Place")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.ICESALT.get());
