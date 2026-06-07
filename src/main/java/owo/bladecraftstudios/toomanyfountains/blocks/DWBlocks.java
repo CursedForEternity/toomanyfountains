@@ -27,12 +27,18 @@ public class DWBlocks {
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     public static final RegistryObject<Block> MUSHITE = registerBlock("mushite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+        public static final RegistryObject<Block> FUNGITE = registerBlock("fungite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> BLIGHTSHROOM_PLANKS = registerBlock("blightshroom_planks",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> MUSHSNOW = registerBlock("mushsnow",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
+        public static final RegistryObject<Block> FUNGAL_MUSHITE = registerBlock("fungal_mushite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+        public static final RegistryObject<Block> FUNGAL_FUNGITE = registerBlock("fungal_fungite",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
