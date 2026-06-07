@@ -26,6 +26,8 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.CIRCUS_FLOOR.get());
         this.dropSelf(DWBlocks.MUSHITE.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
+        this.dropSelf(DWBlocks.ICESALT.get());
+        this.dropSelf(DWBlocks.MUSHSNOW.get());
 
         this.add(DWBlocks.JELLITE_ORE.get(),
                 block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
