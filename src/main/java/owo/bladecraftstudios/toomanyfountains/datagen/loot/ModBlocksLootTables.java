@@ -25,6 +25,10 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
     protected void generate() {
         this.dropSelf(DWBlocks.CIRCUS_FLOOR.get());
         this.dropSelf(DWBlocks.MUSHITE.get());
+        this.dropSelf(DWBlocks.FUNGITE.get());
+        this.dropSelf(DWBlocks.FUNGAL_FUNGITE.get());
+        this.dropSelf(DWBlocks.FUNGAL_MUSHITE.get());
+        this.dropSelf(DWBlocks.FUNGITE.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
         this.dropSelf(DWBlocks.ICESALT.get());
         this.dropSelf(DWBlocks.MUSHSNOW.get());

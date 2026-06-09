@@ -17,9 +17,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
         blockWithItem(DWBlocks.MUSHITE);
+        blockWithItem(DWBlocks.FUNGITE);
+        blockFloor(DWBlocks.FUNGAL_MUSHITE);
+        blockFloor(DWBlocks.FUNGAL_FUNGITE);
         blockWithItem(DWBlocks.JELLITE_ORE);
         blockWithItem(DWBlocks.BLIGHTSHROOM_PLANKS);
-        blockWithItem(DWBlocks.MUSHSNOW);
+        blockColumn(DWBlocks.MUSHSNOW);
         blockWithItem(DWBlocks.ICESALT);
         blockFloor(DWBlocks.CIRCUS_FLOOR);
         blockColumn(DWBlocks.CIRCUS_BOARDS);
