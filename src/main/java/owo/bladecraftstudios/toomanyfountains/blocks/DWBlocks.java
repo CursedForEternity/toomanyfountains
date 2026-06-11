@@ -39,6 +39,9 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FUNGAL_FUNGITE = registerBlock("fungal_fungite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> BLIGHTSHROOM_LEAVES = registerBlock("blightshroom_lEAVES",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LEAVES).sound(SoundType.LEAVES)));
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
