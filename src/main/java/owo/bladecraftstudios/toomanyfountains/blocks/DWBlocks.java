@@ -39,8 +39,8 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FUNGAL_FUNGITE = registerBlock("fungal_fungite",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_LEAVES = registerBlock("blightshroom_lEAVES",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.LEAVES).sound(SoundType.LEAVES)));
+    public static final RegistryObject<Block> BLIGHTSHROOM_LEAVES = registerBlock("blightshroom_leaves",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/cube_bottom_top",
-  "textures": {
-    "bottom": "toomanyfountains:block/circus_floor_bottom",
-    "side": "toomanyfountains:block/circus_floor_side",
-    "top": "toomanyfountains:block/circus_floor_top"
-  }
-}

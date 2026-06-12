@@ -1,5 +1,12 @@
-// 1.20.1	2026-05-25T19:21:42.8980146	Loot Tables
+// 1.20.1	2026-06-12T14:34:29.613497	Loot Tables
+ef199f753db19478a8465ba075ebd2a1d328a0c7 data/toomanyfountains/loot_tables/blocks/blightshroom_leaves.json
+c095fbcad8df25ff6ea34d7467521e79bcfa57e9 data/toomanyfountains/loot_tables/blocks/blightshroom_planks.json
 45cccda591fc7b38a86668accf74a97ba6ea9ec3 data/toomanyfountains/loot_tables/blocks/circus_boards.json
 50f18c38c1bf2dbc23786c0bc5dcbebdb3089710 data/toomanyfountains/loot_tables/blocks/circus_floor.json
-9d98e45629a7b6cdc9dd6f0d7cb8b577b8dc091d data/toomanyfountains/loot_tables/blocks/jellite_ore.json
+1779e39d2af73cdb5dbc7efafae4e8e5fa90b54e data/toomanyfountains/loot_tables/blocks/fungal_fungite.json
+3732181d09152085b916521e1c6c87b83bfac253 data/toomanyfountains/loot_tables/blocks/fungal_mushite.json
+86a3d7bcedef1c259b7aff11b36f47f6e5fcb800 data/toomanyfountains/loot_tables/blocks/fungite.json
+272c13011d16d94cff89c62f931833731e7708f3 data/toomanyfountains/loot_tables/blocks/icesalt.json
+0b065a25d1be080cdc77c4fe7b8778cabfc247c1 data/toomanyfountains/loot_tables/blocks/jellite_ore.json
 b7517c4f1ce8b36a8e0793dac776f964bee31b7b data/toomanyfountains/loot_tables/blocks/mushite.json
+0987c3d57c0773335e93cafee0786c9c6f655c84 data/toomanyfountains/loot_tables/blocks/mushsnow.json

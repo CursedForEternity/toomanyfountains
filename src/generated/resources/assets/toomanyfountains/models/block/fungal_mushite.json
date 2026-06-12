@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "toomanyfountains:block/fungal_mushite_bottom",
+    "side": "toomanyfountains:block/fungal_mushite_side",
+    "top": "toomanyfountains:block/fungal_mushite_top"
+  }
+}

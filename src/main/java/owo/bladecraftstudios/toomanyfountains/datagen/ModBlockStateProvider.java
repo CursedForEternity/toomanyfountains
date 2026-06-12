@@ -24,8 +24,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.BLIGHTSHROOM_PLANKS);
         blockWithItem(DWBlocks.BLIGHTSHROOM_LEAVES);
         blockColumn(DWBlocks.MUSHSNOW);
-        blockWithItem(DWBlocks.ICESALT);
-        blockFloor(DWBlocks.CIRCUS_FLOOR);
         blockColumn(DWBlocks.CIRCUS_BOARDS);
     }
 
