@@ -22,5 +22,6 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL).add(DWBlocks.JELLITE_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_AXE).add(DWBlocks.CIRCUS_BOARDS.get()).add(DWBlocks.CIRCUS_FLOOR.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(DWBlocks.MUSHITE.get()).add(DWBlocks.JELLITE_ORE.get());
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL).add(DWBlocks.CIRCUS_ASH.get());
     }
 }

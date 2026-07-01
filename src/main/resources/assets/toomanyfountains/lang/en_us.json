@@ -2,11 +2,17 @@
   "block.toomanyfountains.circus_boards": "Circus Boards",
   "block.toomanyfountains.circus_floor": "Circus Floor",
   "block.toomanyfountains.jellite_ore": "Jellite Ore",
-  "block.toomanyfountains.bightshroom_planks": "Blightshroom Planks",
+  "block.toomanyfountains.blightshroom_planks": "Blightshroom Planks",
   "block.toomanyfountains.mushite": "Mushite",
+  "block.toomanyfountains.fungite": "Fungite",
+  "block.toomanyfountains.mushsnow": "Mushsnow",
   "item.toomanyfountains.jellite_ingot": "Jellite Ingot",
   "item.toomanyfountains.raw_jellite": "Raw Jellite",
-  "block.toomanyfountains.mushite": "Mushite",
+  "block.toomanyfountains.fungal_mushite": "Fungal Mushite",
+  "block.toomanyfountains.circus_ash": "Circus Ash",
+  "block.toomanyfountains.icesalt": "Icesalt",
+  "block.toomanyfountains.fungal_fungite": "Fungal Fungite",
   "creativetab.circus_dw": "Circus Ashes",
-  "creativetab.shroom_dw": "Fungi Growth"
+  "creativetab.shroom_dw": "Fungi Growth",
+  "creativetab.ice_dw": "Cold Place"
 }

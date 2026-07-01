@@ -1,0 +1,35 @@
+{
+  "block_tag": "kubejs:influences_custom",
+  "block_amount": 6,
+  "noise_settings": "kubejs:example_world",
+  "dimension_type": "penumbra_phantasm:card_kingdom_dimension_type",
+  "biome_source": {
+    "type": "minecraft:multi_noise",
+    "biomes": [
+      {
+        "biome": "kubejs:custom_fields",
+        "parameters": {
+          "temperature": -0.5,
+          "humidity": -0.5,
+          "continentalness": 0,
+          "erosion": 0,
+          "weirdness": 0,
+          "depth": 0,
+          "offset": 0.2
+        }
+      },
+      {
+        "biome": "kubejs:custom_plains",
+        "parameters": {
+          "temperature": 0.8,
+          "humidity": -0.5,
+          "continentalness": 0,
+          "erosion": 0,
+          "weirdness": 0,
+          "depth": 0.25,
+          "offset": 0.2
+        }
+      }
+    ]
+  }
+}

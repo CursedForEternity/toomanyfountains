@@ -16,6 +16,7 @@ public class CreativeTabs {
     public static final RegistryObject<CreativeModeTab> CIRCUS_TAB = CREATIVE_TABS.register("circus_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.CIRCUS_FLOOR.get())).title(Component.translatable("creativetab.circus_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.CIRCUS_FLOOR.get());
         output.accept(DWBlocks.CIRCUS_BOARDS.get());
+        output.accept(DWBlocks.CIRCUS_ASH.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> SHROOM_TAB = CREATIVE_TABS.register("mushroom_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.MUSHITE.get())).title(Component.translatable("creativetab.shroom_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWItems.RAW_JELLITE.get());
@@ -28,7 +29,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.FUNGAL_MUSHITE.get());
         output.accept(DWBlocks.FUNGAL_FUNGITE.get());
     }).build());
-    public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("A Cold Place")).displayItems((itemDisplayParameters, output) -> {
+    public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("Cold Place")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.ICESALT.get());
     }).build());
 

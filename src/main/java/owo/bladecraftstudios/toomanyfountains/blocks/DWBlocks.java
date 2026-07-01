@@ -41,6 +41,8 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> BLIGHTSHROOM_LEAVES = registerBlock("blightshroom_leaves",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> CIRCUS_ASH = registerBlock("circus_ash",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

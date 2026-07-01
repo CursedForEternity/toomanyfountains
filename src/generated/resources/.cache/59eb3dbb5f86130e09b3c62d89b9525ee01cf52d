@@ -1,6 +1,7 @@
-// 1.20.1	2026-06-12T14:34:29.613497	Loot Tables
+// 1.20.1	2026-07-02T01:18:52.6083693	Loot Tables
 ef199f753db19478a8465ba075ebd2a1d328a0c7 data/toomanyfountains/loot_tables/blocks/blightshroom_leaves.json
 c095fbcad8df25ff6ea34d7467521e79bcfa57e9 data/toomanyfountains/loot_tables/blocks/blightshroom_planks.json
+67ad999ad7d88d83628ed4bef6cd30f211e2c44c data/toomanyfountains/loot_tables/blocks/circus_ash.json
 45cccda591fc7b38a86668accf74a97ba6ea9ec3 data/toomanyfountains/loot_tables/blocks/circus_boards.json
 50f18c38c1bf2dbc23786c0bc5dcbebdb3089710 data/toomanyfountains/loot_tables/blocks/circus_floor.json
 1779e39d2af73cdb5dbc7efafae4e8e5fa90b54e data/toomanyfountains/loot_tables/blocks/fungal_fungite.json

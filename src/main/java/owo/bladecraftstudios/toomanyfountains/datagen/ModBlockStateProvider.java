@@ -25,6 +25,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.BLIGHTSHROOM_LEAVES);
         blockColumn(DWBlocks.MUSHSNOW);
         blockColumn(DWBlocks.CIRCUS_BOARDS);
+        blockColumn(DWBlocks.CIRCUS_ASH);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
