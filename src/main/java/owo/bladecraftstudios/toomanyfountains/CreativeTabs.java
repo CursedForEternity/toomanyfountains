@@ -29,7 +29,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.FUNGAL_MUSHITE.get());
         output.accept(DWBlocks.FUNGAL_FUNGITE.get());
     }).build());
-    public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("Cold Place")).displayItems((itemDisplayParameters, output) -> {
+    public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.ICESALT.get());
     }).build());
 

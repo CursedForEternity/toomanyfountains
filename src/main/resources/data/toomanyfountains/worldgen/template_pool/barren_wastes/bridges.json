@@ -1,0 +1,51 @@
+{
+  "name": "toomanyfountains:barren_wastes/bridges",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 15,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "toomanyfountains:barren_wastes/bridges/bridge",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "toomanyfountains:barren_wastes/bridges/cross_bridges",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "toomanyfountains:barren_wastes/bridges/t_bridge",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "toomanyfountains:barren_wastes/bridges/bridge_platform",
+        "processors": "minecraft:empty"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "projection": "rigid",
+        "location": "toomanyfountains:barren_wastes/bridges/bridge_platform_ash",
+        "processors": "minecraft:empty"
+      }
+    }
+  ]
+}

@@ -2,7 +2,7 @@
   "required": true,
   "minVersion": "0.8",
   "package": "owo.bladecraftstudios.toomanyfountains.mixin",
-  "compatibilityLevel": "JAVA_8",
+  "compatibilityLevel": "JAVA_17",
   "refmap": "toomanyfountains.refmap.json",
   "mixins": [
   ],

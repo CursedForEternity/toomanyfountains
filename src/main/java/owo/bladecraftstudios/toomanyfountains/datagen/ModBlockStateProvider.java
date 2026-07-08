@@ -41,6 +41,15 @@ public class ModBlockStateProvider extends BlockStateProvider {
                         new ResourceLocation(TooManyFountains.MODID,
                             "block/" + blockRegistryObject.getId().getPath() + "_top")));
     }
+    private void slabFloor(RegistryObject<Block> blockRegistryObject) {
+        simpleBlockWithItem(blockRegistryObject.get(), models().cubeBottomTop("block/" + blockRegistryObject.getId().getPath(),
+                new ResourceLocation(TooManyFountains.MODID,
+                        "block/" + blockRegistryObject.getId().getPath() + "_side"),
+                new ResourceLocation(TooManyFountains.MODID,
+                        "block/" + blockRegistryObject.getId().getPath() + "_bottom"),
+                new ResourceLocation(TooManyFountains.MODID,
+                        "block/" + blockRegistryObject.getId().getPath() + "_top")));
+    }
     private void blockColumn(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), models().cubeColumn("block/" + blockRegistryObject.getId().getPath(),
                 new ResourceLocation(TooManyFountains.MODID,

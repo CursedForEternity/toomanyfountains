@@ -1,6 +1,6 @@
 {
 	"default_block": {
-		"Name": "kubejs:custom_stone"
+		"Name": "toomanyfountains:mushite"
 	},
 	"default_fluid": {
 		"Name": "water"
@@ -89,7 +89,7 @@
 				"type": "minecraft:condition",
 				"if_true": {
 					"type": "minecraft:vertical_gradient",
-					"random_name": "kubejs:bedrock",
+					"random_name": "toomanyfountains:bedrock",
 					"true_at_and_below": {
 						"above_bottom": 0
 					},
@@ -108,7 +108,7 @@
 				"type": "minecraft:condition",
 				"if_true": {
 					"type": "minecraft:vertical_gradient",
-					"random_name": "kubejs:great_void",
+					"random_name": "toomanyfountains:great_void",
 					"true_at_and_below": {
 						"above_bottom": 2
 					},
@@ -131,7 +131,7 @@
 						"if_true": {
 							"type": "minecraft:biome",
 							"biome_is": [
-								"kubejs:custom_plains"
+								"toomanyfountains:custom_plains"
 							]
 						},
 						"then_run": {
@@ -142,7 +142,7 @@
                         "type": "minecraft:condition",
                         "if_true": {
                             "type": "minecraft:vertical_gradient",
-                            "random_name": "kubejs:deepslate",
+                            "random_name": "toomanyfountains:deepslate",
                             "true_at_and_below": {
                                 "above_bottom": 43
                             },
@@ -153,7 +153,7 @@
                         "then_run": {
                             "type": "minecraft:block",
                             "result_state": {
-                                "Name": "kubejs:custom_deepslate"
+                                "Name": "toomanyfountains:fungite"
                             }
                         }
                     },
@@ -169,7 +169,7 @@
 									"then_run": {
 										"type": "minecraft:block",
 										"result_state": {
-											"Name": "kubejs:custom_grass_alt"
+											"Name": "toomanyfountains:fungal_fungite"
 										}
 									}
 								},
@@ -185,7 +185,7 @@
 									"then_run": {
 										"type": "minecraft:block",
 										"result_state": {
-											"Name": "kubejs:custom_dirt_alt"
+											"Name": "toomanyfountains:fungite"
 										}
 									}
 								},
@@ -202,7 +202,7 @@
 									"then_run": {
 										"type": "minecraft:block",
 										"result_state": {
-											"Name": "kubejs:custom_stone_alt"
+											"Name": "toomanyfountains:fungite"
 										}
 									}
 								}
@@ -226,7 +226,7 @@
 						"then_run": {
 							"type": "minecraft:block",
 							"result_state": {
-								"Name": "kubejs:custom_grass"
+								"Name": "toomanyfountains:fungal_mushite"
 							}
 						}
 					},
@@ -242,7 +242,7 @@
 						"then_run": {
 							"type": "minecraft:block",
 							"result_state": {
-								"Name": "kubejs:custom_dirt"
+								"Name": "toomanyfountains:mushite"
 							}
 						}
 					},
@@ -250,7 +250,7 @@
 						"type": "minecraft:condition",
 						"if_true": {
 							"type": "minecraft:vertical_gradient",
-							"random_name": "kubejs:deepslate",
+							"random_name": "toomanyfountains:deepslate",
 							"true_at_and_below": {
 								"above_bottom": 43
 							},
@@ -261,7 +261,7 @@
 						"then_run": {
 							"type": "minecraft:block",
 							"result_state": {
-								"Name": "kubejs:custom_deepslate"
+								"Name": "toomanyfountains:fungite"
 							}
 						}
 					}

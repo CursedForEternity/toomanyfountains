@@ -1,0 +1,23 @@
+{
+  "block_tag": "toomanyfountains:influences_circus",
+  "block_amount": 6,
+  "noise_settings": "toomanyfountains:ashen_circus",
+  "dimension_type": "penumbra_phantasm:card_kingdom_dimension_type",
+  "biome_source": {
+    "type": "minecraft:multi_noise",
+    "biomes": [
+      {
+        "biome": "toomanyfountains:barren_wastes",
+        "parameters": {
+          "temperature": -0.5,
+          "humidity": -0.5,
+          "continentalness": 0,
+          "erosion": 0,
+          "weirdness": 1,
+          "depth": 1,
+          "offset": 0.2
+        }
+      }
+    ]
+  }
+}

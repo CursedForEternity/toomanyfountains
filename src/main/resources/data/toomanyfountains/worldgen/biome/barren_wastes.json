@@ -2,16 +2,15 @@
   "carvers": {},
   "downfall": 0.4,
   "effects": {
-    "fog_color": 9312794,
-    "grass_color": 9371812,
-    "foliage_color": 16711744,
+    "fog_color": 0,
+    "grass_color": 0,
+    "foliage_color": 0,
     "sky_color": 0,
     "water_color": 0,
     "water_fog_color": 0
   },
   "features": [
     [
-      "toomanyfountains:custom_tree"
     ]
   ],
   "has_precipitation": false,
