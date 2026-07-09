@@ -1,6 +1,6 @@
 {
   "block_tag": "toomanyfountains:influences_circus",
-  "block_amount": 6,
+  "block_amount": 8,
   "noise_settings": "toomanyfountains:ashen_circus",
   "dimension_type": "penumbra_phantasm:card_kingdom_dimension_type",
   "biome_source": {
@@ -13,8 +13,20 @@
           "humidity": -0.5,
           "continentalness": 0,
           "erosion": 0,
-          "weirdness": 1,
-          "depth": 1,
+          "weirdness": 0,
+          "depth": 0.5,
+          "offset": 0.2
+        }
+      },
+      {
+        "biome": "toomanyfountains:circus_ashes",
+        "parameters": {
+          "temperature": 0.9,
+          "humidity": -0.5,
+          "continentalness": 0,
+          "erosion": 0,
+          "weirdness": 0,
+          "depth": 0.2,
           "offset": 0.2
         }
       }

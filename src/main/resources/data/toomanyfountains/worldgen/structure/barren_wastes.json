@@ -1,6 +1,6 @@
 {
   "type": "minecraft:jigsaw",
-  "biomes": "toomanyfountains:barren_wastes",
+  "biomes": "#toomanyfountains:has_structure/barren_wastes",
   "step": "raw_generation",
   "terrain_adaptation": "beard_thin",
   "spawn_overrides": {},

@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_icesalt"
+          "name": "toomanyfountains:circus_stone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "toomanyfountains:blocks/icesalt"
+  "random_sequence": "toomanyfountains:blocks/circus_stone"
 }

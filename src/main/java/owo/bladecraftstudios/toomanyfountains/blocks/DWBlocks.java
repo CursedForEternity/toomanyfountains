@@ -33,6 +33,8 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobble_icesalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> MUSHSNOW = registerBlock("mushsnow",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
     public static final RegistryObject<Block> FUNGAL_MUSHITE = registerBlock("fungal_mushite",
@@ -43,6 +45,8 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> CIRCUS_ASH = registerBlock("circus_ash",
             () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> CIRCUS_STONE = registerBlock("circus_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_TILES)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

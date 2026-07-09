@@ -32,9 +32,11 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.BLIGHTSHROOM_PLANKS.get());
         this.dropSelf(DWBlocks.FUNGITE.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
-        this.dropSelf(DWBlocks.ICESALT.get());
+        this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
+        this.dropSelf(DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.MUSHSNOW.get());
         this.dropSelf(DWBlocks.CIRCUS_ASH.get());
+        this.dropSelf(DWBlocks.CIRCUS_STONE.get());
 
         this.add(DWBlocks.JELLITE_ORE.get(),
                 block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
@@ -45,6 +47,14 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(1.0F, 3.0F)))
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
+    }
+
+    protected LootTable.Builder createRareOreDrops(Block pBlock, Item item) {
+        return createSilkTouchDispatchTable(pBlock,
+                this.applyExplosionDecay(pBlock,
+                        LootItem.lootTableItem(item)
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(0.0F, 4.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
 

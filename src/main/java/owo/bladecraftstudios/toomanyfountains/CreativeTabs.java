@@ -17,6 +17,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.CIRCUS_FLOOR.get());
         output.accept(DWBlocks.CIRCUS_BOARDS.get());
         output.accept(DWBlocks.CIRCUS_ASH.get());
+        output.accept(DWBlocks.CIRCUS_STONE.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> SHROOM_TAB = CREATIVE_TABS.register("mushroom_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.MUSHITE.get())).title(Component.translatable("creativetab.shroom_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWItems.RAW_JELLITE.get());
@@ -31,6 +32,7 @@ public class CreativeTabs {
     }).build());
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.ICESALT.get());
+        output.accept(DWBlocks.COBBLED_ICESALT.get());
     }).build());
 
     public static void register(IEventBus eventBus){

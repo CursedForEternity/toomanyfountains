@@ -18,6 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
         blockWithItem(DWBlocks.MUSHITE);
         blockWithItem(DWBlocks.FUNGITE);
+        blockWithItem(DWBlocks.ICESALT);
+        blockWithItem(DWBlocks.COBBLED_ICESALT);
         blockFloor(DWBlocks.FUNGAL_MUSHITE);
         blockFloor(DWBlocks.FUNGAL_FUNGITE);
         blockWithItem(DWBlocks.JELLITE_ORE);
@@ -26,6 +28,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockColumn(DWBlocks.MUSHSNOW);
         blockColumn(DWBlocks.CIRCUS_BOARDS);
         blockColumn(DWBlocks.CIRCUS_ASH);
+        blockColumn(DWBlocks.CIRCUS_STONE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {
@@ -35,12 +38,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
     private void blockFloor(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), models().cubeBottomTop("block/" + blockRegistryObject.getId().getPath(),
                 new ResourceLocation(TooManyFountains.MODID,
-                "block/" + blockRegistryObject.getId().getPath() + "_side"),
-                    new ResourceLocation(TooManyFountains.MODID,
+                        "block/" + blockRegistryObject.getId().getPath() + "_side"),
+                new ResourceLocation(TooManyFountains.MODID,
                         "block/" + blockRegistryObject.getId().getPath() + "_bottom"),
-                        new ResourceLocation(TooManyFountains.MODID,
-                            "block/" + blockRegistryObject.getId().getPath() + "_top")));
+                new ResourceLocation(TooManyFountains.MODID,
+                        "block/" + blockRegistryObject.getId().getPath() + "_top")));
     }
+
     private void slabFloor(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), models().cubeBottomTop("block/" + blockRegistryObject.getId().getPath(),
                 new ResourceLocation(TooManyFountains.MODID,
@@ -50,6 +54,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ResourceLocation(TooManyFountains.MODID,
                         "block/" + blockRegistryObject.getId().getPath() + "_top")));
     }
+
     private void blockColumn(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), models().cubeColumn("block/" + blockRegistryObject.getId().getPath(),
                 new ResourceLocation(TooManyFountains.MODID,
@@ -57,6 +62,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 new ResourceLocation(TooManyFountains.MODID,
                         "block/" + blockRegistryObject.getId().getPath() + "_top")));
     }
+
     private void blockColumnHorizontal(RegistryObject<Block> blockRegistryObject) {
         simpleBlockWithItem(blockRegistryObject.get(), models().cubeColumnHorizontal("block/" + blockRegistryObject.getId().getPath() + "_horizontal",
                 new ResourceLocation(TooManyFountains.MODID,
@@ -65,3 +71,4 @@ public class ModBlockStateProvider extends BlockStateProvider {
                         "block/" + blockRegistryObject.getId().getPath() + "_top")));
     }
 }
+
