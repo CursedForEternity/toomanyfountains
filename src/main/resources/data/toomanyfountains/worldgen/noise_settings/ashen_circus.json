@@ -1,6 +1,6 @@
 {
   "default_block": {
-    "Name": "minecraft:stone"
+    "Name": "toomanyfountains:circus_stone"
   },
   "default_fluid": {
     "Name": "air"
@@ -118,7 +118,7 @@
         "then_run": {
           "type": "minecraft:block",
           "result_state": {
-            "Name": "minecraft:lava"
+            "Name": "penumbra_phantasm:pure_darkness"
           }
         }
       },
@@ -180,7 +180,7 @@
             "then_run": {
               "type": "minecraft:block",
               "result_state": {
-                "Name": "minecraft:gravel"
+                "Name": "toomanyfountains:circus_ash"
               }
             }
           }

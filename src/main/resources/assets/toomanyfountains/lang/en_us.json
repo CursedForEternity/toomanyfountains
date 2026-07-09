@@ -1,6 +1,7 @@
 {
   "block.toomanyfountains.circus_boards": "Circus Boards",
   "block.toomanyfountains.circus_floor": "Circus Floor",
+  "block.toomanyfountains.circus_stone": "Circus Stone",
   "block.toomanyfountains.jellite_ore": "Jellite Ore",
   "block.toomanyfountains.blightshroom_planks": "Blightshroom Planks",
   "block.toomanyfountains.mushite": "Mushite",
@@ -14,5 +15,9 @@
   "block.toomanyfountains.fungal_fungite": "Fungal Fungite",
   "creativetab.circus_dw": "Circus Ashes",
   "creativetab.shroom_dw": "Fungi Growth",
-  "creativetab.ice_dw": "Cold Place"
+  "creativetab.ice_dw": "Cold Place",
+  "biome.toomanyfountains.barren_wastes": "Barren Wastes",
+  "biome.toomanyfountains.barren_wastes.description": "'Paths eroded by memories...'",
+  "biome.toomanyfountains.circus_ashes": "Circus Ashes",
+  "biome.toomanyfountains.circus_ashes.description": "'What once was, lost to ash...'"
 }
