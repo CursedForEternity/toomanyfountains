@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/outer_stairs",
+  "textures": {
+    "bottom": "toomanyfountains:block/blightshroom_planks",
+    "side": "toomanyfountains:block/blightshroom_planks",
+    "top": "toomanyfountains:block/blightshroom_planks"
+  }
+}

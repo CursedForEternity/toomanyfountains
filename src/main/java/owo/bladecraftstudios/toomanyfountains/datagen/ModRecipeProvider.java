@@ -25,8 +25,8 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 200, "sapphire");
-        oreBlasting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 100, "sapphire");
+        oreSmelting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 200, "jellite");
+        oreBlasting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 100, "jellite");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DWBlocks.CIRCUS_FLOOR.get())
                 .pattern("S")
@@ -35,6 +35,7 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
                 .define('D', DWBlocks.CIRCUS_BOARDS.get())
                 .unlockedBy(getHasName(Items.PURPLE_CARPET), has(DWBlocks.CIRCUS_BOARDS.get()))
                 .save(pWriter);
+
     }
 
     protected static void oreSmelting(Consumer<FinishedRecipe> pFinishedRecipeConsumer, List<ItemLike> pIngredients, RecipeCategory pCategory, ItemLike pResult, float pExperience, int pCookingTIme, String pGroup) {

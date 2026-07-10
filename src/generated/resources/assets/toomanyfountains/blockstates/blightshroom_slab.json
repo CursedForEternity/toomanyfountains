@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/blightshroom_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/blightshroom_planks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/blightshroom_slab_top"
+    }
+  }
+}

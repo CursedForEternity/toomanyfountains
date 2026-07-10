@@ -18,6 +18,17 @@ public class CreativeTabs {
         output.accept(DWBlocks.CIRCUS_BOARDS.get());
         output.accept(DWBlocks.CIRCUS_ASH.get());
         output.accept(DWBlocks.CIRCUS_STONE.get());
+        output.accept(DWItems.SILWARE_AX.get());
+        output.accept(DWItems.SILWARE_AXE.get());
+        output.accept(DWItems.SILWARE_SHOVEL.get());
+        output.accept(DWItems.SILWARE_PICKAXE.get());
+        output.accept(DWItems.SILWARE_SWORD.get());
+        output.accept(DWItems.SILWARE_HOE.get());
+        output.accept(DWItems.SILWARE_BODKIN.get());
+        output.accept(DWItems.SILWARE_JAVELIN.get());
+        output.accept(DWItems.RAW_SILWARE.get());
+        output.accept(DWItems.SILWARE.get());
+        output.accept(DWBlocks.SILWARE_DEBRIS.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> SHROOM_TAB = CREATIVE_TABS.register("mushroom_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.MUSHITE.get())).title(Component.translatable("creativetab.shroom_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWItems.RAW_JELLITE.get());
@@ -26,6 +37,13 @@ public class CreativeTabs {
         output.accept(DWBlocks.MUSHITE.get());
         output.accept(DWBlocks.FUNGITE.get());
         output.accept(DWBlocks.BLIGHTSHROOM_PLANKS.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_DOOR.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_BUTTON.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_FENCE.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_STAIRS.get());
+        output.accept(DWBlocks.BLIGHTSHROOM_SLAB.get());
         output.accept(DWBlocks.MUSHSNOW.get());
         output.accept(DWBlocks.FUNGAL_MUSHITE.get());
         output.accept(DWBlocks.FUNGAL_FUNGITE.get());

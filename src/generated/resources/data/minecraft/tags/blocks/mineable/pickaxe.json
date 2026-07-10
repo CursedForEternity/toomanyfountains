@@ -1,6 +1,13 @@
 {
   "values": [
     "toomanyfountains:mushite",
-    "toomanyfountains:jellite_ore"
+    "toomanyfountains:jellite_ore",
+    "toomanyfountains:icesalt",
+    "toomanyfountains:cobble_icesalt",
+    "toomanyfountains:mushsnow",
+    "toomanyfountains:circus_stone",
+    "toomanyfountains:fungite",
+    "toomanyfountains:fungal_fungite",
+    "toomanyfountains:fungal_mushite"
   ]
 }

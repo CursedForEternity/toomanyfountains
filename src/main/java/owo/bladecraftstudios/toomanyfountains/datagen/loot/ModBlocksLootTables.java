@@ -30,6 +30,13 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.FUNGAL_MUSHITE.get());
         this.dropSelf(DWBlocks.BLIGHTSHROOM_LEAVES.get());
         this.dropSelf(DWBlocks.BLIGHTSHROOM_PLANKS.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_STAIRS.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_DOOR.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_SLAB.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_FENCE.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
+        this.dropSelf(DWBlocks.BLIGHTSHROOM_BUTTON.get());
         this.dropSelf(DWBlocks.FUNGITE.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
         this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
@@ -38,6 +45,8 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.CIRCUS_ASH.get());
         this.dropSelf(DWBlocks.CIRCUS_STONE.get());
 
+        this.add(DWBlocks.SILWARE_DEBRIS.get(),
+                block -> createRareOreDrops(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
         this.add(DWBlocks.JELLITE_ORE.get(),
                 block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
     }
@@ -54,7 +63,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         return createSilkTouchDispatchTable(pBlock,
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)
-                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(0.0F, 4.0F)))
+                                .apply(SetItemCountFunction.setCount(UniformGenerator.between(0.0F, 6.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
 

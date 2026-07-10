@@ -1,3 +1,11 @@
-// 1.20.1	2026-05-25T19:21:42.9000372	Item Models: toomanyfountains
+// 1.20.1	2026-07-10T16:29:57.2741447	Item Models: toomanyfountains
 be558ada73653098530e7ce34ac57b96f6f4a1ae assets/toomanyfountains/models/item/jellite_ingot.json
 a1c6416a2c99a947d09ba3bad0fa8dede06741d1 assets/toomanyfountains/models/item/raw_jellite.json
+8b50292d1cf101a7ba5fd692db74c90e5e8a6d1a assets/toomanyfountains/models/item/raw_silware.json
+45d33f358f8dd56a30b4424495a588b600d05ac5 assets/toomanyfountains/models/item/silware_axe.json
+37f6ea1de19138b46e5a45055d736307776bfb72 assets/toomanyfountains/models/item/silware_bodkin.json
+22738135623e7b1def39e3742612def1af276ccf assets/toomanyfountains/models/item/silware_hoe.json
+b6668088fb0fe0fbda9c6028f15d7f4d4c63ab50 assets/toomanyfountains/models/item/silware_ingot.json
+16289e773604e546a4ce7befca3d434648f8dcb6 assets/toomanyfountains/models/item/silware_pickaxe.json
+651c74bc3179467182610b80f6ca3612a385953b assets/toomanyfountains/models/item/silware_shovel.json
+f01f317cbc73683ab3eedd5d4321d7a1c1ded15a assets/toomanyfountains/models/item/silware_sword.json
