@@ -27,5 +27,14 @@
   "biome.toomanyfountains.barren_wastes": "Bridges Area idk",
   "biome.toomanyfountains.barren_wastes.description": "'Im outside a house, with a car-pet.'",
   "biome.toomanyfountains.circus_ashes": "Lotsa Dust",
-  "biome.toomanyfountains.circus_ashes.description": "'Genocide route - Clown Edition'"
+  "biome.toomanyfountains.circus_ashes.description": "'Genocide route - Clown Edition'",
+  "item.toomanyfountains.silware_axe": "Fork? Spoon? Spork?",
+  "item.toomanyfountains.silware_pickaxe": "Egg hammah",
+  "item.toomanyfountains.silware_sword": "Le Kitchen Knife",
+  "item.toomanyfountains.silware_hoe": "Le Fork",
+  "item.toomanyfountains.silware_shovel": "Le Spoon",
+  "item.toomanyfountains.silware_javelin": "The 5'' long Backstabber",
+  "item.toomanyfountains.silware_bodkin": "The Backstabber",
+  "item.toomanyfountains.silware_ingot": "I Can't believe it's not Silver!",
+  "item.toomanyfountains.raw_silware": "Not-so-ancient debris"
 }
