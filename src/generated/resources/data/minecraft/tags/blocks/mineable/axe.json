@@ -2,6 +2,13 @@
   "values": [
     "toomanyfountains:circus_boards",
     "toomanyfountains:circus_floor",
-    "toomanyfountains:blightshroom_planks"
+    "toomanyfountains:blightshroom_planks",
+    "toomanyfountains:blightshroom_stairs",
+    "toomanyfountains:blightshroom_slab",
+    "toomanyfountains:blightshroom_fence",
+    "toomanyfountains:blightshroom_fence_gate",
+    "toomanyfountains:blightshroom_door",
+    "toomanyfountains:blightshroom_button",
+    "toomanyfountains:blightshroom_pressure_plate"
   ]
 }

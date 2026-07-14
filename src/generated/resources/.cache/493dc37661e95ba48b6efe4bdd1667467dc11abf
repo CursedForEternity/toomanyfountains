@@ -1,5 +1,7 @@
-// 1.20.1	2026-07-10T01:01:21.4885955	Tags for minecraft:block mod id toomanyfountains
-b39292389d9e5189f212eb9bdbea8e49dcbe6867 data/minecraft/tags/blocks/mineable/axe.json
+// 1.20.1	2026-07-12T12:01:57.5753432	Tags for minecraft:block mod id toomanyfountains
+55568f7f21c4d8e07cc38503a3574f2059f04e00 data/minecraft/tags/blocks/fences.json
+71d255f983ceeaf5ac7f53999303c8c3baac9c90 data/minecraft/tags/blocks/fence_gates.json
+fd350a2750e69d47c6282e785058dfac27ccf454 data/minecraft/tags/blocks/mineable/axe.json
 a34dc6046d190e2cdeff4a42a15c61d4b9846eb1 data/minecraft/tags/blocks/mineable/pickaxe.json
 ad2ac5f9c40d199392caf59fbff7f72c3beba02a data/minecraft/tags/blocks/mineable/shovel.json
 f7ac9f8aa4de83d0fbd7e5fc19f3f204c4443fb7 data/minecraft/tags/blocks/needs_stone_tool.json

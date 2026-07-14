@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-10T01:01:21.4921429	Loot Tables
+// 1.20.1	2026-07-12T12:01:57.5773345	Loot Tables
 3ceb24ac2891070b130f211b636d6cbb399ac973 data/toomanyfountains/loot_tables/blocks/blightshroom_button.json
 527885a710b8ba73e6bcc639ea3506a7e1b742a5 data/toomanyfountains/loot_tables/blocks/blightshroom_door.json
 42cb4fefa555cdadbad575ca10c4571124f2d803 data/toomanyfountains/loot_tables/blocks/blightshroom_fence.json
@@ -20,3 +20,4 @@ c4419312079602f86fe12152e757448588da19bc data/toomanyfountains/loot_tables/block
 0b065a25d1be080cdc77c4fe7b8778cabfc247c1 data/toomanyfountains/loot_tables/blocks/jellite_ore.json
 b7517c4f1ce8b36a8e0793dac776f964bee31b7b data/toomanyfountains/loot_tables/blocks/mushite.json
 0987c3d57c0773335e93cafee0786c9c6f655c84 data/toomanyfountains/loot_tables/blocks/mushsnow.json
+d32ddbaee150d455ae0c59b7fe834d9cccc3b3ac data/toomanyfountains/loot_tables/blocks/silware_debris.json
