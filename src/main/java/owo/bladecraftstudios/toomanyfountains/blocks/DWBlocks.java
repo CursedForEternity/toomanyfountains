@@ -68,7 +68,7 @@ public class DWBlocks {
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
-    public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobble_icesalt",
+    public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobbled_icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> POLISHED_ICESALT = registerBlock("polished_icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
