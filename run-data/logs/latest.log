@@ -1,34 +1,34 @@
-[13Jul2026 22:33:23.575] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, toomanyfountains, --all, --output, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\generated\resources, --existing, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\main\resources, --mixin.config, toomanyfountains.mixins.json]
-[13Jul2026 22:33:23.584] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
-[13Jul2026 22:33:23.781] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
-[13Jul2026 22:33:23.862] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
-[13Jul2026 22:33:24.418] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.20\c354b21002937b393c4f86163a98dccdf1d51e72\javafmllanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[13Jul2026 22:33:24.424] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.20\865d75f8c18329ddb31db5856701ab86609108b5\lowcodelanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[13Jul2026 22:33:24.430] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.20\af599930362212ae937e392709f49047e6abbbf\mclanguage-1.20.1-47.4.20.jar is missing mods.toml file
-[13Jul2026 22:33:24.435] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.20\e8cc697c69f3911e76caa2f005d9486597cd7448\fmlcore-1.20.1-47.4.20.jar is missing mods.toml file
-[13Jul2026 22:33:24.678] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
-[13Jul2026 22:33:26.885] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
-[13Jul2026 22:33:26.899] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, toomanyfountains, --all, --output, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\generated\resources, --existing, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\main\resources]
-[13Jul2026 22:33:27.047] [main/WARN] [mixin/]: Reference map 'toomanyfountains.refmap.json' for toomanyfountains.mixins.json could not be read. If this is a development environment you can ignore this message
-[13Jul2026 22:33:27.525] [main/INFO] [mixin/]: Remapping refMap fusion.mixins.refmap.json using C:\Users\wyatt\Downloads\T00manyFOUNTAINS\build\createSrgToMcp\output.srg
-[13Jul2026 22:33:27.527] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\wyatt\Downloads\T00manyFOUNTAINS\build\createSrgToMcp\output.srg
-[13Jul2026 22:33:28.344] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [toomanyfountains]
-[13Jul2026 22:33:35.368] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.20, for MC 1.20.1 with MCP 20230612.114412
-[13Jul2026 22:33:35.376] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.20 Initialized
-[13Jul2026 22:33:35.473] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
-[13Jul2026 22:33:36.280] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
-[13Jul2026 22:33:36.281] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
-[13Jul2026 22:33:36.725] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
-[13Jul2026 22:33:36.777] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 52 ms
-[13Jul2026 22:33:36.777] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
-[13Jul2026 22:33:36.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 77 ms
-[13Jul2026 22:33:36.856] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: toomanyfountains
-[13Jul2026 22:33:37.184] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: toomanyfountains finished after 327 ms
-[13Jul2026 22:33:37.184] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: toomanyfountains
-[13Jul2026 22:33:37.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: toomanyfountains finished after 10 ms
-[13Jul2026 22:33:37.195] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id toomanyfountains
-[13Jul2026 22:33:37.217] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id toomanyfountains finished after 22 ms
-[13Jul2026 22:33:37.217] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id toomanyfountains
-[13Jul2026 22:33:37.219] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id toomanyfountains finished after 1 ms
-[13Jul2026 22:33:37.220] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 494 ms
-[13Jul2026 22:33:37.245] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 215, old count: 215, new count: 216, removed stale: 0, written: 0
+[14Jul2026 13:11:56.001] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgedatauserdev, --assetIndex, 5, --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --gameDir, ., --fml.forgeVersion, 47.4.20, --fml.mcVersion, 1.20.1, --fml.forgeGroup, net.minecraftforge, --fml.mcpVersion, 20230612.114412, --mod, toomanyfountains, --all, --output, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\generated\resources, --existing, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\main\resources, --mixin.config, toomanyfountains.mixins.json]
+[14Jul2026 13:11:56.014] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 10.0.9+10.0.9+main.dcd20f30 starting: java version 17.0.19 by Eclipse Adoptium; OS Windows 11 arch amd64 version 10.0
+[14Jul2026 13:11:56.227] [main/INFO] [net.minecraftforge.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgedatauserdev
+[14Jul2026 13:11:56.322] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.5 Source=union:/C:/Users/wyatt/.gradle/caches/modules-2/files-2.1/org.spongepowered/mixin/0.8.5/9d1c0c3a304ae6697ecd477218fa61b850bf57fc/mixin-0.8.5.jar%23128!/ Service=ModLauncher Env=CLIENT
+[14Jul2026 13:11:56.974] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\javafmllanguage\1.20.1-47.4.20\c354b21002937b393c4f86163a98dccdf1d51e72\javafmllanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[14Jul2026 13:11:56.980] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\lowcodelanguage\1.20.1-47.4.20\865d75f8c18329ddb31db5856701ab86609108b5\lowcodelanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[14Jul2026 13:11:56.985] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\mclanguage\1.20.1-47.4.20\af599930362212ae937e392709f49047e6abbbf\mclanguage-1.20.1-47.4.20.jar is missing mods.toml file
+[14Jul2026 13:11:56.991] [main/WARN] [net.minecraftforge.fml.loading.moddiscovery.ModFileParser/LOADING]: Mod file C:\Users\wyatt\.gradle\caches\modules-2\files-2.1\net.minecraftforge\fmlcore\1.20.1-47.4.20\e8cc697c69f3911e76caa2f005d9486597cd7448\fmlcore-1.20.1-47.4.20.jar is missing mods.toml file
+[14Jul2026 13:11:57.264] [main/INFO] [net.minecraftforge.fml.loading.moddiscovery.JarInJarDependencyLocator/]: Found 1 dependencies adding them to mods collection
+[14Jul2026 13:11:59.634] [main/INFO] [mixin/]: Compatibility level set to JAVA_17
+[14Jul2026 13:11:59.651] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgedatauserdev' with arguments [--gameDir, ., --assetsDir, C:\Users\wyatt\.gradle\caches\forge_gradle\assets, --assetIndex, 5, --mod, toomanyfountains, --all, --output, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\generated\resources, --existing, C:\Users\wyatt\Downloads\T00manyFOUNTAINS\src\main\resources]
+[14Jul2026 13:11:59.800] [main/WARN] [mixin/]: Reference map 'toomanyfountains.refmap.json' for toomanyfountains.mixins.json could not be read. If this is a development environment you can ignore this message
+[14Jul2026 13:12:00.232] [main/INFO] [mixin/]: Remapping refMap fusion.mixins.refmap.json using C:\Users\wyatt\Downloads\T00manyFOUNTAINS\build\createSrgToMcp\output.srg
+[14Jul2026 13:12:00.235] [main/INFO] [mixin/]: Remapping refMap geckolib.refmap.json using C:\Users\wyatt\Downloads\T00manyFOUNTAINS\build\createSrgToMcp\output.srg
+[14Jul2026 13:12:00.994] [main/INFO] [net.minecraftforge.data.loading.DatagenModLoader/]: Initializing Data Gatherer for mods [toomanyfountains]
+[14Jul2026 13:12:08.297] [modloading-worker-0/INFO] [net.minecraftforge.common.ForgeMod/FORGEMOD]: Forge mod loading, version 47.4.20, for MC 1.20.1 with MCP 20230612.114412
+[14Jul2026 13:12:08.304] [modloading-worker-0/INFO] [net.minecraftforge.common.MinecraftForge/FORGE]: MinecraftForge v47.4.20 Initialized
+[14Jul2026 13:12:08.395] [modloading-worker-0/WARN] [software.bernie.geckolib.GeckoLib/]: Minecraft.getInstance() was null, could not register reload listeners
+[14Jul2026 13:12:09.102] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/assets/.mcassetsroot' uses unexpected schema
+[14Jul2026 13:12:09.103] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/C:/Users/wyatt/.gradle/caches/forge_gradle/minecraft_user_repo/net/minecraftforge/forge/1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1/forge-1.20.1-47.4.20_mapped_parchment_2023.09.03-1.20.1-recomp.jar%23191!/data/.mcassetsroot' uses unexpected schema
+[14Jul2026 13:12:09.535] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Recipes
+[14Jul2026 13:12:09.586] [main/INFO] [net.minecraft.data.DataGenerator/]: Recipes finished after 49 ms
+[14Jul2026 13:12:09.586] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Loot Tables
+[14Jul2026 13:12:09.716] [main/INFO] [net.minecraft.data.DataGenerator/]: Loot Tables finished after 129 ms
+[14Jul2026 13:12:09.716] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Block States: toomanyfountains
+[14Jul2026 13:12:10.021] [main/INFO] [net.minecraft.data.DataGenerator/]: Block States: toomanyfountains finished after 304 ms
+[14Jul2026 13:12:10.022] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Item Models: toomanyfountains
+[14Jul2026 13:12:10.031] [main/INFO] [net.minecraft.data.DataGenerator/]: Item Models: toomanyfountains finished after 9 ms
+[14Jul2026 13:12:10.031] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:block mod id toomanyfountains
+[14Jul2026 13:12:10.051] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:block mod id toomanyfountains finished after 20 ms
+[14Jul2026 13:12:10.051] [main/INFO] [net.minecraft.data.DataGenerator/]: Starting provider: Tags for minecraft:item mod id toomanyfountains
+[14Jul2026 13:12:10.053] [main/INFO] [net.minecraft.data.DataGenerator/]: Tags for minecraft:item mod id toomanyfountains finished after 1 ms
+[14Jul2026 13:12:10.053] [main/INFO] [net.minecraft.data.DataGenerator/]: All providers took: 518 ms
+[14Jul2026 13:12:10.088] [main/INFO] [net.minecraft.data.HashCache/]: Caching: total files: 235, old count: 235, new count: 236, removed stale: 0, written: 0

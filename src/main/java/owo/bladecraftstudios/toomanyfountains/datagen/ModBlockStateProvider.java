@@ -17,6 +17,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
     // Cold Place
+        blockWithItem(DWBlocks.FROZEN_OAK_LOG);
+        blockWithItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
+        blockWithItem(DWBlocks.FROZEN_OAK_PLANKS);
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);
         blockWithItem(DWBlocks.POLISHED_ICESALT);
@@ -41,7 +44,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
         blockWithItem(DWBlocks.FROST_MARBLE_BRICKS);
         blockWithItem(DWBlocks.FROST_MARBLE_TILES);
+        blockWithItem(DWBlocks.ARCTIC_SNOW_BLOCK);
         blockWithItem(DWBlocks.ARCTIC_SNOW);
+        blockWithItem(DWBlocks.POWDER_ARCTIC_SNOW);
+
 
         // Endless Spores
         blockWithItem(DWBlocks.MUSHITE);

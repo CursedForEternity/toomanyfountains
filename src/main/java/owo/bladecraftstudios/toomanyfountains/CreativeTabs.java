@@ -49,6 +49,9 @@ public class CreativeTabs {
         output.accept(DWBlocks.FUNGAL_FUNGITE.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
+        output.accept(DWBlocks.FROZEN_OAK_LOG.get());
+        output.accept(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
+        output.accept(DWBlocks.FROZEN_OAK_PLANKS.get());
         output.accept(DWBlocks.ICESALT.get());
         output.accept(DWBlocks.COBBLED_ICESALT.get());
         output.accept(DWBlocks.POLISHED_ICESALT.get());
@@ -73,7 +76,11 @@ public class CreativeTabs {
         output.accept(DWBlocks.CHISELED_FROST_MARBLE.get());
         output.accept(DWBlocks.FROST_MARBLE_BRICKS.get());
         output.accept(DWBlocks.FROST_MARBLE_TILES.get());
+        output.accept(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW.get());
+        output.accept(DWBlocks.POWDER_ARCTIC_SNOW.get());
+
+
     }).build());
 
     public static void register(IEventBus eventBus){

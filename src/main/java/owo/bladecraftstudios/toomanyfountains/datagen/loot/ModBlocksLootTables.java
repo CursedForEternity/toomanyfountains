@@ -44,6 +44,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.CIRCUS_STONE.get());
 
         //A Cold Place
+        this.dropSelf(DWBlocks.FROZEN_OAK_LOG.get());
+        this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_PLANKS.get());
         this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.POLISHED_ICESALT.get());
@@ -68,7 +71,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.CHISELED_FROST_MARBLE.get());
         this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS.get());
         this.dropSelf(DWBlocks.FROST_MARBLE_TILES.get());
+        this.dropSelf(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         this.dropSelf(DWBlocks.ARCTIC_SNOW.get());
+        this.dropSelf(DWBlocks.POWDER_ARCTIC_SNOW.get());
 
         this.add(DWBlocks.SILWARE_DEBRIS.get(),
                 block -> createRareOreDrops(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));

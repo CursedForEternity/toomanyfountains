@@ -64,6 +64,14 @@ public class DWBlocks {
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
 
     //BLOCKS FROM A COLD PLACE
+    public static final RegistryObject<Block> FROZEN_OAK_LOG = registerBlock("frozen_oak_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.NETHER_WOOD)));
+    public static final RegistryObject<Block> STRIPPED_FROZEN_OAK_LOG = registerBlock("stripped_frozen_oak_log",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).sound(SoundType.NETHER_WOOD)));
+//The blocks above do not seem to follow seem to follow the same properties as the blocks I set them as in their behaviour
+
+    public static final RegistryObject<Block> FROZEN_OAK_PLANKS = registerBlock("frozen_oak_planks",
+            () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD)));
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobbled_icesalt",
@@ -112,9 +120,13 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FROST_MARBLE_TILES = registerBlock("frost_marble_tiles",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ARCTIC_SNOW_BLOCK = registerBlock("arctic_snow_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW_BLOCK).sound(SoundType.SNOW)));
     public static final RegistryObject<Block> ARCTIC_SNOW = registerBlock("arctic_snow",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
-
+    public static final RegistryObject<Block> POWDER_ARCTIC_SNOW = registerBlock("powder_arctic_snow",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.POWDER_SNOW).sound(SoundType.POWDER_SNOW)));
+//The snow blocks above do not seem to follow seem to follow the same properties as the blocks I set them as in their behaviour
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);
