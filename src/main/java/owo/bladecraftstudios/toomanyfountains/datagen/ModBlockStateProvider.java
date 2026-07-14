@@ -16,17 +16,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
     @Override
     protected void registerStatesAndModels() {
-        blockWithItem(DWBlocks.MUSHITE);
-        blockWithItem(DWBlocks.FUNGITE);
-        blockWithItem(DWBlocks.SILWARE_DEBRIS);
+    // Cold Place
+        blockWithItem(DWBlocks.ICESALT_ILES);
+        blockWithItem(DWBlocks.CHISELED_ICESALT);
+        blockWithItem(DWBlocks.POLISHED_ICESALT);
+        blockWithItem(DWBlocks.ARCTIC_SNOW);
+        blockWithItem(DWBlocks.FROST_MARBLE);
+        blockWithItem(DWBlocks.FROST_MARBLE_TILES);
+        blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
+        blockWithItem(DWBlocks.CHISELED_HAILSTONE);
+        blockWithItem(DWBlocks.CHISELED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.SUBZERO_STONE);
+        blockWithItem(DWBlocks.SUBZERO_STONE_TILES);
+        blockWithItem(DWBlocks.COBBLE_SUBZERO_STONE);
+        blockWithItem(DWBlocks.COBBLE_FROST_MARBLE);
+        blockWithItem(DWBlocks.COBBLE_HAILSTONE);
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);
+        // Endless Spores
+        blockWithItem(DWBlocks.MUSHITE);
         blockFloor(DWBlocks.FUNGAL_MUSHITE);
         blockFloor(DWBlocks.FUNGAL_FUNGITE);
         blockWithItem(DWBlocks.JELLITE_ORE);
         blockWithItem(DWBlocks.BLIGHTSHROOM_PLANKS);
         blockWithItem(DWBlocks.BLIGHTSHROOM_LEAVES);
         blockColumn(DWBlocks.MUSHSNOW);
+        blockWithItem(DWBlocks.FUNGITE);
+        // Circus
+        blockWithItem(DWBlocks.SILWARE_DEBRIS);
         blockColumn(DWBlocks.CIRCUS_BOARDS);
         blockColumn(DWBlocks.CIRCUS_ASH);
         blockColumn(DWBlocks.CIRCUS_STONE);
