@@ -44,16 +44,12 @@ public class DWBlocks {
             () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
     public static final RegistryObject<Block> BLIGHTSHROOM_DOOR = registerBlock("blightshroom_door",
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), BlockSetType.OAK));
-    //public static final RegistryObject<Block> BLIGHTSHROOM_TRAPDOOR = registerBlock("blightshroom_trapdoor",
-    //        () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), BlockSetType.OAK));
+//    public static final RegistryObject<Block> BLIGHTSHROOM_TRAPDOOR = registerBlock("blightshroom_trapdoor",
+//            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), BlockSetType.OAK));
     public static final RegistryObject<Block> BLIGHTSHROOM_BUTTON = registerBlock("blightshroom_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD), BlockSetType.OAK, 10, true));
     public static final RegistryObject<Block> BLIGHTSHROOM_PRESSURE_PLATE = registerBlock("blightshroom_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD), BlockSetType.OAK));
-    public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
-    public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobbled_icesalt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> MUSHSNOW = registerBlock("mushsnow",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
     public static final RegistryObject<Block> FUNGAL_MUSHITE = registerBlock("fungal_mushite",
@@ -69,6 +65,49 @@ public class DWBlocks {
     public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
 
+    //BLOCKS FROM A COLD PLACE
+    public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> COBBLED_ICESALT = registerBlock("cobble_icesalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLESTONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> POLISHED_ICESALT = registerBlock("polished_icesalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> CHISELED_ICESALT = registerBlock("chiseled_icesalt",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ICESALT_ILES = registerBlock("icesalt_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE = registerBlock("hailstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> COBBLE_HAILSTONE = registerBlock("cobble_hailstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> POLISHED_HAILSTONE = registerBlock("polished_hailstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> CHISELED_HAILSTONE = registerBlock("chiseled_hailstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE_TILES = registerBlock("hailstone_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE = registerBlock("subzero_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> COBBLE_SUBZERO_STONE = registerBlock("cobble_subzero_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> POLISHED_SUBZERO_STONE = registerBlock("polished_subzero_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> CHISELED_SUBZERO_STONE = registerBlock("chiseled_subzero_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE_TILES = registerBlock("hailstone_subzero_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE = registerBlock("frost_marble",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> COBBLE_FROST_MARBLE = registerBlock("cobble_frost_marble",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> POLISHED_FROST_MARBLE = registerBlock("polished_frost_marble",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> CHISELED_FROST_MARBLE = registerBlock("chiseled_frost_marble",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE_TILES = registerBlock("frost_marble_tiles",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ARCTIC_SNOW = registerBlock("arctic_snow",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
