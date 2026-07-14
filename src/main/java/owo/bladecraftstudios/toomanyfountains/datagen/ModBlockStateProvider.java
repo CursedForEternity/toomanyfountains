@@ -17,22 +17,32 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
     // Cold Place
-        blockWithItem(DWBlocks.ICESALT_ILES);
-        blockWithItem(DWBlocks.CHISELED_ICESALT);
-        blockWithItem(DWBlocks.POLISHED_ICESALT);
-        blockWithItem(DWBlocks.ARCTIC_SNOW);
-        blockWithItem(DWBlocks.FROST_MARBLE);
-        blockWithItem(DWBlocks.FROST_MARBLE_TILES);
-        blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
-        blockWithItem(DWBlocks.CHISELED_HAILSTONE);
-        blockWithItem(DWBlocks.CHISELED_SUBZERO_STONE);
-        blockWithItem(DWBlocks.SUBZERO_STONE);
-        blockWithItem(DWBlocks.SUBZERO_STONE_TILES);
-        blockWithItem(DWBlocks.COBBLE_SUBZERO_STONE);
-        blockWithItem(DWBlocks.COBBLE_FROST_MARBLE);
-        blockWithItem(DWBlocks.COBBLE_HAILSTONE);
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);
+        blockWithItem(DWBlocks.POLISHED_ICESALT);
+        blockWithItem(DWBlocks.CHISELED_ICESALT);
+        blockWithItem(DWBlocks.ICESALT_BRICKS);
+        blockWithItem(DWBlocks.ICESALT_TILES);
+        blockWithItem(DWBlocks.HAILSTONE);
+        blockWithItem(DWBlocks.COBBLED_HAILSTONE);
+        blockWithItem(DWBlocks.POLISHED_HAILSTONE);
+        blockWithItem(DWBlocks.CHISELED_HAILSTONE);
+        blockWithItem(DWBlocks.HAILSTONE_BRICKS);
+        blockWithItem(DWBlocks.HAILSTONE_TILES);
+        blockWithItem(DWBlocks.SUBZERO_STONE);
+        blockWithItem(DWBlocks.COBBLED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.POLISHED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.CHISELED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.SUBZERO_STONE_BRICKS);
+        blockWithItem(DWBlocks.SUBZERO_STONE_TILES);
+        blockWithItem(DWBlocks.FROST_MARBLE);
+        blockWithItem(DWBlocks.COBBLED_FROST_MARBLE);
+        blockWithItem(DWBlocks.POLISHED_FROST_MARBLE);
+        blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
+        blockWithItem(DWBlocks.FROST_MARBLE_BRICKS);
+        blockWithItem(DWBlocks.FROST_MARBLE_TILES);
+        blockWithItem(DWBlocks.ARCTIC_SNOW);
+
         // Endless Spores
         blockWithItem(DWBlocks.MUSHITE);
         blockFloor(DWBlocks.FUNGAL_MUSHITE);

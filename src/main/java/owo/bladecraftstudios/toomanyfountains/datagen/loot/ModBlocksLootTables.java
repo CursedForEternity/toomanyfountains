@@ -39,11 +39,36 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.BLIGHTSHROOM_BUTTON.get());
         this.dropSelf(DWBlocks.FUNGITE.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
-        this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
-        this.dropSelf(DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.MUSHSNOW.get());
         this.dropSelf(DWBlocks.CIRCUS_ASH.get());
         this.dropSelf(DWBlocks.CIRCUS_STONE.get());
+
+        //A Cold Place
+        this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
+        this.dropSelf(DWBlocks.COBBLED_ICESALT.get());
+        this.dropSelf(DWBlocks.POLISHED_ICESALT.get());
+        this.dropSelf(DWBlocks.CHISELED_ICESALT.get());
+        this.dropSelf(DWBlocks.ICESALT_BRICKS.get());
+        this.dropSelf(DWBlocks.ICESALT_TILES.get());
+        this.dropOther(DWBlocks.HAILSTONE.get(), DWBlocks.COBBLED_HAILSTONE.get());
+        this.dropSelf(DWBlocks.COBBLED_HAILSTONE.get());
+        this.dropSelf(DWBlocks.POLISHED_HAILSTONE.get());
+        this.dropSelf(DWBlocks.CHISELED_HAILSTONE.get());
+        this.dropSelf(DWBlocks.HAILSTONE_BRICKS.get());
+        this.dropSelf(DWBlocks.HAILSTONE_TILES.get());
+        this.dropOther(DWBlocks.SUBZERO_STONE.get(), DWBlocks.COBBLED_SUBZERO_STONE.get());
+        this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE.get());
+        this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE.get());
+        this.dropSelf(DWBlocks.CHISELED_SUBZERO_STONE.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_TILES.get());
+        this.dropOther(DWBlocks.FROST_MARBLE.get(), DWBlocks.COBBLED_FROST_MARBLE.get());
+        this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE.get());
+        this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE.get());
+        this.dropSelf(DWBlocks.CHISELED_FROST_MARBLE.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_TILES.get());
+        this.dropSelf(DWBlocks.ARCTIC_SNOW.get());
 
         this.add(DWBlocks.SILWARE_DEBRIS.get(),
                 block -> createRareOreDrops(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));

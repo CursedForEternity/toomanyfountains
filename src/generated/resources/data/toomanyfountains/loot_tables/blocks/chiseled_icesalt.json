@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_icesalt"
+          "name": "toomanyfountains:chiseled_icesalt"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "toomanyfountains:blocks/cobble_icesalt"
+  "random_sequence": "toomanyfountains:blocks/chiseled_icesalt"
 }

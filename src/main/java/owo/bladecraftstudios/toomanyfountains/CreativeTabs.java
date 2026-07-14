@@ -51,6 +51,29 @@ public class CreativeTabs {
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.ICESALT.get());
         output.accept(DWBlocks.COBBLED_ICESALT.get());
+        output.accept(DWBlocks.POLISHED_ICESALT.get());
+        output.accept(DWBlocks.CHISELED_ICESALT.get());
+        output.accept(DWBlocks.ICESALT_BRICKS.get());
+        output.accept(DWBlocks.ICESALT_TILES.get());
+        output.accept(DWBlocks.HAILSTONE.get());
+        output.accept(DWBlocks.COBBLED_HAILSTONE.get());
+        output.accept(DWBlocks.POLISHED_HAILSTONE.get());
+        output.accept(DWBlocks.CHISELED_HAILSTONE.get());
+        output.accept(DWBlocks.HAILSTONE_BRICKS.get());
+        output.accept(DWBlocks.HAILSTONE_TILES.get());
+        output.accept(DWBlocks.SUBZERO_STONE.get());
+        output.accept(DWBlocks.COBBLED_SUBZERO_STONE.get());
+        output.accept(DWBlocks.POLISHED_SUBZERO_STONE.get());
+        output.accept(DWBlocks.CHISELED_SUBZERO_STONE.get());
+        output.accept(DWBlocks.SUBZERO_STONE_BRICKS.get());
+        output.accept(DWBlocks.SUBZERO_STONE_TILES.get());
+        output.accept(DWBlocks.FROST_MARBLE.get());
+        output.accept(DWBlocks.COBBLED_FROST_MARBLE.get());
+        output.accept(DWBlocks.POLISHED_FROST_MARBLE.get());
+        output.accept(DWBlocks.CHISELED_FROST_MARBLE.get());
+        output.accept(DWBlocks.FROST_MARBLE_BRICKS.get());
+        output.accept(DWBlocks.FROST_MARBLE_TILES.get());
+        output.accept(DWBlocks.ARCTIC_SNOW.get());
     }).build());
 
     public static void register(IEventBus eventBus){

@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_icesalt"
+          "name": "toomanyfountains:cobbled_icesalt"
         }
       ],
       "rolls": 1.0
