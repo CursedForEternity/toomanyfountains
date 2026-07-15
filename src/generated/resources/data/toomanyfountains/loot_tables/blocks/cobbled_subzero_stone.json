@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_subzero_stone"
+          "name": "toomanyfountains:cobbled_subzero_stone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "toomanyfountains:blocks/cobble_subzero_stone"
+  "random_sequence": "toomanyfountains:blocks/cobbled_subzero_stone"
 }

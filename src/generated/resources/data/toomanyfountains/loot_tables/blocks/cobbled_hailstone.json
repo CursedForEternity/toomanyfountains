@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_frost_marble"
+          "name": "toomanyfountains:cobbled_hailstone"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "toomanyfountains:blocks/cobble_frost_marble"
+  "random_sequence": "toomanyfountains:blocks/cobbled_hailstone"
 }

@@ -86,7 +86,7 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> HAILSTONE = registerBlock("hailstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> COBBLED_HAILSTONE = registerBlock("cobble_hailstone",
+    public static final RegistryObject<Block> COBBLED_HAILSTONE = registerBlock("cobbled_hailstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> POLISHED_HAILSTONE = registerBlock("polished_hailstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
@@ -98,7 +98,7 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> SUBZERO_STONE = registerBlock("subzero_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> COBBLED_SUBZERO_STONE = registerBlock("cobble_subzero_stone",
+    public static final RegistryObject<Block> COBBLED_SUBZERO_STONE = registerBlock("cobbled_subzero_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> POLISHED_SUBZERO_STONE = registerBlock("polished_subzero_stone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
@@ -110,7 +110,7 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FROST_MARBLE = registerBlock("frost_marble",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> COBBLED_FROST_MARBLE = registerBlock("cobble_frost_marble",
+    public static final RegistryObject<Block> COBBLED_FROST_MARBLE = registerBlock("cobbled_frost_marble",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> POLISHED_FROST_MARBLE = registerBlock("polished_frost_marble",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));

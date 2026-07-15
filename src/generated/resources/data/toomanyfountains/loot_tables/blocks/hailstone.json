@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_hailstone"
+          "name": "toomanyfountains:cobbled_hailstone"
         }
       ],
       "rolls": 1.0

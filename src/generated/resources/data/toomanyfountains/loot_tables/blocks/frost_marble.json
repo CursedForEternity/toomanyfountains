@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:cobble_frost_marble"
+          "name": "toomanyfountains:cobbled_frost_marble"
         }
       ],
       "rolls": 1.0
