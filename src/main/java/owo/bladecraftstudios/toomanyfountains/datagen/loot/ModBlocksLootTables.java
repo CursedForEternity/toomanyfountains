@@ -45,7 +45,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
 
         //A Cold Place
         this.dropSelf(DWBlocks.FROZEN_OAK_LOG.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_WOOD.get());
         this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
+        this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_PLANKS.get());
         this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.COBBLED_ICESALT.get());

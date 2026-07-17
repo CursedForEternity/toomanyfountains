@@ -17,9 +17,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
     // Cold Place
+
+        logBlock((RotatedPillarBlock) DWBlocks.FROZEN_OAK_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.FROZEN_OAK_WOOD.get()), blockTexture(DWBlocks.FROZEN_OAK_LOG.get()), blockTexture(DWBlocks.FROZEN_OAK_LOG.get()));
+
+        axisBlock(((RotatedPillarBlock) DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()), blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()),
+                new ResourceLocation(TooManyFountains.MODID, "block/stripped_frozen_oak_log_top"));
+    //            blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
+        axisBlock(((RotatedPillarBlock) DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get()), blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()),
+                blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
+
         blockWithItem(DWBlocks.FROZEN_OAK_LOG);
+        blockWithItem(DWBlocks.FROZEN_OAK_WOOD);
         blockWithItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
+        blockWithItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
         blockWithItem(DWBlocks.FROZEN_OAK_PLANKS);
+
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);
         blockWithItem(DWBlocks.POLISHED_ICESALT);

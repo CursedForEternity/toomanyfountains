@@ -19,11 +19,41 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
-        this.tag(BlockTags.NEEDS_STONE_TOOL).add(DWBlocks.JELLITE_ORE.get());
-        this.tag(BlockTags.MINEABLE_WITH_AXE).add(DWBlocks.CIRCUS_BOARDS.get()).add(DWBlocks.CIRCUS_FLOOR.get()).add(DWBlocks.BLIGHTSHROOM_PLANKS.get()).add(DWBlocks.BLIGHTSHROOM_STAIRS.get()).add(DWBlocks.BLIGHTSHROOM_SLAB.get()).add(DWBlocks.BLIGHTSHROOM_FENCE.get()).add(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get()).add(DWBlocks.BLIGHTSHROOM_DOOR.get()).add(DWBlocks.BLIGHTSHROOM_BUTTON.get()).add(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
-        this.tag(BlockTags.MINEABLE_WITH_PICKAXE).add(DWBlocks.MUSHITE.get()).add(DWBlocks.JELLITE_ORE.get()).add(DWBlocks.ICESALT.get()).add(DWBlocks.COBBLED_ICESALT.get()).add(DWBlocks.MUSHSNOW.get()).add(DWBlocks.CIRCUS_STONE.get()).add(DWBlocks.FUNGITE.get()).add(DWBlocks.FUNGAL_FUNGITE.get()).add(DWBlocks.FUNGAL_MUSHITE.get());
-        this.tag(BlockTags.MINEABLE_WITH_SHOVEL).add(DWBlocks.CIRCUS_ASH.get());
-        this.tag(BlockTags.FENCES).add(DWBlocks.BLIGHTSHROOM_FENCE.get());
-        this.tag(BlockTags.FENCE_GATES).add(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
+        this.tag(BlockTags.NEEDS_STONE_TOOL)
+                .add(DWBlocks.JELLITE_ORE.get());
+        this.tag(BlockTags.MINEABLE_WITH_AXE)
+                .add(DWBlocks.CIRCUS_BOARDS.get())
+                .add(DWBlocks.CIRCUS_FLOOR.get())
+                .add(DWBlocks.BLIGHTSHROOM_PLANKS.get())
+                .add(DWBlocks.BLIGHTSHROOM_STAIRS.get())
+                .add(DWBlocks.BLIGHTSHROOM_SLAB.get())
+                .add(DWBlocks.BLIGHTSHROOM_FENCE.get())
+                .add(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get())
+                .add(DWBlocks.BLIGHTSHROOM_DOOR.get())
+                .add(DWBlocks.BLIGHTSHROOM_BUTTON.get())
+                .add(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
+        this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(DWBlocks.MUSHITE.get())
+                .add(DWBlocks.JELLITE_ORE.get())
+                .add(DWBlocks.ICESALT.get())
+                .add(DWBlocks.COBBLED_ICESALT.get())
+                .add(DWBlocks.MUSHSNOW.get())
+                .add(DWBlocks.CIRCUS_STONE.get())
+                .add(DWBlocks.FUNGITE.get())
+                .add(DWBlocks.FUNGAL_FUNGITE.get())
+                .add(DWBlocks.FUNGAL_MUSHITE.get());
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(DWBlocks.CIRCUS_ASH.get());
+        this.tag(BlockTags.FENCES)
+                .add(DWBlocks.BLIGHTSHROOM_FENCE.get());
+        this.tag(BlockTags.FENCE_GATES)
+                .add(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
+        this.tag(BlockTags.LOGS_THAT_BURN)
+                .add(DWBlocks.FROZEN_OAK_LOG.get())
+                .add(DWBlocks.FROZEN_OAK_WOOD.get())
+                .add(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get())
+                .add(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get())
+                .add(DWBlocks.FROZEN_OAK_PLANKS.get());
+
     }
 }
