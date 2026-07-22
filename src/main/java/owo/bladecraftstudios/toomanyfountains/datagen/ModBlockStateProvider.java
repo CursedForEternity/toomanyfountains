@@ -26,11 +26,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
     //            blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get()), blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()),
                 blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
-
-        blockWithItem(DWBlocks.FROZEN_OAK_LOG);
-        blockWithItem(DWBlocks.FROZEN_OAK_WOOD);
-        blockWithItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
-        blockWithItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
         blockWithItem(DWBlocks.FROZEN_OAK_PLANKS);
 
         blockWithItem(DWBlocks.ICESALT);
@@ -71,12 +66,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.BLIGHTSHROOM_LEAVES);
         blockColumn(DWBlocks.MUSHSNOW);
         blockWithItem(DWBlocks.FUNGITE);
-        // Circus
-        blockWithItem(DWBlocks.SILWARE_DEBRIS);
-        blockColumn(DWBlocks.CIRCUS_BOARDS);
-        blockColumn(DWBlocks.CIRCUS_ASH);
-        blockColumn(DWBlocks.CIRCUS_STONE);
-
         stairsBlock(((StairBlock) DWBlocks.BLIGHTSHROOM_STAIRS.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
         slabBlock(((SlabBlock) DWBlocks.BLIGHTSHROOM_SLAB.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
         fenceBlock(((FenceBlock) DWBlocks.BLIGHTSHROOM_FENCE.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
@@ -84,6 +73,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock(((ButtonBlock) DWBlocks.BLIGHTSHROOM_BUTTON.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
         pressurePlateBlock(((PressurePlateBlock) DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
         doorBlockWithRenderType(((DoorBlock) DWBlocks.BLIGHTSHROOM_DOOR.get()), modLoc("block/blightshroom_door_bottom"), modLoc("block/blightshroom_door_top"), "cutout");
+
+        // Circus
+        blockWithItem(DWBlocks.SILWARE_DEBRIS);
+        blockColumn(DWBlocks.CIRCUS_BOARDS);
+        blockColumn(DWBlocks.CIRCUS_ASH);
+        blockColumn(DWBlocks.CIRCUS_STONE);
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

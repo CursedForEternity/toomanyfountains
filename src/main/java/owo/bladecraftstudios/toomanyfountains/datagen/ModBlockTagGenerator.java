@@ -41,6 +41,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.CIRCUS_STONE.get())
                 .add(DWBlocks.FUNGITE.get())
                 .add(DWBlocks.FUNGAL_FUNGITE.get())
+                .add(DWBlocks.SILWARE_DEBRIS.get())
                 .add(DWBlocks.FUNGAL_MUSHITE.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(DWBlocks.CIRCUS_ASH.get());
@@ -48,12 +49,5 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.BLIGHTSHROOM_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
                 .add(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
-        this.tag(BlockTags.LOGS_THAT_BURN)
-                .add(DWBlocks.FROZEN_OAK_LOG.get())
-                .add(DWBlocks.FROZEN_OAK_WOOD.get())
-                .add(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get())
-                .add(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get())
-                .add(DWBlocks.FROZEN_OAK_PLANKS.get());
-
     }
 }

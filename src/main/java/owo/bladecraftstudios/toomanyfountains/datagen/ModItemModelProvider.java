@@ -32,6 +32,14 @@ public class ModItemModelProvider extends ItemModelProvider {
         heldItem(DWItems.SILWARE_SHOVEL);
 
         simpleBlockItem(DWBlocks.BLIGHTSHROOM_DOOR);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_LOG);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_WOOD);
+        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
+        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
+        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_STAIRS);
+        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_FENCE_GATE);
+        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE);
+        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_SLAB);
         fenceItem(DWBlocks.BLIGHTSHROOM_FENCE, DWBlocks.BLIGHTSHROOM_PLANKS);
         buttonItem(DWBlocks.BLIGHTSHROOM_BUTTON, DWBlocks.BLIGHTSHROOM_PLANKS);
     }

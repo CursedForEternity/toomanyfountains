@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "toomanyfountains:block/frozen_oak_log",
+    "side": "toomanyfountains:block/frozen_oak_log"
+  }
+}

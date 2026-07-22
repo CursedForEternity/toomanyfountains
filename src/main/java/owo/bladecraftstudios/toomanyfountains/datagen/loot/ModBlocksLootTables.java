@@ -9,6 +9,7 @@ import net.minecraft.world.level.storage.loot.LootTable;
 import net.minecraft.world.level.storage.loot.entries.LootItem;
 import net.minecraft.world.level.storage.loot.functions.ApplyBonusCount;
 import net.minecraft.world.level.storage.loot.functions.SetItemCountFunction;
+import net.minecraft.world.level.storage.loot.providers.number.ConstantValue;
 import net.minecraft.world.level.storage.loot.providers.number.UniformGenerator;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.blocks.DWBlocks;
@@ -23,7 +24,14 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
 
     @Override
     protected void generate() {
+        //Circus
         this.dropSelf(DWBlocks.CIRCUS_FLOOR.get());
+        this.dropSelf(DWBlocks.CIRCUS_ASH.get());
+        this.dropSelf(DWBlocks.CIRCUS_STONE.get());
+        this.add(DWBlocks.SILWARE_DEBRIS.get(),
+                block -> createQroupletDrop(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
+        this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
+        //Spores
         this.dropSelf(DWBlocks.MUSHITE.get());
         this.dropSelf(DWBlocks.FUNGITE.get());
         this.dropSelf(DWBlocks.FUNGAL_FUNGITE.get());
@@ -38,12 +46,10 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
         this.dropSelf(DWBlocks.BLIGHTSHROOM_BUTTON.get());
         this.dropSelf(DWBlocks.FUNGITE.get());
-        this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
         this.dropSelf(DWBlocks.MUSHSNOW.get());
-        this.dropSelf(DWBlocks.CIRCUS_ASH.get());
-        this.dropSelf(DWBlocks.CIRCUS_STONE.get());
-
-        //A Cold Place
+        this.add(DWBlocks.JELLITE_ORE.get(),
+                block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
+        //Cold Place
         this.dropSelf(DWBlocks.FROZEN_OAK_LOG.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_WOOD.get());
         this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
@@ -76,11 +82,6 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         this.dropSelf(DWBlocks.ARCTIC_SNOW.get());
         this.dropSelf(DWBlocks.POWDER_ARCTIC_SNOW.get());
-
-        this.add(DWBlocks.SILWARE_DEBRIS.get(),
-                block -> createRareOreDrops(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
-        this.add(DWBlocks.JELLITE_ORE.get(),
-                block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
@@ -96,6 +97,14 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
                 this.applyExplosionDecay(pBlock,
                         LootItem.lootTableItem(item)
                                 .apply(SetItemCountFunction.setCount(UniformGenerator.between(0.0F, 6.0F)))
+                                .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
+    }
+
+    protected LootTable.Builder createQroupletDrop(Block pBlock, Item item) {
+        return createSilkTouchDispatchTable(pBlock,
+                this.applyExplosionDecay(pBlock,
+                        LootItem.lootTableItem(item)
+                                .apply(SetItemCountFunction.setCount(ConstantValue.exactly(4.0F)))
                                 .apply(ApplyBonusCount.addOreBonusCount(Enchantments.BLOCK_FORTUNE))));
     }
 
