@@ -1,0 +1,8 @@
+{
+  "action_type": "focus",
+  "cooldown": 40,
+  "hold_duration": 30,
+  "require_crouch": true,
+  "require_sprint": false,
+  "name": "spell.toomanyfountains.rude_buster"
+}
