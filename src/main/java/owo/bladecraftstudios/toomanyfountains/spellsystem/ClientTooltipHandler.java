@@ -20,7 +20,7 @@ public class ClientTooltipHandler {
         ItemStack stack = event.getItemStack();
         if (!stack.isEmpty() && SpellDataLoader.HOLDER_ITEMS.containsKey(stack.getItem())) {
             ItemSpellHolder holder = SpellDataLoader.HOLDER_ITEMS.get(stack.getItem());
-            if (holder == null || holder.spells().isEmpty()) return
+            if (holder == null || holder.spells().isEmpty()) return;
             int index = stack.getOrCreateTag().getInt("ActiveSpellIndex");
             if (index < 0 || index >= holder.spells().size()) index = 0;
 
