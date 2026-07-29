@@ -36,6 +36,10 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROZEN_OAK_WOOD);
         evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
         evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
+        evenSimplerBlockItem(DWBlocks.ICESALT_PILLAR);
+        evenSimplerBlockItem(DWBlocks.HAILSTONE_PILLAR);
+        evenSimplerBlockItem(DWBlocks.SUBZERO_STONE_PILLAR);
+        evenSimplerBlockItem(DWBlocks.FROST_MARBLE_PILLAR);
         evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_STAIRS);
         evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_FENCE_GATE);
         evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE);

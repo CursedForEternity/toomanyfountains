@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/subzero_stone_pillar_top",
+    "side": "toomanyfountains:block/subzero_stone_pillar"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/hailstone_pillar_top",
+    "side": "toomanyfountains:block/hailstone_pillar"
+  }
+}

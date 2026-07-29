@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "toomanyfountains:block/subzero_stone_pillar_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toomanyfountains:block/subzero_stone_pillar"
+    },
+    "axis=z": {
+      "model": "toomanyfountains:block/subzero_stone_pillar_horizontal",
+      "x": 90
+    }
+  }
+}

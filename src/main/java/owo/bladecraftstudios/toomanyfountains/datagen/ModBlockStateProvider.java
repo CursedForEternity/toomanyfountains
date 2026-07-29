@@ -23,10 +23,14 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         axisBlock(((RotatedPillarBlock) DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()), blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()),
                 new ResourceLocation(TooManyFountains.MODID, "block/stripped_frozen_oak_log_top"));
-    //            blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
         axisBlock(((RotatedPillarBlock) DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get()), blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()),
                 blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
         blockWithItem(DWBlocks.FROZEN_OAK_PLANKS);
+
+        logBlock((RotatedPillarBlock) DWBlocks.ICESALT_PILLAR.get());
+        logBlock((RotatedPillarBlock) DWBlocks.HAILSTONE_PILLAR.get());
+        logBlock((RotatedPillarBlock) DWBlocks.SUBZERO_STONE_PILLAR.get());
+        logBlock((RotatedPillarBlock) DWBlocks.FROST_MARBLE_PILLAR.get());
 
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);

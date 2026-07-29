@@ -16,6 +16,7 @@ import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModFlammableRotatedPillarBlock;
+import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModRotatedPillarBlock;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
 
 import java.util.function.Supplier;
@@ -96,6 +97,14 @@ public class DWBlocks {
                 }
 
             });
+    public static final RegistryObject<Block> ICESALT_PILLAR = registerBlock("icesalt_pillar",
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE_PILLAR = registerBlock("hailstone_pillar",
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE_PILLAR = registerBlock("subzero_stone_pillar",
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE_PILLAR = registerBlock("frost_marble_pillar",
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
 
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));

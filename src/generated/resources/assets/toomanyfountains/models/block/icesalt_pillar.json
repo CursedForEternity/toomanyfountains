@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/icesalt_pillar_top",
+    "side": "toomanyfountains:block/icesalt_pillar"
+  }
+}

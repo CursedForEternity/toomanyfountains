@@ -1,4 +1,4 @@
-// 1.20.1	2026-07-22T13:52:23.4684778	Item Models: toomanyfountains
+// 1.20.1	2026-07-29T12:35:08.8812885	Item Models: toomanyfountains
 26e09f9fd1ef1d9da3c7ec5063ecafe4e6ffb4d4 assets/toomanyfountains/models/item/blightshroom_button.json
 8ba82cd2bf2b7e691d6c6ac4c286423c7bafd394 assets/toomanyfountains/models/item/blightshroom_door.json
 7a6fd501d342ec746ff35f2f73e04e021cead8cb assets/toomanyfountains/models/item/blightshroom_fence.json
@@ -6,8 +6,11 @@
 951eec8502e8f8c1aae088a29174740ab92b0ca8 assets/toomanyfountains/models/item/blightshroom_pressure_plate.json
 b1fc0d6e66556c1fbcf8ec6dc741f3164fd7db3d assets/toomanyfountains/models/item/blightshroom_slab.json
 1db91b8192b59ca10bc2fe1201a394e035e8161b assets/toomanyfountains/models/item/blightshroom_stairs.json
+65d993a7c5288c1c6e87f928d28516f5d176cf88 assets/toomanyfountains/models/item/frost_marble_pillar.json
 2b94a7da84c4569fab33b3abfaa8b9d0e0519165 assets/toomanyfountains/models/item/frozen_oak_log.json
 b5b5c0c486f544976c14302c705f04f8bb588af8 assets/toomanyfountains/models/item/frozen_oak_wood.json
+c2eb37f0eb736c3d4ebf14222e9bf24d1ea03043 assets/toomanyfountains/models/item/hailstone_pillar.json
+b686c03be2536bb07a26f98d02cdebd108cc948f assets/toomanyfountains/models/item/icesalt_pillar.json
 be558ada73653098530e7ce34ac57b96f6f4a1ae assets/toomanyfountains/models/item/jellite_ingot.json
 a1c6416a2c99a947d09ba3bad0fa8dede06741d1 assets/toomanyfountains/models/item/raw_jellite.json
 8b50292d1cf101a7ba5fd692db74c90e5e8a6d1a assets/toomanyfountains/models/item/raw_silware.json
@@ -20,3 +23,4 @@ b6668088fb0fe0fbda9c6028f15d7f4d4c63ab50 assets/toomanyfountains/models/item/sil
 f01f317cbc73683ab3eedd5d4321d7a1c1ded15a assets/toomanyfountains/models/item/silware_sword.json
 b480aa8b9a5008712ccc92702152c4b4113a32a7 assets/toomanyfountains/models/item/stripped_frozen_oak_log.json
 402f9539fda33d3c3cb10b20a96ac7e45de3d98c assets/toomanyfountains/models/item/stripped_frozen_oak_wood.json
+5a67e08f84953ea48667873198e800aa18773b7d assets/toomanyfountains/models/item/subzero_stone_pillar.json
