@@ -10,6 +10,6 @@ public record SpellData(String actionType, int cooldownTicks, int holdDuration, 
             Codec.INT.optionalFieldOf("hold_duration", 0).forGetter(SpellData::holdDuration),
             Codec.BOOL.optionalFieldOf("require_crouch", false).forGetter(SpellData::requireCrouch),
             Codec.BOOL.optionalFieldOf("require_sprint", false).forGetter(SpellData::requireSprint),
-            Codec.STRING.optionalFieldOf("name", "spell.default").forGetter(SpellData::name)
+            Codec.STRING.optionalFieldOf("name", "spell.toomanyfountains.default").forGetter(SpellData::name)
     ).apply(instance, SpellData::new));
 }

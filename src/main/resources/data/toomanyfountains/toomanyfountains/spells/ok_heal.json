@@ -1,6 +1,5 @@
 {
   "action_type": "cast",
   "name": "spell.toomanyfountains.ok_heal",
-  "cooldown": 60,
-  "require_crouch": false
+  "cooldown": 60
 }
