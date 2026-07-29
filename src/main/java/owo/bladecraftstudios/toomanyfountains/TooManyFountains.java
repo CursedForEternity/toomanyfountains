@@ -17,8 +17,6 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 import owo.bladecraftstudios.toomanyfountains.blocks.DWBlocks;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
-import owo.bladecraftstudios.toomanyfountains.spellsystem.GasterEvilNetwork;
-import owo.bladecraftstudios.toomanyfountains.spellsystem.SpellDataLoader;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TooManyFountains.MODID)
@@ -55,9 +53,6 @@ public class TooManyFountains {
     }
 
     private void commonSetup(final FMLCommonSetupEvent event) {
-        event.enqueueWork(() -> {
-            GasterEvilNetwork.register();
-        });
     }
 
     // You can use SubscribeEvent and let the Event Bus discover methods to call
@@ -72,11 +67,5 @@ public class TooManyFountains {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
-    }
-
-    @SubscribeEvent
-    public void onAddReloadListeners(AddReloadListenerEvent event) {
-        event.addListener(new SpellDataLoader.ItemLoader());
-        event.addListener(new SpellDataLoader.SpellLoader());
     }
 }
