@@ -65,5 +65,8 @@
   "item.toomanyfountains.silware_bodkin": "The Backstabber",
   "item.toomanyfountains.silware_ingot": "I Can't believe it's not Silver!",
   "item.toomanyfountains.raw_silware": "Not-so-ancient debris",
-  "block.toomanyfountains.silware_debris": "Pile of Kitchen Metal"
+  "block.toomanyfountains.silware_debris": "Pile of Kitchen Metal",
+  "spell.toomanyfountains.rude_buster": "RudeBuster",
+  "spell.toomanyfountains.ok_heal": "OkHeal",
+  "spell.toomanyfountains.default": "NULL"
 }
