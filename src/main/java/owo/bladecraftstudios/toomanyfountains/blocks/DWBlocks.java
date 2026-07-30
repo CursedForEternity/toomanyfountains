@@ -97,6 +97,109 @@ public class DWBlocks {
                 }
 
             });
+    public static final RegistryObject<Block> FROZEN_OAK_STAIRS = registerBlock("frozen_oak_stairs",
+            () -> new StairBlock(() -> DWBlocks.FROZEN_OAK_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD)){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+            });
+    public static final RegistryObject<Block> FROZEN_OAK_SLAB = registerBlock("frozen_oak_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD)){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+            });
+    public static final RegistryObject<Block> FROZEN_OAK_FENCE = registerBlock("frozen_oak_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD)){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+            });
+    public static final RegistryObject<Block> FROZEN_OAK_GATE = registerBlock("frozen_oak_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD),SoundEvents.NETHER_WOOD_FENCE_GATE_CLOSE,SoundEvents.NETHER_WOOD_FENCE_GATE_OPEN){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+            });
+    public static final RegistryObject<Block> FROZEN_OAK_WALL = registerBlock("frozen_oak_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD)){
+                @Override
+                public boolean isFlammable(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return true;
+                }
+
+                @Override
+                public int getFlammability(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 20;
+                }
+
+                @Override
+                public int getFireSpreadSpeed(BlockState state, BlockGetter level, BlockPos pos, Direction direction) {
+                    return 5;
+                }
+
+            });
+    public static final RegistryObject<Block> SOOT_SNOW = registerBlock("soot_snow",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.SNOW)));
+    public static final RegistryObject<Block> FROZEN_OAK_BUTTON = registerBlock("frozen_oak_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.NETHER_WOOD),
+                BlockSetType.OAK, 10, true));
+    public static final RegistryObject<Block> FROZEN_OAK_PRESSURE_PLATE = registerBlock("frozen_oak_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.NETHER_WOOD),
+            BlockSetType.OAK));
+    public static final RegistryObject<Block> FROZEN_OAK_DOOR = registerBlock("frozen_oak_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
+    public static final RegistryObject<Block> FROZEN_OAK_TRAPDOOR = registerBlock("frozen_oak_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
+
     public static final RegistryObject<Block> ICESALT_PILLAR = registerBlock("icesalt_pillar",
             () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> HAILSTONE_PILLAR = registerBlock("hailstone_pillar",
@@ -105,6 +208,55 @@ public class DWBlocks {
             () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FROST_MARBLE_PILLAR = registerBlock("frost_marble_pillar",
             () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+
+    public static final RegistryObject<Block> ICESALT_STAIRS = registerBlock("icesalt_stairs",
+            () -> new StairBlock(() -> DWBlocks.ICESALT.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ICESALT_SLAB = registerBlock("icesalt_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ICESALT_WALL = registerBlock("icesalt_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ICESALT_BUTTON = registerBlock("icesalt_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> ICESALT_PRESSURE_PLATE = registerBlock("icesalt_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE));
+    public static final RegistryObject<Block> HAILSTONE_STAIRS = registerBlock("hailstone_stairs",
+            () -> new StairBlock(() -> DWBlocks.HAILSTONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE_SLAB = registerBlock("hailstone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE_WALL = registerBlock("hailstone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HAILSTONE_BUTTON = registerBlock("hailstone_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> HAILSTONE_PRESSURE_PLATE = registerBlock("hailstone_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE));
+    public static final RegistryObject<Block> SUBZERO_STONE_STAIRS = registerBlock("subzero_stone_stairs",
+            () -> new StairBlock(() -> DWBlocks.SUBZERO_STONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE_SLAB = registerBlock("subzero_stone_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE_WALL = registerBlock("subzero_stone_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SUBZERO_STONE_BUTTON = registerBlock("subzero_stone_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> SUBZERO_STONE_PRESSURE_PLATE = registerBlock("subzero_stone_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE));
+    public static final RegistryObject<Block> FROST_MARBLE_STAIRS = registerBlock("frost_marble_stairs",
+            () -> new StairBlock(() -> DWBlocks.FROST_MARBLE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE_SLAB = registerBlock("frost_marble_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE_WALL = registerBlock("frost_marble_wall",
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FROST_MARBLE_BUTTON = registerBlock("frost_marble_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> FROST_MARBLE_PRESSURE_PLATE = registerBlock("frost_marble_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
+                    BlockSetType.STONE));
 
     public static final RegistryObject<Block> ICESALT = registerBlock("icesalt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));

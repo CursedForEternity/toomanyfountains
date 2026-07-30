@@ -50,11 +50,24 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.add(DWBlocks.JELLITE_ORE.get(),
                 block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
         //Cold Place
+        this.dropSelf(DWBlocks.SOOT_SNOW.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_LOG.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_WOOD.get());
         this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
         this.dropSelf(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_PLANKS.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_STAIRS.get());
+        this.add(DWBlocks.FROZEN_OAK_SLAB.get(),
+            block -> createSlabItemTable(DWBlocks.FROZEN_OAK_SLAB.get()));
+        this.add(DWBlocks.FROZEN_OAK_DOOR.get(),
+            block -> createDoorTable(DWBlocks.FROZEN_OAK_DOOR.get()));
+
+        this.dropSelf(DWBlocks.FROZEN_OAK_TRAPDOOR.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_WALL.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_FENCE.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_GATE.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.FROZEN_OAK_BUTTON.get());
         this.dropOther(DWBlocks.ICESALT.get(), DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.COBBLED_ICESALT.get());
         this.dropSelf(DWBlocks.POLISHED_ICESALT.get());
@@ -62,6 +75,12 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.ICESALT_BRICKS.get());
         this.dropSelf(DWBlocks.ICESALT_PILLAR.get());
         this.dropSelf(DWBlocks.ICESALT_TILES.get());
+        this.dropSelf(DWBlocks.ICESALT_STAIRS.get());
+        this.add(DWBlocks.ICESALT_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.ICESALT_SLAB.get()));
+        this.dropSelf(DWBlocks.ICESALT_WALL.get());
+        this.dropSelf(DWBlocks.ICESALT_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.ICESALT_BUTTON.get());
         this.dropOther(DWBlocks.HAILSTONE.get(), DWBlocks.COBBLED_HAILSTONE.get());
         this.dropSelf(DWBlocks.COBBLED_HAILSTONE.get());
         this.dropSelf(DWBlocks.POLISHED_HAILSTONE.get());
@@ -69,6 +88,12 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.HAILSTONE_BRICKS.get());
         this.dropSelf(DWBlocks.HAILSTONE_PILLAR.get());
         this.dropSelf(DWBlocks.HAILSTONE_TILES.get());
+        this.dropSelf(DWBlocks.HAILSTONE_STAIRS.get());
+        this.add(DWBlocks.HAILSTONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.HAILSTONE_SLAB.get()));
+        this.dropSelf(DWBlocks.HAILSTONE_WALL.get());
+        this.dropSelf(DWBlocks.HAILSTONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.HAILSTONE_BUTTON.get());
         this.dropOther(DWBlocks.SUBZERO_STONE.get(), DWBlocks.COBBLED_SUBZERO_STONE.get());
         this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE.get());
         this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE.get());
@@ -76,6 +101,12 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS.get());
         this.dropSelf(DWBlocks.SUBZERO_STONE_PILLAR.get());
         this.dropSelf(DWBlocks.SUBZERO_STONE_TILES.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_STAIRS.get());
+        this.add(DWBlocks.SUBZERO_STONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.SUBZERO_STONE_SLAB.get()));
+        this.dropSelf(DWBlocks.SUBZERO_STONE_WALL.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BUTTON.get());
         this.dropOther(DWBlocks.FROST_MARBLE.get(), DWBlocks.COBBLED_FROST_MARBLE.get());
         this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE.get());
         this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE.get());
@@ -83,9 +114,18 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS.get());
         this.dropSelf(DWBlocks.FROST_MARBLE_PILLAR.get());
         this.dropSelf(DWBlocks.FROST_MARBLE_TILES.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_STAIRS.get());
+        this.add(DWBlocks.FROST_MARBLE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.FROST_MARBLE_SLAB.get()));
+        this.dropSelf(DWBlocks.FROST_MARBLE_WALL.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_BUTTON.get());
         this.dropSelf(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         this.dropSelf(DWBlocks.ARCTIC_SNOW.get());
         this.dropSelf(DWBlocks.POWDER_ARCTIC_SNOW.get());
+    }
+
+    private void dropsSelf() {
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {

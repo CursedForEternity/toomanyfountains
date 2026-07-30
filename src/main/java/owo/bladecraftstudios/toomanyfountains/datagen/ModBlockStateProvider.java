@@ -18,6 +18,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
     // Cold Place
 
+        blockWithItem(DWBlocks.SOOT_SNOW);
+
         logBlock((RotatedPillarBlock) DWBlocks.FROZEN_OAK_LOG.get());
         axisBlock(((RotatedPillarBlock) DWBlocks.FROZEN_OAK_WOOD.get()), blockTexture(DWBlocks.FROZEN_OAK_LOG.get()), blockTexture(DWBlocks.FROZEN_OAK_LOG.get()));
 
@@ -27,10 +29,42 @@ public class ModBlockStateProvider extends BlockStateProvider {
                 blockTexture(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get()));
         blockWithItem(DWBlocks.FROZEN_OAK_PLANKS);
 
+        stairsBlock(((StairBlock) DWBlocks.FROZEN_OAK_STAIRS.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.FROZEN_OAK_SLAB.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.FROZEN_OAK_BUTTON.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.FROZEN_OAK_FENCE.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.FROZEN_OAK_GATE.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+        wallBlock(((WallBlock) DWBlocks.FROZEN_OAK_WALL.get()), blockTexture(DWBlocks.FROZEN_OAK_PLANKS.get()));
+
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.FROZEN_OAK_DOOR.get()), modLoc("block/frozen_oak_door_bottom"), modLoc("block/frozen_oak_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.FROZEN_OAK_TRAPDOOR.get()), modLoc("block/frozen_oak_trapdoor"), true, "cutout");
+
         logBlock((RotatedPillarBlock) DWBlocks.ICESALT_PILLAR.get());
         logBlock((RotatedPillarBlock) DWBlocks.HAILSTONE_PILLAR.get());
         logBlock((RotatedPillarBlock) DWBlocks.SUBZERO_STONE_PILLAR.get());
         logBlock((RotatedPillarBlock) DWBlocks.FROST_MARBLE_PILLAR.get());
+
+        stairsBlock(((StairBlock) DWBlocks.ICESALT_STAIRS.get()), blockTexture(DWBlocks.ICESALT.get()));
+        slabBlock(((SlabBlock) DWBlocks.ICESALT_SLAB.get()), blockTexture(DWBlocks.ICESALT.get()), blockTexture(DWBlocks.ICESALT.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.ICESALT_BUTTON.get()), blockTexture(DWBlocks.ICESALT.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.ICESALT_PRESSURE_PLATE.get()), blockTexture(DWBlocks.ICESALT.get()));
+        wallBlock(((WallBlock) DWBlocks.ICESALT_WALL.get()), blockTexture(DWBlocks.ICESALT.get()));
+        stairsBlock(((StairBlock) DWBlocks.HAILSTONE_STAIRS.get()), blockTexture(DWBlocks.HAILSTONE.get()));
+        slabBlock(((SlabBlock) DWBlocks.HAILSTONE_SLAB.get()), blockTexture(DWBlocks.HAILSTONE.get()), blockTexture(DWBlocks.HAILSTONE.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.HAILSTONE_BUTTON.get()), blockTexture(DWBlocks.HAILSTONE.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.HAILSTONE_PRESSURE_PLATE.get()), blockTexture(DWBlocks.HAILSTONE.get()));
+        wallBlock(((WallBlock) DWBlocks.HAILSTONE_WALL.get()), blockTexture(DWBlocks.HAILSTONE.get()));
+        stairsBlock(((StairBlock) DWBlocks.SUBZERO_STONE_STAIRS.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()));
+        slabBlock(((SlabBlock) DWBlocks.SUBZERO_STONE_SLAB.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.SUBZERO_STONE_BUTTON.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.SUBZERO_STONE_PRESSURE_PLATE.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()));
+        wallBlock(((WallBlock) DWBlocks.SUBZERO_STONE_WALL.get()), blockTexture(DWBlocks.SUBZERO_STONE.get()));
+        stairsBlock(((StairBlock) DWBlocks.FROST_MARBLE_STAIRS.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
+        slabBlock(((SlabBlock) DWBlocks.FROST_MARBLE_SLAB.get()), blockTexture(DWBlocks.FROST_MARBLE.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.FROST_MARBLE_BUTTON.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
+        wallBlock(((WallBlock) DWBlocks.FROZEN_OAK_WALL.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
 
         blockWithItem(DWBlocks.ICESALT);
         blockWithItem(DWBlocks.COBBLED_ICESALT);
@@ -83,6 +117,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockColumn(DWBlocks.CIRCUS_BOARDS);
         blockColumn(DWBlocks.CIRCUS_ASH);
         blockColumn(DWBlocks.CIRCUS_STONE);
+    }
+
+    private void blockWithItem(Block block) {
     }
 
     private void blockWithItem(RegistryObject<Block> blockRegistryObject) {

@@ -49,11 +49,20 @@ public class CreativeTabs {
         output.accept(DWBlocks.FUNGAL_FUNGITE.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
+        output.accept(DWBlocks.SOOT_SNOW.get());
         output.accept(DWBlocks.FROZEN_OAK_LOG.get());
         output.accept(DWBlocks.FROZEN_OAK_WOOD.get());
         output.accept(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get());
         output.accept(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get());
         output.accept(DWBlocks.FROZEN_OAK_PLANKS.get());
+        output.accept(DWBlocks.FROZEN_OAK_STAIRS.get());
+        output.accept(DWBlocks.FROZEN_OAK_SLAB.get());
+        output.accept(DWBlocks.FROZEN_OAK_FENCE.get());
+        output.accept(DWBlocks.FROZEN_OAK_GATE.get());
+        output.accept(DWBlocks.FROZEN_OAK_DOOR.get());
+        output.accept(DWBlocks.FROZEN_OAK_TRAPDOOR.get());
+        output.accept(DWBlocks.FROST_MARBLE_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.FROZEN_OAK_BUTTON.get());
         output.accept(DWBlocks.ICESALT.get());
         output.accept(DWBlocks.COBBLED_ICESALT.get());
         output.accept(DWBlocks.POLISHED_ICESALT.get());
@@ -61,6 +70,11 @@ public class CreativeTabs {
         output.accept(DWBlocks.ICESALT_BRICKS.get());
         output.accept(DWBlocks.ICESALT_PILLAR.get());
         output.accept(DWBlocks.ICESALT_TILES.get());
+        output.accept(DWBlocks.ICESALT_STAIRS.get());
+        output.accept(DWBlocks.ICESALT_SLAB.get());
+        output.accept(DWBlocks.ICESALT_WALL.get());
+        output.accept(DWBlocks.ICESALT_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.ICESALT_BUTTON.get());
         output.accept(DWBlocks.HAILSTONE.get());
         output.accept(DWBlocks.COBBLED_HAILSTONE.get());
         output.accept(DWBlocks.POLISHED_HAILSTONE.get());
@@ -68,6 +82,11 @@ public class CreativeTabs {
         output.accept(DWBlocks.HAILSTONE_BRICKS.get());
         output.accept(DWBlocks.HAILSTONE_PILLAR.get());
         output.accept(DWBlocks.HAILSTONE_TILES.get());
+        output.accept(DWBlocks.HAILSTONE_STAIRS.get());
+        output.accept(DWBlocks.HAILSTONE_SLAB.get());
+        output.accept(DWBlocks.HAILSTONE_WALL.get());
+        output.accept(DWBlocks.HAILSTONE_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.HAILSTONE_BUTTON.get());
         output.accept(DWBlocks.SUBZERO_STONE.get());
         output.accept(DWBlocks.COBBLED_SUBZERO_STONE.get());
         output.accept(DWBlocks.POLISHED_SUBZERO_STONE.get());
@@ -75,6 +94,11 @@ public class CreativeTabs {
         output.accept(DWBlocks.SUBZERO_STONE_BRICKS.get());
         output.accept(DWBlocks.SUBZERO_STONE_PILLAR.get());
         output.accept(DWBlocks.SUBZERO_STONE_TILES.get());
+        output.accept(DWBlocks.SUBZERO_STONE_STAIRS.get());
+        output.accept(DWBlocks.SUBZERO_STONE_SLAB.get());
+        output.accept(DWBlocks.SUBZERO_STONE_WALL.get());
+        output.accept(DWBlocks.SUBZERO_STONE_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.SUBZERO_STONE_BUTTON.get());
         output.accept(DWBlocks.FROST_MARBLE.get());
         output.accept(DWBlocks.COBBLED_FROST_MARBLE.get());
         output.accept(DWBlocks.POLISHED_FROST_MARBLE.get());
@@ -82,6 +106,11 @@ public class CreativeTabs {
         output.accept(DWBlocks.FROST_MARBLE_BRICKS.get());
         output.accept(DWBlocks.FROST_MARBLE_PILLAR.get());
         output.accept(DWBlocks.FROST_MARBLE_TILES.get());
+        output.accept(DWBlocks.FROST_MARBLE_STAIRS.get());
+        output.accept(DWBlocks.FROST_MARBLE_SLAB.get());
+        output.accept(DWBlocks.FROST_MARBLE_WALL.get());
+        output.accept(DWBlocks.FROST_MARBLE_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.FROST_MARBLE_BUTTON.get());
         output.accept(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW.get());
         output.accept(DWBlocks.POWDER_ARCTIC_SNOW.get());
