@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "toomanyfountains:block/frost_marble",
+    "side": "toomanyfountains:block/frost_marble",
+    "top": "toomanyfountains:block/frost_marble"
+  }
+}

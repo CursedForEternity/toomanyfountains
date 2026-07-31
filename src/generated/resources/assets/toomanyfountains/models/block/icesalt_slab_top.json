@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "toomanyfountains:block/icesalt",
+    "side": "toomanyfountains:block/icesalt",
+    "top": "toomanyfountains:block/icesalt"
+  }
+}

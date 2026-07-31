@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/frozen_oak_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/frozen_oak_planks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/frozen_oak_slab_top"
+    }
+  }
+}

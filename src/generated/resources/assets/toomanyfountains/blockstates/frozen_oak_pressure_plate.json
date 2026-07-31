@@ -1,0 +1,20 @@
+{
+  "variants": {
+    "powered=false": [
+      {
+        "model": "toomanyfountains:block/frozen_oak_pressure_plate"
+      },
+      {
+        "model": "toomanyfountains:block/frozen_oak_pressure_plate"
+      }
+    ],
+    "powered=true": [
+      {
+        "model": "toomanyfountains:block/frozen_oak_pressure_plate_down"
+      },
+      {
+        "model": "toomanyfountains:block/frozen_oak_pressure_plate_down"
+      }
+    ]
+  }
+}

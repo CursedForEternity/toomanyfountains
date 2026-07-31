@@ -29,6 +29,13 @@ public class DWBlocks {
             () -> new RotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.BAMBOO_WOOD)));
     public static final RegistryObject<Block> CIRCUS_FLOOR = registerBlock("circus_floor",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOL)));
+    public static final RegistryObject<Block> CIRCUS_ASH = registerBlock("circus_ash",
+            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> CIRCUS_STONE = registerBlock("circus_stone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_TILES)));
+    public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
+// Spores - TO BE REMADE INTO OCEAN
     public static final RegistryObject<Block> JELLITE_ORE = registerBlock("jellite_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
@@ -62,12 +69,6 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> BLIGHTSHROOM_LEAVES = registerBlock("blightshroom_leaves",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
-    public static final RegistryObject<Block> CIRCUS_ASH = registerBlock("circus_ash",
-            () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
-    public static final RegistryObject<Block> CIRCUS_STONE = registerBlock("circus_stone",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_TILES)));
-    public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
 
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> FROZEN_OAK_LOG = registerBlock("frozen_oak_log",

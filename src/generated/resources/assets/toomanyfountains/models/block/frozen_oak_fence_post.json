@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/fence_post",
+  "textures": {
+    "texture": "toomanyfountains:block/frozen_oak_planks"
+  }
+}

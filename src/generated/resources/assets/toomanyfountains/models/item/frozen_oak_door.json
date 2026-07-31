@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toomanyfountains:item/frozen_oak_door"
+  }
+}

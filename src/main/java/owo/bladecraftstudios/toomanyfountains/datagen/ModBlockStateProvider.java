@@ -18,6 +18,34 @@ public class ModBlockStateProvider extends BlockStateProvider {
     protected void registerStatesAndModels() {
     // Cold Place
 
+        blockWithItem(DWBlocks.ICESALT);
+        blockWithItem(DWBlocks.COBBLED_ICESALT);
+        blockWithItem(DWBlocks.POLISHED_ICESALT);
+        blockWithItem(DWBlocks.CHISELED_ICESALT);
+        blockWithItem(DWBlocks.ICESALT_BRICKS);
+        blockWithItem(DWBlocks.ICESALT_TILES);
+        blockWithItem(DWBlocks.HAILSTONE);
+        blockWithItem(DWBlocks.COBBLED_HAILSTONE);
+        blockWithItem(DWBlocks.POLISHED_HAILSTONE);
+        blockWithItem(DWBlocks.CHISELED_HAILSTONE);
+        blockWithItem(DWBlocks.HAILSTONE_BRICKS);
+        blockWithItem(DWBlocks.HAILSTONE_TILES);
+        blockWithItem(DWBlocks.SUBZERO_STONE);
+        blockWithItem(DWBlocks.COBBLED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.POLISHED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.CHISELED_SUBZERO_STONE);
+        blockWithItem(DWBlocks.SUBZERO_STONE_BRICKS);
+        blockWithItem(DWBlocks.SUBZERO_STONE_TILES);
+        blockWithItem(DWBlocks.FROST_MARBLE);
+        blockWithItem(DWBlocks.COBBLED_FROST_MARBLE);
+        blockWithItem(DWBlocks.POLISHED_FROST_MARBLE);
+        blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
+        blockWithItem(DWBlocks.FROST_MARBLE_BRICKS);
+        blockWithItem(DWBlocks.FROST_MARBLE_TILES);
+        blockWithItem(DWBlocks.ARCTIC_SNOW_BLOCK);
+        blockWithItem(DWBlocks.ARCTIC_SNOW);
+        blockWithItem(DWBlocks.POWDER_ARCTIC_SNOW);
+
         blockWithItem(DWBlocks.SOOT_SNOW);
 
         logBlock((RotatedPillarBlock) DWBlocks.FROZEN_OAK_LOG.get());
@@ -65,35 +93,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock(((ButtonBlock) DWBlocks.FROST_MARBLE_BUTTON.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
         pressurePlateBlock(((PressurePlateBlock) DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
         wallBlock(((WallBlock) DWBlocks.FROZEN_OAK_WALL.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
-
-        blockWithItem(DWBlocks.ICESALT);
-        blockWithItem(DWBlocks.COBBLED_ICESALT);
-        blockWithItem(DWBlocks.POLISHED_ICESALT);
-        blockWithItem(DWBlocks.CHISELED_ICESALT);
-        blockWithItem(DWBlocks.ICESALT_BRICKS);
-        blockWithItem(DWBlocks.ICESALT_TILES);
-        blockWithItem(DWBlocks.HAILSTONE);
-        blockWithItem(DWBlocks.COBBLED_HAILSTONE);
-        blockWithItem(DWBlocks.POLISHED_HAILSTONE);
-        blockWithItem(DWBlocks.CHISELED_HAILSTONE);
-        blockWithItem(DWBlocks.HAILSTONE_BRICKS);
-        blockWithItem(DWBlocks.HAILSTONE_TILES);
-        blockWithItem(DWBlocks.SUBZERO_STONE);
-        blockWithItem(DWBlocks.COBBLED_SUBZERO_STONE);
-        blockWithItem(DWBlocks.POLISHED_SUBZERO_STONE);
-        blockWithItem(DWBlocks.CHISELED_SUBZERO_STONE);
-        blockWithItem(DWBlocks.SUBZERO_STONE_BRICKS);
-        blockWithItem(DWBlocks.SUBZERO_STONE_TILES);
-        blockWithItem(DWBlocks.FROST_MARBLE);
-        blockWithItem(DWBlocks.COBBLED_FROST_MARBLE);
-        blockWithItem(DWBlocks.POLISHED_FROST_MARBLE);
-        blockWithItem(DWBlocks.CHISELED_FROST_MARBLE);
-        blockWithItem(DWBlocks.FROST_MARBLE_BRICKS);
-        blockWithItem(DWBlocks.FROST_MARBLE_TILES);
-        blockWithItem(DWBlocks.ARCTIC_SNOW_BLOCK);
-        blockWithItem(DWBlocks.ARCTIC_SNOW);
-        blockWithItem(DWBlocks.POWDER_ARCTIC_SNOW);
-
 
         // Endless Spores
         blockWithItem(DWBlocks.MUSHITE);
