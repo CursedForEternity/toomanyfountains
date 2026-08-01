@@ -80,5 +80,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.FROZEN_OAK_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
                 .add(DWBlocks.FROZEN_OAK_GATE.get());
+        this.tag(BlockTags.WALLS)
+                .add(DWBlocks.ICESALT_WALL.get());
     }
 }
