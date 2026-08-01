@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "toomanyfountains:block/circus_board_top",
-    "side": "toomanyfountains:block/circus_board"
-  }
-}
