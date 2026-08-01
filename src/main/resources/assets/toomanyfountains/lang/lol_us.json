@@ -81,5 +81,13 @@
   "block.toomanyfountains.icesalt_slab": "Icesalt Slabs",
   "block.toomanyfountains.icesalt_wall": "Icesalt Wall",
   "block.toomanyfountains.icesalt_pressure_plate": "Icesalt Pressure Plate",
-  "block.toomanyfountains.icesalt_Button": "Icesalt Oak Button"
+  "block.toomanyfountains.icesalt_Button": "Icesalt Oak Button",
+  "biome.toomanyfountains.shallows": "Kiddie Pool",
+  "biome.toomanyfountains.shallows.description": "'*splash*'",
+  "biome.toomanyfountains.the_deepend": "The Depths",
+  "biome.toomanyfountains.the_deepend.description": "'LETS GET DOWN TO BUSINESS'",
+  "biome.toomanyfountains.abyssal_depths": "Quiet Glade 2: Feathery Boogaloo",
+  "biome.toomanyfountains.abyssal_depths.description": "'Feather not included.'",
+  "biome.toomanyfountains.sunken_souls": "The Seven Seas'",
+  "biome.toomanyfountains.tsunken_souls.description": "'geometry dash reference'"
 }
