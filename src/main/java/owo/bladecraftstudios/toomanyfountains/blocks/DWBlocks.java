@@ -42,31 +42,7 @@ public class DWBlocks {
     public static final RegistryObject<Block> OCEAN_SLATE = registerBlock("ocean_slate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> OCEAN_DIRT = registerBlock("ocean_dirt",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.DIRT)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_PLANKS = registerBlock("blightshroom_planks",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_STAIRS = registerBlock("blightshroom_stairs",
-            () -> new StairBlock(() -> DWBlocks.BLIGHTSHROOM_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_SLAB = registerBlock("blightshroom_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_FENCE = registerBlock("blightshroom_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> BLIGHTSHROOM_FENCE_GATE = registerBlock("blightshroom_fence_gate",
-            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), SoundEvents.FENCE_GATE_OPEN, SoundEvents.FENCE_GATE_CLOSE));
-    public static final RegistryObject<Block> BLIGHTSHROOM_DOOR = registerBlock("blightshroom_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), BlockSetType.OAK));
-    public static final RegistryObject<Block> BLIGHTSHROOM_TRAPDOOR = registerBlock("blightshroom_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), BlockSetType.OAK));
-    public static final RegistryObject<Block> BLIGHTSHROOM_BUTTON = registerBlock("blightshroom_button",
-            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD), BlockSetType.OAK, 10, true));
-    public static final RegistryObject<Block> BLIGHTSHROOM_PRESSURE_PLATE = registerBlock("blightshroom_pressure_plate",
-            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD), BlockSetType.OAK));
-    public static final RegistryObject<Block> MUSHSNOW = registerBlock("mushsnow",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SNOW).sound(SoundType.SNOW)));
-    public static final RegistryObject<Block> FUNGAL_MUSHITE = registerBlock("fungal_mushite",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
-    public static final RegistryObject<Block> FUNGAL_FUNGITE = registerBlock("fungal_fungite",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> BUBBLY_LEAVES = registerBlock("bubbly_leaves",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> RED_CORALWOOD_LOG = registerBlock("red_coralwood_log",

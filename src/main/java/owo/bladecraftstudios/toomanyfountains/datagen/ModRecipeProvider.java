@@ -16,8 +16,7 @@ import java.util.List;
 import java.util.function.Consumer;
 
 public class ModRecipeProvider  extends RecipeProvider implements IConditionBuilder {
-    private static final List<ItemLike> JELLITE_SMELTABLES = List.of(DWItems.RAW_JELLITE.get(),
-            DWBlocks.JELLITE_ORE.get());
+    private static final List<ItemLike> SILWARE_SMELT = List.of(DWItems.RAW_SILWARE.get());
 
     public ModRecipeProvider(PackOutput pOutput) {
         super(pOutput);
@@ -25,8 +24,8 @@ public class ModRecipeProvider  extends RecipeProvider implements IConditionBuil
 
     @Override
     protected void buildRecipes(Consumer<FinishedRecipe> pWriter) {
-        oreSmelting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 200, "jellite");
-        oreBlasting(pWriter, JELLITE_SMELTABLES, RecipeCategory.MISC, DWItems.JELLITE.get(), 0.25f, 100, "jellite");
+        oreSmelting(pWriter, SILWARE_SMELT, RecipeCategory.MISC, DWItems.SILWARE.get(), 0.25f, 200, "jellite");
+        oreBlasting(pWriter, SILWARE_SMELT, RecipeCategory.MISC, DWItems.SILWARE.get(), 0.25f, 100, "jellite");
 
         ShapedRecipeBuilder.shaped(RecipeCategory.BUILDING_BLOCKS, DWBlocks.CIRCUS_FLOOR.get())
                 .pattern("S")

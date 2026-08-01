@@ -1,7 +1,0 @@
-{
-  "parent": "minecraft:block/cube_column",
-  "textures": {
-    "end": "toomanyfountains:block/mushsnow_top",
-    "side": "toomanyfountains:block/mushsnow"
-  }
-}

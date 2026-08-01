@@ -13,11 +13,7 @@ public class DWItems {
     public static final DeferredRegister<Item> ITEMS =
             DeferredRegister.create(ForgeRegistries.ITEMS, TooManyFountains.MODID);
 
-    public static final RegistryObject<Item> RAW_JELLITE = ITEMS.register("raw_jellite",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> RAW_SILWARE = ITEMS.register("raw_silware",
-            () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> JELLITE = ITEMS.register("jellite_ingot",
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> SILWARE = ITEMS.register("silware_ingot",
             () -> new Item(new Item.Properties()));

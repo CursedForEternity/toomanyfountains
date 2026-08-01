@@ -1,8 +1,0 @@
-{
-  "parent": "minecraft:block/door_top_right",
-  "render_type": "minecraft:cutout",
-  "textures": {
-    "bottom": "toomanyfountains:block/blightshroom_door_bottom",
-    "top": "toomanyfountains:block/blightshroom_door_top"
-  }
-}

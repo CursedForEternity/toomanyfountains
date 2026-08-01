@@ -30,23 +30,10 @@ public class CreativeTabs {
         output.accept(DWItems.SILWARE.get());
         output.accept(DWBlocks.SILWARE_DEBRIS.get());
     }).build());
-    public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.MUSHITE.get())).title(Component.translatable("creativetab.shroom_dw")).displayItems((itemDisplayParameters, output) -> {
-        output.accept(DWItems.RAW_JELLITE.get());
-        output.accept(DWItems.JELLITE.get());
+    public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.OCEAN_DIRT.get())).title(Component.translatable("creativetab.shroom_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.FOAM_ORE.get());
         output.accept(DWBlocks.OCEAN_DIRT.get());
         output.accept(DWBlocks.OCEAN_SLATE.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_PLANKS.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_DOOR.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_BUTTON.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_FENCE.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_STAIRS.get());
-        output.accept(DWBlocks.BLIGHTSHROOM_SLAB.get());
-        output.accept(DWBlocks.MUSHSNOW.get());
-        output.accept(DWBlocks.FUNGAL_MUSHITE.get());
-        output.accept(DWBlocks.FUNGAL_FUNGITE.get());
         output.accept(DWBlocks.RED_CORALWOOD_LOG.get());
         output.accept(DWBlocks.RED_CORALWOOD_WOOD.get());
     }).build());

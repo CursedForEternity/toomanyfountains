@@ -93,24 +93,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         buttonBlock(((ButtonBlock) DWBlocks.FROST_MARBLE_BUTTON.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
         pressurePlateBlock(((PressurePlateBlock) DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
         wallBlock(((WallBlock) DWBlocks.FROZEN_OAK_WALL.get()), blockTexture(DWBlocks.FROST_MARBLE.get()));
-
-        // Endless Spores
-        blockWithItem(DWBlocks.MUSHITE);
-        blockFloor(DWBlocks.FUNGAL_MUSHITE);
-        blockFloor(DWBlocks.FUNGAL_FUNGITE);
-        blockWithItem(DWBlocks.JELLITE_ORE);
-        blockWithItem(DWBlocks.BLIGHTSHROOM_PLANKS);
-        blockWithItem(DWBlocks.BLIGHTSHROOM_LEAVES);
-        blockColumn(DWBlocks.MUSHSNOW);
-        blockWithItem(DWBlocks.FUNGITE);
-        stairsBlock(((StairBlock) DWBlocks.BLIGHTSHROOM_STAIRS.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        slabBlock(((SlabBlock) DWBlocks.BLIGHTSHROOM_SLAB.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        fenceBlock(((FenceBlock) DWBlocks.BLIGHTSHROOM_FENCE.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        fenceGateBlock(((FenceGateBlock) DWBlocks.BLIGHTSHROOM_FENCE_GATE.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        buttonBlock(((ButtonBlock) DWBlocks.BLIGHTSHROOM_BUTTON.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        pressurePlateBlock(((PressurePlateBlock) DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get()), blockTexture(DWBlocks.BLIGHTSHROOM_PLANKS.get()));
-        doorBlockWithRenderType(((DoorBlock) DWBlocks.BLIGHTSHROOM_DOOR.get()), modLoc("block/blightshroom_door_bottom"), modLoc("block/blightshroom_door_top"), "cutout");
-
         // Circus
         blockWithItem(DWBlocks.SILWARE_DEBRIS);
         blockColumn(DWBlocks.CIRCUS_BOARDS);

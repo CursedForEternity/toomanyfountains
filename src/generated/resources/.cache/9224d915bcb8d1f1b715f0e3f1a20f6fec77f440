@@ -1,11 +1,4 @@
-// 1.20.1	2026-07-31T19:33:44.5262905	Item Models: toomanyfountains
-26e09f9fd1ef1d9da3c7ec5063ecafe4e6ffb4d4 assets/toomanyfountains/models/item/blightshroom_button.json
-8ba82cd2bf2b7e691d6c6ac4c286423c7bafd394 assets/toomanyfountains/models/item/blightshroom_door.json
-7a6fd501d342ec746ff35f2f73e04e021cead8cb assets/toomanyfountains/models/item/blightshroom_fence.json
-8a6b4cdb7eb0f9385b7f4f1dcba20454925a4008 assets/toomanyfountains/models/item/blightshroom_fence_gate.json
-951eec8502e8f8c1aae088a29174740ab92b0ca8 assets/toomanyfountains/models/item/blightshroom_pressure_plate.json
-b1fc0d6e66556c1fbcf8ec6dc741f3164fd7db3d assets/toomanyfountains/models/item/blightshroom_slab.json
-1db91b8192b59ca10bc2fe1201a394e035e8161b assets/toomanyfountains/models/item/blightshroom_stairs.json
+// 1.20.1	2026-08-01T19:04:00.9321243	Item Models: toomanyfountains
 a37f2d3a37a850ed2bad92708d45f59060073aef assets/toomanyfountains/models/item/frost_marble_button.json
 65d993a7c5288c1c6e87f928d28516f5d176cf88 assets/toomanyfountains/models/item/frost_marble_pillar.json
 39a28dbe28566d9f5da70cf3a48f139bb65be4a3 assets/toomanyfountains/models/item/frost_marble_wall.json
@@ -21,8 +14,6 @@ c2eb37f0eb736c3d4ebf14222e9bf24d1ea03043 assets/toomanyfountains/models/item/hai
 9feff00cafc97a0b4a61276675ac3e9aa46325be assets/toomanyfountains/models/item/icesalt_button.json
 b686c03be2536bb07a26f98d02cdebd108cc948f assets/toomanyfountains/models/item/icesalt_pillar.json
 b29c48030fd5177c3fc0bdab0b81dec1916e3792 assets/toomanyfountains/models/item/icesalt_wall.json
-be558ada73653098530e7ce34ac57b96f6f4a1ae assets/toomanyfountains/models/item/jellite_ingot.json
-a1c6416a2c99a947d09ba3bad0fa8dede06741d1 assets/toomanyfountains/models/item/raw_jellite.json
 8b50292d1cf101a7ba5fd692db74c90e5e8a6d1a assets/toomanyfountains/models/item/raw_silware.json
 45d33f358f8dd56a30b4424495a588b600d05ac5 assets/toomanyfountains/models/item/silware_axe.json
 37f6ea1de19138b46e5a45055d736307776bfb72 assets/toomanyfountains/models/item/silware_bodkin.json

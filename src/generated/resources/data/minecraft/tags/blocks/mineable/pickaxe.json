@@ -1,7 +1,5 @@
 {
   "values": [
-    "toomanyfountains:mushite",
-    "toomanyfountains:jellite_ore",
     "toomanyfountains:icesalt",
     "toomanyfountains:cobbled_icesalt",
     "toomanyfountains:polished_icesalt",
@@ -50,11 +48,7 @@
     "toomanyfountains:frost_marble_wall",
     "toomanyfountains:frost_marble_pressure_plate",
     "toomanyfountains:frost_marble_button",
-    "toomanyfountains:mushsnow",
     "toomanyfountains:circus_stone",
-    "toomanyfountains:fungite",
-    "toomanyfountains:fungal_fungite",
-    "toomanyfountains:silware_debris",
-    "toomanyfountains:fungal_mushite"
+    "toomanyfountains:silware_debris"
   ]
 }

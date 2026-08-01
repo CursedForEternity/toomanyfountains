@@ -31,24 +31,14 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.add(DWBlocks.SILWARE_DEBRIS.get(),
                 block -> createQroupletDrop(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
-        //Spores
-        this.dropSelf(DWBlocks.MUSHITE.get());
-        this.dropSelf(DWBlocks.FUNGITE.get());
-        this.dropSelf(DWBlocks.FUNGAL_FUNGITE.get());
-        this.dropSelf(DWBlocks.FUNGAL_MUSHITE.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_LEAVES.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_PLANKS.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_STAIRS.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_DOOR.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_SLAB.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_FENCE.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_FENCE_GATE.get());
-        this.dropSelf(DWBlocks.BLIGHTSHROOM_BUTTON.get());
-        this.dropSelf(DWBlocks.FUNGITE.get());
-        this.dropSelf(DWBlocks.MUSHSNOW.get());
-        this.add(DWBlocks.JELLITE_ORE.get(),
-                block -> createCopperLikeOreDrops(DWBlocks.JELLITE_ORE.get(), DWItems.RAW_JELLITE.get()));
+        //Ocean
+        this.dropSelf(DWBlocks.RED_CORALWOOD_LOG.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_WOOD.get());
+        this.dropSelf(DWBlocks.OCEAN_DIRT.get());
+        this.dropSelf(DWBlocks.OCEAN_SLATE.get());
+        this.dropSelf(DWBlocks.FOAM_ORE.get());
+        this.dropSelf(DWBlocks.BUBBLY_LEAVES.get());
+
         //Cold Place
         this.dropSelf(DWBlocks.SOOT_SNOW.get());
         this.dropSelf(DWBlocks.FROZEN_OAK_LOG.get());

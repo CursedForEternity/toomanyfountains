@@ -20,8 +20,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(DWItems.JELLITE);
-        simpleItem(DWItems.RAW_JELLITE);
         simpleItem(DWItems.RAW_SILWARE);
         simpleItem(DWItems.SILWARE);
         heldItem(DWItems.SILWARE_AXE);
@@ -31,7 +29,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         heldItem(DWItems.SILWARE_SWORD);
         heldItem(DWItems.SILWARE_SHOVEL);
 
-        simpleBlockItem(DWBlocks.BLIGHTSHROOM_DOOR);
         evenSimplerBlockItem(DWBlocks.FROZEN_OAK_LOG);
         evenSimplerBlockItem(DWBlocks.FROZEN_OAK_WOOD);
         evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
@@ -52,12 +49,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_PILLAR);
         buttonItem(DWBlocks.FROST_MARBLE_BUTTON,DWBlocks.FROST_MARBLE);
         wallItem(DWBlocks.FROST_MARBLE_WALL,DWBlocks.FROST_MARBLE);
-        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_STAIRS);
-        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_FENCE_GATE);
-        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_PRESSURE_PLATE);
-        evenSimplerBlockItem(DWBlocks.BLIGHTSHROOM_SLAB);
-        fenceItem(DWBlocks.BLIGHTSHROOM_FENCE, DWBlocks.BLIGHTSHROOM_PLANKS);
-        buttonItem(DWBlocks.BLIGHTSHROOM_BUTTON, DWBlocks.BLIGHTSHROOM_PLANKS);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
