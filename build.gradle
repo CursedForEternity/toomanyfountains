@@ -15,7 +15,8 @@ buildscript {
 plugins {
     id 'eclipse'
     id 'idea'
-    id 'net.minecraftforge.gradle' version '7.0.31'
+    id 'net.minecraftforge.gradle' version '9.3.0' +
+            ''
     id 'org.spongepowered.mixin' version '0.7.+'
     id 'org.parchmentmc.librarian.forgegradle' version '1.+'
 }
