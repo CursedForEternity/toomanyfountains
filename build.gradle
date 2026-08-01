@@ -53,6 +53,7 @@ minecraft {
     // In most cases, it is not necessary to enable.
     // enableEclipsePrepareRuns = true
     // enableIdeaPrepareRuns = true
+    // new line
 
     // This property allows configuring Gradle's ProcessResources task(s) to run on IDE output locations before launching the game.
     // It is REQUIRED to be set to true for this template to function.
