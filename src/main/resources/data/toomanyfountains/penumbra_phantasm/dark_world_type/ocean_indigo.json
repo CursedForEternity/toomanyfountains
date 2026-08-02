@@ -1,15 +1,15 @@
 {
-  "block_tag": "toomanyfountains:influences_mushroom",
+  "block_tag": "toomanyfountains:influences_coral",
   "block_amount": 6,
-  "noise_settings": "toomanyfountains:mushroom_world",
+  "noise_settings": "toomanyfountains:ocean_world",
   "dimension_type": "penumbra_phantasm:card_kingdom_dimension_type",
   "biome_source": {
     "type": "minecraft:multi_noise",
     "biomes": [
       {
-        "biome": "toomanyfountains:custom_fields",
+        "biome": "toomanyfountains:shallows",
         "parameters": {
-          "temperature": -0.5,
+          "temperature": 0.8,
           "humidity": -0.5,
           "continentalness": 0,
           "erosion": 0,
@@ -19,7 +19,7 @@
         }
       },
       {
-        "biome": "toomanyfountains:custom_plains",
+        "biome": "toomanyfountains:the_deepend",
         "parameters": {
           "temperature": 0.8,
           "humidity": -0.5,
