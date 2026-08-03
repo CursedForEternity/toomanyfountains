@@ -49,6 +49,22 @@ public class DWBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
     public static final RegistryObject<Block> RED_CORALWOOD_WOOD = registerBlock("red_coralwood_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PURPLE_CORALWOOD_LOG = registerBlock("purple_coralwood_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PURPLE_CORALWOOD_WOOD = registerBlock("purple_coralwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> YELLOW_CORALWOOD_LOG = registerBlock("yellow_coralwood_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> YELLOW_CORALWOOD_WOOD = registerBlock("yellow_coralwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_LOG = registerBlock("pink_coralwood_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_WOOD = registerBlock("pink_coralwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_LOG = registerBlock("blue_coralwood_log",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_WOOD = registerBlock("blue_coralwood_wood",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
 
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> FROZEN_OAK_LOG = registerBlock("frozen_oak_log",
