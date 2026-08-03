@@ -11,7 +11,11 @@
   },
   "features": [
     [
-      "toomanyfountains:custom_tree"
+      "toomanyfountains:red_coralwood_tree",
+      "toomanyfountains:blue_coralwood_tree",
+      "toomanyfountains:yellow_coralwood_tree",
+      "toomanyfountains:pink_coralwood_tree",
+      "toomanyfountains:purple_coralwood_tree"
     ]
   ],
   "has_precipitation": false,
