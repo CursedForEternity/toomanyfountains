@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "toomanyfountains:block/hailstone_bricks",
+    "side": "toomanyfountains:block/hailstone_bricks",
+    "top": "toomanyfountains:block/hailstone_bricks"
+  }
+}

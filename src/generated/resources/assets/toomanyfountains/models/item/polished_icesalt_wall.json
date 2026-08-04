@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "toomanyfountains:block/polished_icesalt"
+  }
+}

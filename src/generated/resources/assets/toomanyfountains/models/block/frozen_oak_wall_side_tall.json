@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/template_wall_side_tall",
   "textures": {
-    "wall": "toomanyfountains:block/frost_marble"
+    "wall": "toomanyfountains:block/frozen_oak_planks"
   }
 }

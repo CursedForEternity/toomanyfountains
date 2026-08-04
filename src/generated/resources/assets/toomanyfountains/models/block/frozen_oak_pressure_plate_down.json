@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:block/pressure_plate_down",
   "textures": {
-    "texture": "toomanyfountains:block/frost_marble"
+    "texture": "toomanyfountains:block/frozen_oak_planks"
   }
 }

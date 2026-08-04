@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/subzero_stone_tiles_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/subzero_stone_tiles"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/subzero_stone_tiles_slab_top"
+    }
+  }
+}

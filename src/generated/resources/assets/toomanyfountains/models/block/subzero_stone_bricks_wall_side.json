@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/template_wall_side",
+  "textures": {
+    "wall": "toomanyfountains:block/subzero_stone_bricks"
+  }
+}
