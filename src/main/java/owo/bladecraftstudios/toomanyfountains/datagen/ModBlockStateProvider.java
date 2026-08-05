@@ -98,6 +98,18 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockColumn(DWBlocks.CIRCUS_BOARDS);
         blockColumn(DWBlocks.CIRCUS_ASH);
         blockColumn(DWBlocks.CIRCUS_STONE);
+
+        //Ocean
+        logBlock((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()));
     }
 
     private void blockWithItem(Block block) {
