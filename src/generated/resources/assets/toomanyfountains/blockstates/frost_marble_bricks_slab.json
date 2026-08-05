@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/frost_marble_bricks_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/frost_marble_bricks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/frost_marble_bricks_slab_top"
+    }
+  }
+}

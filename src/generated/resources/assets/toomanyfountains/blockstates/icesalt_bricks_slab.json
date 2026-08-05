@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/icesalt_bricks_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/icesalt_bricks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/icesalt_bricks_slab_top"
+    }
+  }
+}

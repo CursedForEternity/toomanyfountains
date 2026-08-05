@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/hailstone_bricks_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/hailstone_bricks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/hailstone_bricks_slab_top"
+    }
+  }
+}

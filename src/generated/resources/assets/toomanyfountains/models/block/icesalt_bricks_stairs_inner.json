@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/inner_stairs",
+  "textures": {
+    "bottom": "toomanyfountains:block/icesalt_bricks",
+    "side": "toomanyfountains:block/icesalt_bricks",
+    "top": "toomanyfountains:block/icesalt_bricks"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "toomanyfountains:block/frost_marble_bricks",
+    "side": "toomanyfountains:block/frost_marble_bricks",
+    "top": "toomanyfountains:block/frost_marble_bricks"
+  }
+}
