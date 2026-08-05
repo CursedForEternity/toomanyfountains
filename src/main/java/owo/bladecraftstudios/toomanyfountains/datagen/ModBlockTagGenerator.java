@@ -173,8 +173,24 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.FROZEN_OAK_GATE.get());
         this.tag(BlockTags.WALLS)
                 .add(DWBlocks.ICESALT_WALL.get())
+                .add(DWBlocks.COBBLED_ICESALT_WALL.get())
+                .add(DWBlocks.POLISHED_ICESALT_WALL.get())
+                .add(DWBlocks.ICESALT_BRICKS_WALL.get())
+                .add(DWBlocks.ICESALT_TILES_WALL.get())
                 .add(DWBlocks.HAILSTONE_WALL.get())
+                .add(DWBlocks.COBBLED_HAILSTONE_WALL.get())
+                .add(DWBlocks.POLISHED_HAILSTONE_WALL.get())
+                .add(DWBlocks.HAILSTONE_BRICKS_WALL.get())
+                .add(DWBlocks.HAILSTONE_TILES_WALL.get())
                 .add(DWBlocks.SUBZERO_STONE_WALL.get())
-                .add(DWBlocks.FROST_MARBLE_WALL.get());
+                .add(DWBlocks.COBBLED_SUBZERO_STONE_WALL.get())
+                .add(DWBlocks.POLISHED_SUBZERO_STONE_WALL.get())
+                .add(DWBlocks.SUBZERO_STONE_BRICKS_WALL.get())
+                .add(DWBlocks.SUBZERO_STONE_TILES_WALL.get())
+                .add(DWBlocks.FROST_MARBLE_WALL.get())
+                .add(DWBlocks.COBBLED_FROST_MARBLE_WALL.get())
+                .add(DWBlocks.POLISHED_FROST_MARBLE_WALL.get())
+                .add(DWBlocks.FROST_MARBLE_BRICKS_WALL.get())
+                .add(DWBlocks.FROST_MARBLE_TILES_WALL.get());
     }
 }

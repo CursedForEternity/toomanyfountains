@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/pink_coralwood_log",
+    "side": "toomanyfountains:block/pink_coralwood_log"
+  }
+}

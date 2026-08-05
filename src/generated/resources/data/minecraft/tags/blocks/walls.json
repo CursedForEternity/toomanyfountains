@@ -1,8 +1,24 @@
 {
   "values": [
     "toomanyfountains:icesalt_wall",
+    "toomanyfountains:cobbled_icesalt_wall",
+    "toomanyfountains:polished_icesalt_wall",
+    "toomanyfountains:icesalt_bricks_wall",
+    "toomanyfountains:icesalt_tiles_wall",
     "toomanyfountains:hailstone_wall",
+    "toomanyfountains:cobbled_hailstone_wall",
+    "toomanyfountains:polished_hailstone_wall",
+    "toomanyfountains:hailstone_bricks_wall",
+    "toomanyfountains:hailstone_tiles_wall",
     "toomanyfountains:subzero_stone_wall",
-    "toomanyfountains:frost_marble_wall"
+    "toomanyfountains:cobbled_subzero_stone_wall",
+    "toomanyfountains:polished_subzero_stone_wall",
+    "toomanyfountains:subzero_stone_bricks_wall",
+    "toomanyfountains:subzero_stone_tiles_wall",
+    "toomanyfountains:frost_marble_wall",
+    "toomanyfountains:cobbled_frost_marble_wall",
+    "toomanyfountains:polished_frost_marble_wall",
+    "toomanyfountains:frost_marble_bricks_wall",
+    "toomanyfountains:frost_marble_tiles_wall"
   ]
 }
