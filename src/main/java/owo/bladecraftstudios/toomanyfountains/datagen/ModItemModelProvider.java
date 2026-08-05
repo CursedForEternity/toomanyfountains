@@ -49,6 +49,18 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_PILLAR);
         buttonItem(DWBlocks.FROST_MARBLE_BUTTON,DWBlocks.FROST_MARBLE);
         wallItem(DWBlocks.FROST_MARBLE_WALL,DWBlocks.FROST_MARBLE);
+
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_WOOD);
+        evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_WOOD);
+        evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_WOOD);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_WOOD);
+        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_WOOD);
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

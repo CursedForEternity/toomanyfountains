@@ -22,7 +22,17 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.NEEDS_STONE_TOOL);
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(DWBlocks.CIRCUS_BOARDS.get())
-                .add(DWBlocks.CIRCUS_FLOOR.get());
+                .add(DWBlocks.CIRCUS_FLOOR.get())
+                .add(DWBlocks.RED_CORALWOOD_LOG.get())
+                .add(DWBlocks.RED_CORALWOOD_WOOD.get())
+                .add(DWBlocks.BLUE_CORALWOOD_LOG.get())
+                .add(DWBlocks.BLUE_CORALWOOD_WOOD.get())
+                .add(DWBlocks.PINK_CORALWOOD_LOG.get())
+                .add(DWBlocks.PINK_CORALWOOD_WOOD.get())
+                .add(DWBlocks.YELLOW_CORALWOOD_LOG.get())
+                .add(DWBlocks.YELLOW_CORALWOOD_WOOD.get())
+                .add(DWBlocks.PURPLE_CORALWOOD_LOG.get())
+                .add(DWBlocks.PURPLE_CORALWOOD_WOOD.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(DWBlocks.ICESALT.get())
                 .add(DWBlocks.ICESALT_STAIRS.get())
