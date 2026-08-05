@@ -20,6 +20,11 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(BlockTags.NEEDS_STONE_TOOL);
+        this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
+                .add(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())
+                .add(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get())
+                .add(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get())
+                .add(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(DWBlocks.CIRCUS_BOARDS.get())
                 .add(DWBlocks.CIRCUS_FLOOR.get())

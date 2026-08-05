@@ -154,6 +154,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_TILES_SLAB);
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE);
 
+        //Ocean
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_LOG);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_WOOD);
         evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_LOG);

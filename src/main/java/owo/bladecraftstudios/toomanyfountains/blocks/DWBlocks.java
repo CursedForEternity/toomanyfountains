@@ -43,6 +43,14 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> OCEAN_DIRT = registerBlock("ocean_dirt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+    public static final RegistryObject<Block> SHALLOWLIGHT_GRASS_BLOCK = registerBlock("shallowlight_grass_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+    public static final RegistryObject<Block> DEEPLIGHT_GRASS_BLOCK = registerBlock("deeplight_grass_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+    public static final RegistryObject<Block> ABYSSLIGHT_GRASS_BLOCK = registerBlock("abysslight_grass_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+    public static final RegistryObject<Block> SUNKENLIGHT_GRASS_BLOCK = registerBlock("sunkenlight_grass_block",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> BUBBLY_LEAVES = registerBlock("bubbly_leaves",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> RED_CORALWOOD_LOG = registerBlock("red_coralwood_log",
