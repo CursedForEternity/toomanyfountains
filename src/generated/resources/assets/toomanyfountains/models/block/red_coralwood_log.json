@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/red_coralwood_log_top",
+    "side": "toomanyfountains:block/red_coralwood_log"
+  }
+}
