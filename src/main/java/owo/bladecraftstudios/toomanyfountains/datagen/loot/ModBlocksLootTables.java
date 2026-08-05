@@ -122,6 +122,111 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         this.dropSelf(DWBlocks.ARCTIC_SNOW.get());
         this.dropSelf(DWBlocks.POWDER_ARCTIC_SNOW.get());
+
+        //COBBLED_ cobbled_
+        this.dropSelf(DWBlocks.COBBLED_ICESALT_STAIRS.get());
+        this.add(DWBlocks.COBBLED_ICESALT_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.COBBLED_ICESALT_SLAB.get()));
+        this.dropSelf(DWBlocks.COBBLED_ICESALT_WALL.get());
+        this.dropSelf(DWBlocks.COBBLED_ICESALT_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.COBBLED_ICESALT_BUTTON.get());
+        this.dropSelf(DWBlocks.COBBLED_HAILSTONE_STAIRS.get());
+        this.add(DWBlocks.COBBLED_HAILSTONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.COBBLED_HAILSTONE_SLAB.get()));
+        this.dropSelf(DWBlocks.COBBLED_HAILSTONE_WALL.get());
+        this.dropSelf(DWBlocks.COBBLED_HAILSTONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.COBBLED_HAILSTONE_BUTTON.get());
+        this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE_STAIRS.get());
+        this.add(DWBlocks.COBBLED_SUBZERO_STONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.COBBLED_SUBZERO_STONE_SLAB.get()));
+        this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE_WALL.get());
+        this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.COBBLED_SUBZERO_STONE_BUTTON.get());
+        this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE_STAIRS.get());
+        this.add(DWBlocks.COBBLED_FROST_MARBLE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.COBBLED_FROST_MARBLE_SLAB.get()));
+        this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE_WALL.get());
+        this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.COBBLED_FROST_MARBLE_BUTTON.get());
+
+        //POLISHED_ polished_
+        this.dropSelf(DWBlocks.POLISHED_ICESALT_STAIRS.get());
+        this.add(DWBlocks.POLISHED_ICESALT_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.POLISHED_ICESALT_SLAB.get()));
+        this.dropSelf(DWBlocks.POLISHED_ICESALT_WALL.get());
+        this.dropSelf(DWBlocks.POLISHED_ICESALT_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.POLISHED_ICESALT_BUTTON.get());
+        this.dropSelf(DWBlocks.POLISHED_HAILSTONE_STAIRS.get());
+        this.add(DWBlocks.POLISHED_HAILSTONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.POLISHED_HAILSTONE_SLAB.get()));
+        this.dropSelf(DWBlocks.POLISHED_HAILSTONE_WALL.get());
+        this.dropSelf(DWBlocks.POLISHED_HAILSTONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.POLISHED_HAILSTONE_BUTTON.get());
+        this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE_STAIRS.get());
+        this.add(DWBlocks.POLISHED_SUBZERO_STONE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.POLISHED_SUBZERO_STONE_SLAB.get()));
+        this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE_WALL.get());
+        this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.POLISHED_SUBZERO_STONE_BUTTON.get());
+        this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE_STAIRS.get());
+        this.add(DWBlocks.POLISHED_FROST_MARBLE_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.POLISHED_FROST_MARBLE_SLAB.get()));
+        this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE_WALL.get());
+        this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.POLISHED_FROST_MARBLE_BUTTON.get());
+
+        //_BRICKS _bricks
+        this.dropSelf(DWBlocks.ICESALT_BRICKS_STAIRS.get());
+        this.add(DWBlocks.ICESALT_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.ICESALT_BRICKS_SLAB.get()));
+        this.dropSelf(DWBlocks.ICESALT_BRICKS_WALL.get());
+        this.dropSelf(DWBlocks.ICESALT_BRICKS_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.ICESALT_BRICKS_BUTTON.get());
+        this.dropSelf(DWBlocks.HAILSTONE_BRICKS_STAIRS.get());
+        this.add(DWBlocks.HAILSTONE_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.HAILSTONE_BRICKS_SLAB.get()));
+        this.dropSelf(DWBlocks.HAILSTONE_BRICKS_WALL.get());
+        this.dropSelf(DWBlocks.HAILSTONE_BRICKS_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.HAILSTONE_BRICKS_BUTTON.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS_STAIRS.get());
+        this.add(DWBlocks.SUBZERO_STONE_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.SUBZERO_STONE_BRICKS_SLAB.get()));
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS_WALL.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_BRICKS_BUTTON.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS_STAIRS.get());
+        this.add(DWBlocks.FROST_MARBLE_BRICKS_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.FROST_MARBLE_BRICKS_SLAB.get()));
+        this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS_WALL.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_BRICKS_BUTTON.get());
+
+        //_TILES _tiles
+        this.dropSelf(DWBlocks.ICESALT_TILES_STAIRS.get());
+        this.add(DWBlocks.ICESALT_TILES_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.ICESALT_TILES_SLAB.get()));
+        this.dropSelf(DWBlocks.ICESALT_TILES_WALL.get());
+        this.dropSelf(DWBlocks.ICESALT_TILES_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.ICESALT_TILES_BUTTON.get());
+        this.dropSelf(DWBlocks.HAILSTONE_TILES_STAIRS.get());
+        this.add(DWBlocks.HAILSTONE_TILES_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.HAILSTONE_TILES_SLAB.get()));
+        this.dropSelf(DWBlocks.HAILSTONE_TILES_WALL.get());
+        this.dropSelf(DWBlocks.HAILSTONE_TILES_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.HAILSTONE_TILES_BUTTON.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_TILES_STAIRS.get());
+        this.add(DWBlocks.SUBZERO_STONE_TILES_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.SUBZERO_STONE_TILES_SLAB.get()));
+        this.dropSelf(DWBlocks.SUBZERO_STONE_TILES_WALL.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_TILES_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.SUBZERO_STONE_TILES_BUTTON.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_TILES_STAIRS.get());
+        this.add(DWBlocks.FROST_MARBLE_TILES_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.FROST_MARBLE_TILES_SLAB.get()));
+        this.dropSelf(DWBlocks.FROST_MARBLE_TILES_WALL.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.FROST_MARBLE_TILES_BUTTON.get());
+
     }
 
     private void dropsSelf() {

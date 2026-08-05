@@ -58,7 +58,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.FROZEN_OAK_GATE.get());
         output.accept(DWBlocks.FROZEN_OAK_DOOR.get());
         output.accept(DWBlocks.FROZEN_OAK_TRAPDOOR.get());
-        output.accept(DWBlocks.FROST_MARBLE_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.FROZEN_OAK_PRESSURE_PLATE.get());
         output.accept(DWBlocks.FROZEN_OAK_BUTTON.get());
         output.accept(DWBlocks.ICESALT.get());
         output.accept(DWBlocks.ICESALT_STAIRS.get());
