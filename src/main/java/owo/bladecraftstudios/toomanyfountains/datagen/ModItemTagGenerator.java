@@ -26,6 +26,15 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(DWBlocks.FROZEN_OAK_WOOD.get().asItem())
                 .add(DWBlocks.STRIPPED_FROZEN_OAK_LOG.get().asItem())
                 .add(DWBlocks.STRIPPED_FROZEN_OAK_WOOD.get().asItem())
-                .add(DWBlocks.FROZEN_OAK_PLANKS.get().asItem());
+                .add(DWBlocks.FROZEN_OAK_PLANKS.get().asItem())
+                .add(DWBlocks.RED_CORALWOOD_WOOD.get().asItem())
+                .add(DWBlocks.BLUE_CORALWOOD_LOG.get().asItem())
+                .add(DWBlocks.BLUE_CORALWOOD_WOOD.get().asItem())
+                .add(DWBlocks.PINK_CORALWOOD_LOG.get().asItem())
+                .add(DWBlocks.PINK_CORALWOOD_WOOD.get().asItem())
+                .add(DWBlocks.YELLOW_CORALWOOD_LOG.get().asItem())
+                .add(DWBlocks.YELLOW_CORALWOOD_WOOD.get().asItem())
+                .add(DWBlocks.PURPLE_CORALWOOD_LOG.get().asItem())
+                .add(DWBlocks.PURPLE_CORALWOOD_WOOD.get().asItem());
     }
 }
