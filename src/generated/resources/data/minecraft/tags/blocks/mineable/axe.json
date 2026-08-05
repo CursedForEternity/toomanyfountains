@@ -1,6 +1,16 @@
 {
   "values": [
     "toomanyfountains:circus_boards",
-    "toomanyfountains:circus_floor"
+    "toomanyfountains:circus_floor",
+    "toomanyfountains:red_coralwood_log",
+    "toomanyfountains:red_coralwood_wood",
+    "toomanyfountains:blue_coralwood_log",
+    "toomanyfountains:blue_coralwood_wood",
+    "toomanyfountains:pink_coralwood_log",
+    "toomanyfountains:pink_coralwood_wood",
+    "toomanyfountains:yellow_coralwood_log",
+    "toomanyfountains:yellow_coralwood_wood",
+    "toomanyfountains:purple_coralwood_log",
+    "toomanyfountains:purple_coralwood_wood"
   ]
 }

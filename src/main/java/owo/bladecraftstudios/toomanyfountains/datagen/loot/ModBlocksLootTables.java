@@ -31,6 +31,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.add(DWBlocks.SILWARE_DEBRIS.get(),
                 block -> createQroupletDrop(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
+
         //Ocean
         this.dropSelf(DWBlocks.RED_CORALWOOD_LOG.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_WOOD.get());
