@@ -36,6 +36,7 @@ public class DWBlocks {
     public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
 // Ocean Blues
+
     public static final RegistryObject<Block> FOAM_ORE = registerBlock("foam_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
@@ -51,6 +52,7 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> SUNKENLIGHT_GRASS_BLOCK = registerBlock("sunkenlight_grass_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+
     public static final RegistryObject<Block> BUBBLY_LEAVES = registerBlock("bubbly_leaves",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_LEAVES).sound(SoundType.GRASS)));
     public static final RegistryObject<Block> RED_CORALWOOD_LOG = registerBlock("red_coralwood_log",

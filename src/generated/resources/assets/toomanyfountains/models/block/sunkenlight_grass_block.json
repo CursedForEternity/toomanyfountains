@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "textures": {
+    "bottom": "toomanyfountains:block/sunkenlight_grass_block_bottom",
+    "side": "toomanyfountains:block/sunkenlight_grass_block_side",
+    "top": "toomanyfountains:block/sunkenlight_grass_block_top"
+  }
+}
