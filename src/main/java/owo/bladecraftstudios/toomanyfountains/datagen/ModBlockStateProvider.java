@@ -206,6 +206,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockFloor(DWBlocks.DEEPLIGHT_GRASS_BLOCK);
         blockFloor(DWBlocks.ABYSSLIGHT_GRASS_BLOCK);
         blockFloor(DWBlocks.SUNKENLIGHT_GRASS_BLOCK);
+        blockWithItem(DWBlocks.DEEPSTONE);
+
     }
 
     private void blockWithItem(Block block) {

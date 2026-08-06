@@ -167,7 +167,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.FROST_MARBLE_TILES_WALL.get())
                 .add(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get())
                 .add(DWBlocks.FROST_MARBLE_TILES_BUTTON.get())
-
+                .add(DWBlocks.DEEPSTONE.get())
                 .add(DWBlocks.CIRCUS_STONE.get())
                 .add(DWBlocks.SILWARE_DEBRIS.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)

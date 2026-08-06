@@ -42,6 +42,8 @@ public class DWBlocks {
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     public static final RegistryObject<Block> OCEAN_SLATE = registerBlock("ocean_slate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> DEEPSTONE = registerBlock("deepstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> OCEAN_DIRT = registerBlock("ocean_dirt",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> SHALLOWLIGHT_GRASS_BLOCK = registerBlock("shallowlight_grass_block",
