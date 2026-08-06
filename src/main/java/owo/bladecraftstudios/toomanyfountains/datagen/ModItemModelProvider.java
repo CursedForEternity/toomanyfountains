@@ -166,6 +166,7 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_LOG);
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_WOOD);
 
+
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

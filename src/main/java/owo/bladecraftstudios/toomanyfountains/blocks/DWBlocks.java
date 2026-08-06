@@ -38,10 +38,10 @@ public class DWBlocks {
 // Ocean Blues
 
     public static final RegistryObject<Block> FOAM_ORE = registerBlock("foam_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.STONE)
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
                     .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
     public static final RegistryObject<Block> OCEAN_SLATE = registerBlock("ocean_slate",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DEEPSTONE = registerBlock("deepstone",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> OCEAN_DIRT = registerBlock("ocean_dirt",
