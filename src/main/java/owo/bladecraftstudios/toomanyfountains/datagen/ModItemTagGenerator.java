@@ -35,6 +35,8 @@ public class ModItemTagGenerator extends ItemTagsProvider {
                 .add(DWBlocks.YELLOW_CORALWOOD_LOG.get().asItem())
                 .add(DWBlocks.YELLOW_CORALWOOD_WOOD.get().asItem())
                 .add(DWBlocks.PURPLE_CORALWOOD_LOG.get().asItem())
-                .add(DWBlocks.PURPLE_CORALWOOD_WOOD.get().asItem());
+                .add(DWBlocks.PURPLE_CORALWOOD_WOOD.get().asItem())
+                .add(DWBlocks.DEAD_CORALWOOD_LOG.get().asItem())
+                .add(DWBlocks.DEAD_CORALWOOD_WOOD.get().asItem());
     }
 }

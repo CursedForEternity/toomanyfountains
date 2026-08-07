@@ -129,6 +129,9 @@
     "toomanyfountains:frost_marble_tiles_pressure_plate",
     "toomanyfountains:frost_marble_tiles_button",
     "toomanyfountains:circus_stone",
-    "toomanyfountains:silware_debris"
+    "toomanyfountains:silware_debris",
+    "toomanyfountains:foam_ore",
+    "toomanyfountains:abyss_ore",
+    "toomanyfountains:hydron_ore"
   ]
 }
