@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/ocean_slate_top",
+    "side": "toomanyfountains:block/ocean_slate"
+  }
+}

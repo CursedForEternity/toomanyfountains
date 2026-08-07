@@ -168,8 +168,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get())
                 .add(DWBlocks.FROST_MARBLE_TILES_BUTTON.get())
                 .add(DWBlocks.DEEPSTONE.get())
+                .add(DWBlocks.OCEAN_DIRT.get())
+                .add(DWBlocks.OCEAN_SLATE.get())
                 .add(DWBlocks.CIRCUS_STONE.get())
-                .add(DWBlocks.SILWARE_DEBRIS.get());
+                .add(DWBlocks.SILWARE_DEBRIS.get())
+                .add(DWBlocks.FOAM_ORE.get())
+                .add(DWBlocks.ABYSS_ORE.get())
+                .add(DWBlocks.HYDRON_ORE.get());
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(DWBlocks.CIRCUS_ASH.get());
         this.tag(BlockTags.FENCES)

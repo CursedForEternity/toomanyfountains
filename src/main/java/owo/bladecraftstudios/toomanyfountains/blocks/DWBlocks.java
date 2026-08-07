@@ -38,8 +38,11 @@ public class DWBlocks {
 // Ocean Blues
 
     public static final RegistryObject<Block> FOAM_ORE = registerBlock("foam_ore",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE)
-                    .requiresCorrectToolForDrops(), UniformInt.of(3, 6)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ABYSS_ORE = registerBlock("abyss_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.DIAMOND_ORE).sound(SoundType.ANCIENT_DEBRIS)));
+    public static final RegistryObject<Block> HYDRON_ORE = registerBlock("hydron_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.ANCIENT_DEBRIS).sound(SoundType.SCULK_SHRIEKER)));
     public static final RegistryObject<Block> OCEAN_SLATE = registerBlock("ocean_slate",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> DEEPSTONE = registerBlock("deepstone",

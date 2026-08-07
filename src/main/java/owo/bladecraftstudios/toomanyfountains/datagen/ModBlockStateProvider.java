@@ -207,7 +207,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockFloor(DWBlocks.ABYSSLIGHT_GRASS_BLOCK);
         blockFloor(DWBlocks.SUNKENLIGHT_GRASS_BLOCK);
         blockWithItem(DWBlocks.DEEPSTONE);
-
+        blockWithItem(DWBlocks.OCEAN_DIRT);
+        blockColumn(DWBlocks.OCEAN_SLATE);
+        blockWithItem(DWBlocks.FOAM_ORE);
+        blockWithItem(DWBlocks.ABYSS_ORE);
+        blockWithItem(DWBlocks.HYDRON_ORE);
     }
 
     private void blockWithItem(Block block) {
