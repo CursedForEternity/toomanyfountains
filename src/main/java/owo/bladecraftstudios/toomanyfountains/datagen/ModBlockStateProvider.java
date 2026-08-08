@@ -204,6 +204,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         axisBlock(((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()));
         logBlock((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_LOG.get());
         axisBlock(((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()));
+        blockWithItem(DWBlocks.RED_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.PINK_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.DEAD_CORALWOOD_PLANKS);
         blockFloor(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK);
         blockFloor(DWBlocks.DEEPLIGHT_GRASS_BLOCK);
         blockFloor(DWBlocks.ABYSSLIGHT_GRASS_BLOCK);

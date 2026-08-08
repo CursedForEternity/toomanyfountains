@@ -53,6 +53,12 @@ public class CreativeTabs {
         output.accept(DWBlocks.BLUE_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.DEAD_CORALWOOD_LOG.get());
         output.accept(DWBlocks.DEAD_CORALWOOD_WOOD.get());
+        output.accept(DWBlocks.RED_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.PURPLE_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> ICE_TAB = CREATIVE_TABS.register("ice_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.ICESALT.get())).title(Component.translatable("creativetab.ice_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.SOOT_SNOW.get());

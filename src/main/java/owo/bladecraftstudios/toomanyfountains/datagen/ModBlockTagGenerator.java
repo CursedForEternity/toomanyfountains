@@ -39,7 +39,13 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.PURPLE_CORALWOOD_LOG.get())
                 .add(DWBlocks.PURPLE_CORALWOOD_WOOD.get())
                 .add(DWBlocks.DEAD_CORALWOOD_LOG.get())
-                .add(DWBlocks.DEAD_CORALWOOD_WOOD.get());
+                .add(DWBlocks.DEAD_CORALWOOD_WOOD.get())
+                .add(DWBlocks.RED_CORALWOOD_PLANKS.get())
+                .add(DWBlocks.BLUE_CORALWOOD_PLANKS.get())
+                .add(DWBlocks.PINK_CORALWOOD_PLANKS.get())
+                .add(DWBlocks.YELLOW_CORALWOOD_PLANKS.get())
+                .add(DWBlocks.PURPLE_CORALWOOD_PLANKS.get())
+                .add(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
                 .add(DWBlocks.ICESALT.get())
                 .add(DWBlocks.ICESALT_STAIRS.get())

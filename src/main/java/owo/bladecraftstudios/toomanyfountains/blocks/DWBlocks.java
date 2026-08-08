@@ -36,7 +36,7 @@ public class DWBlocks {
     public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
 // Ocean Blues
-
+        //Worldgen Blocks
     public static final RegistryObject<Block> FOAM_ORE = registerBlock("foam_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_ORE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> ABYSS_ORE = registerBlock("abyss_ore",
@@ -57,6 +57,7 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> SUNKENLIGHT_GRASS_BLOCK = registerBlock("sunkenlight_grass_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+        //Logs/Woods
     public static final RegistryObject<Block> RED_CORALWOOD_LOG = registerBlock("red_coralwood_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
     public static final RegistryObject<Block> RED_CORALWOOD_WOOD = registerBlock("red_coralwood_wood",
@@ -81,6 +82,19 @@ public class DWBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
     public static final RegistryObject<Block> DEAD_CORALWOOD_WOOD = registerBlock("dead_coralwood_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
+        //Plankset
+    public static final RegistryObject<Block> RED_CORALWOOD_PLANKS = registerBlock("red_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PURPLE_CORALWOOD_PLANKS = registerBlock("purple_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> YELLOW_CORALWOOD_PLANKS = registerBlock("yellow_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_PLANKS = registerBlock("pink_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_PLANKS = registerBlock("blue_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> DEAD_CORALWOOD_PLANKS = registerBlock("dead_coralwood_planks",
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
 
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> FROZEN_OAK_LOG = registerBlock("frozen_oak_log",
