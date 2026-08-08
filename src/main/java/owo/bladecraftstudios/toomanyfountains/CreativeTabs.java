@@ -50,6 +50,8 @@ public class CreativeTabs {
         output.accept(DWBlocks.RED_CORALWOOD_GATE.get());
         output.accept(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get());
         output.accept(DWBlocks.RED_CORALWOOD_BUTTON.get());
+        output.accept(DWBlocks.RED_CORALWOOD_DOOR.get());
+        output.accept(DWBlocks.RED_CORALWOOD_TRAPDOOR.get());
         output.accept(DWBlocks.YELLOW_CORALWOOD_LOG.get());
         output.accept(DWBlocks.YELLOW_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());

@@ -46,6 +46,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.RED_CORALWOOD_FENCE.get())
                 .add(DWBlocks.RED_CORALWOOD_GATE.get())
                 .add(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get())
+                .add(DWBlocks.RED_CORALWOOD_DOOR.get())
+                .add(DWBlocks.RED_CORALWOOD_TRAPDOOR.get())
                 .add(DWBlocks.RED_CORALWOOD_BUTTON.get())
                 .add(DWBlocks.BLUE_CORALWOOD_PLANKS.get())
                 .add(DWBlocks.PINK_CORALWOOD_PLANKS.get())
