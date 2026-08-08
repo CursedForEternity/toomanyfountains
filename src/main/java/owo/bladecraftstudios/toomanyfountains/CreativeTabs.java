@@ -55,6 +55,14 @@ public class CreativeTabs {
         output.accept(DWBlocks.YELLOW_CORALWOOD_LOG.get());
         output.accept(DWBlocks.YELLOW_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_STAIRS.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_SLAB.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_FENCE.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_GATE.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_BUTTON.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_DOOR.get());
+        output.accept(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR.get());
         output.accept(DWBlocks.BLUE_CORALWOOD_LOG.get());
         output.accept(DWBlocks.BLUE_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.BLUE_CORALWOOD_PLANKS.get());

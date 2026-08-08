@@ -4,7 +4,7 @@
       "model": "toomanyfountains:block/red_coralwood_slab"
     },
     "type=double": {
-      "model": "toomanyfountains:block/red_coralwood"
+      "model": "toomanyfountains:block/red_coralwood_planks"
     },
     "type=top": {
       "model": "toomanyfountains:block/red_coralwood_slab_top"

@@ -178,6 +178,13 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.YELLOW_CORALWOOD_FENCE,DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.YELLOW_CORALWOOD_BUTTON,DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_STAIRS);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_SLAB);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE);
+        simpleBlockItem(DWBlocks.YELLOW_CORALWOOD_DOOR);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR);
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
         fenceItem(DWBlocks.PURPLE_CORALWOOD_FENCE,DWBlocks.PURPLE_CORALWOOD_PLANKS);
         buttonItem(DWBlocks.PURPLE_CORALWOOD_BUTTON,DWBlocks.PURPLE_CORALWOOD_PLANKS);
