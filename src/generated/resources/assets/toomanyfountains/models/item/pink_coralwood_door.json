@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "toomanyfountains:item/pink_coralwood_door"
+  }
+}

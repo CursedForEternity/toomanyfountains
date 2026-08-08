@@ -30,17 +30,17 @@ public class CreativeTabs {
         output.accept(DWItems.SILWARE.get());
         output.accept(DWBlocks.SILWARE_DEBRIS.get());
     }).build());
-    public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.RED_CORALWOOD_LOG.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
-        output.accept(DWBlocks.FOAM_ORE.get());
-        output.accept(DWBlocks.ABYSS_ORE.get());
-        output.accept(DWBlocks.HYDRON_ORE.get());
-        output.accept(DWBlocks.OCEAN_DIRT.get());
-        output.accept(DWBlocks.OCEAN_SLATE.get());
-        output.accept(DWBlocks.DEEPSTONE.get());
+    public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());
+        output.accept(DWBlocks.OCEAN_DIRT.get());
         output.accept(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get());
         output.accept(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get());
+        output.accept(DWBlocks.OCEAN_SLATE.get());
+        output.accept(DWBlocks.FOAM_ORE.get());
+        output.accept(DWBlocks.ABYSS_ORE.get());
         output.accept(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
+        output.accept(DWBlocks.DEEPSTONE.get());
+        output.accept(DWBlocks.HYDRON_ORE.get());
         output.accept(DWBlocks.RED_CORALWOOD_LOG.get());
         output.accept(DWBlocks.RED_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.RED_CORALWOOD_PLANKS.get());
@@ -66,9 +66,25 @@ public class CreativeTabs {
         output.accept(DWBlocks.BLUE_CORALWOOD_LOG.get());
         output.accept(DWBlocks.BLUE_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.BLUE_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_STAIRS.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_SLAB.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_FENCE.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_GATE.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_BUTTON.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_DOOR.get());
+        output.accept(DWBlocks.BLUE_CORALWOOD_TRAPDOOR.get());
         output.accept(DWBlocks.PINK_CORALWOOD_LOG.get());
         output.accept(DWBlocks.PINK_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.PINK_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_STAIRS.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_SLAB.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_FENCE.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_GATE.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_BUTTON.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_DOOR.get());
+        output.accept(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_LOG.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_PLANKS.get());
@@ -80,6 +96,9 @@ public class CreativeTabs {
         output.accept(DWBlocks.PURPLE_CORALWOOD_BUTTON.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_DOOR.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
+    }).build());
+
+    public static final RegistryObject<CreativeModeTab> DESOLATE_TAB = CREATIVE_TABS.register("ocean_second_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.DEAD_CORALWOOD_LOG.get())).title(Component.translatable("creativetab.ocean_second_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.DEAD_CORALWOOD_LOG.get());
         output.accept(DWBlocks.DEAD_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.DEAD_CORALWOOD_PLANKS.get());

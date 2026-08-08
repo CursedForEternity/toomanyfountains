@@ -85,6 +85,22 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_DOOR.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_STAIRS.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_SLAB.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_FENCE.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_GATE.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_BUTTON.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_DOOR.get());
+        this.dropSelf(DWBlocks.BLUE_CORALWOOD_TRAPDOOR.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_STAIRS.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_SLAB.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_FENCE.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_GATE.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_BUTTON.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_DOOR.get());
+        this.dropSelf(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get());
 
         //Cold Place
         this.dropSelf(DWBlocks.SOOT_SNOW.get());

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/pink_coralwood_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/pink_coralwood_planks"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/pink_coralwood_slab_top"
+    }
+  }
+}

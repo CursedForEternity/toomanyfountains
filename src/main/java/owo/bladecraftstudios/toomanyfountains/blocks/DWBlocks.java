@@ -146,11 +146,49 @@ public class DWBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
     public static final RegistryObject<Block> YELLOW_CORALWOOD_TRAPDOOR = registerBlock("yellow_coralwood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
-
+            //Pink Coralwood
     public static final RegistryObject<Block> PINK_CORALWOOD_PLANKS = registerBlock("pink_coralwood_planks",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_STAIRS = registerBlock("pink_coralwood_stairs",
+            () -> new StairBlock(() -> DWBlocks.PINK_CORALWOOD_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_SLAB = registerBlock("pink_coralwood_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_FENCE = registerBlock("pink_coralwood_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> PINK_CORALWOOD_GATE = registerBlock("pink_coralwood_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD),SoundEvents.CHERRY_WOOD_FENCE_GATE_CLOSE,SoundEvents.CHERRY_WOOD_FENCE_GATE_OPEN));
+    public static final RegistryObject<Block> PINK_CORALWOOD_BUTTON = registerBlock("pink_coralwood_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> PINK_CORALWOOD_PRESSURE_PLATE = registerBlock("pink_coralwood_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.WOOD),
+                    BlockSetType.OAK));
+    public static final RegistryObject<Block> PINK_CORALWOOD_DOOR = registerBlock("pink_coralwood_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
+    public static final RegistryObject<Block> PINK_CORALWOOD_TRAPDOOR = registerBlock("pink_coralwood_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
+            //Blue Coralwood
     public static final RegistryObject<Block> BLUE_CORALWOOD_PLANKS = registerBlock("blue_coralwood_planks",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_STAIRS = registerBlock("blue_coralwood_stairs",
+            () -> new StairBlock(() -> DWBlocks.BLUE_CORALWOOD_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_SLAB = registerBlock("blue_coralwood_slab",
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_FENCE = registerBlock("blue_coralwood_fence",
+            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_GATE = registerBlock("blue_coralwood_gate",
+            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD),SoundEvents.CHERRY_WOOD_FENCE_GATE_CLOSE,SoundEvents.CHERRY_WOOD_FENCE_GATE_OPEN));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_BUTTON = registerBlock("blue_coralwood_button",
+            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD),
+                    BlockSetType.STONE, 10, true));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_PRESSURE_PLATE = registerBlock("blue_coralwood_pressure_plate",
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.WOOD),
+                    BlockSetType.OAK));
+    public static final RegistryObject<Block> BLUE_CORALWOOD_DOOR = registerBlock("blue_coralwood_door",
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
+        public static final RegistryObject<Block> BLUE_CORALWOOD_TRAPDOOR = registerBlock("blue_coralwood_trapdoor",
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
+
     public static final RegistryObject<Block> DEAD_CORALWOOD_PLANKS = registerBlock("dead_coralwood_planks",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD).strength(3f)));
 
