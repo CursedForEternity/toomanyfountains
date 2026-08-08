@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "toomanyfountains:block/red_coralwood_planks",
+    "side": "toomanyfountains:block/red_coralwood_planks",
+    "top": "toomanyfountains:block/red_coralwood_planks"
+  }
+}

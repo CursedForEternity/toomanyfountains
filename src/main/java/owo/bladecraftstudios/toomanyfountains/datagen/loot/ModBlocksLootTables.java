@@ -56,6 +56,12 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.ABYSS_ORE.get());
         this.dropSelf(DWBlocks.HYDRON_ORE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_PLANKS.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_STAIRS.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_SLAB.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_FENCE.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_GATE.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.RED_CORALWOOD_BUTTON.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());

@@ -194,6 +194,12 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //Ocean
         logBlock((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_LOG.get());
         axisBlock(((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()));
+        stairsBlock(((StairBlock) DWBlocks.RED_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.RED_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.RED_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.RED_CORALWOOD_GATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.RED_CORALWOOD_BUTTON.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
         logBlock((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_LOG.get());
         axisBlock(((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()));
         logBlock((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_LOG.get());
