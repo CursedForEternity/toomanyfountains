@@ -51,7 +51,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropOther(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get(), DWBlocks.OCEAN_DIRT.get());
         this.dropOther(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get(), DWBlocks.OCEAN_DIRT.get());
         this.dropOther(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get(), DWBlocks.OCEAN_SLATE.get());
-        this.dropSelf(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
+        this.dropOther(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get(), DWBlocks.DEEPSTONE.get());
         this.dropSelf(DWBlocks.FOAM_ORE.get());
         this.dropSelf(DWBlocks.ABYSS_ORE.get());
         this.dropSelf(DWBlocks.HYDRON_ORE.get());
@@ -68,6 +68,14 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.PINK_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_PLANKS.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_STAIRS.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_SLAB.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_FENCE.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_GATE.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_BUTTON.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_DOOR.get());
+        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
 
         //Cold Place
