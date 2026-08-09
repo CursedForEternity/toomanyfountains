@@ -57,49 +57,59 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.HYDRON_ORE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_STAIRS.get());
-        this.dropSelf(DWBlocks.RED_CORALWOOD_SLAB.get());
+        this.add(DWBlocks.RED_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.RED_CORALWOOD_SLAB.get()));
         this.dropSelf(DWBlocks.RED_CORALWOOD_FENCE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_GATE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_BUTTON.get());
-        this.dropSelf(DWBlocks.RED_CORALWOOD_DOOR.get());
+        this.add(DWBlocks.RED_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.RED_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.RED_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_STAIRS.get());
-        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_SLAB.get());
+        this.add(DWBlocks.PURPLE_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.PURPLE_CORALWOOD_SLAB.get()));
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_FENCE.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_GATE.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_BUTTON.get());
-        this.dropSelf(DWBlocks.PURPLE_CORALWOOD_DOOR.get());
+        this.add(DWBlocks.PURPLE_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.PURPLE_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_STAIRS.get());
-        this.dropSelf(DWBlocks.YELLOW_CORALWOOD_SLAB.get());
+        this.add(DWBlocks.YELLOW_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.YELLOW_CORALWOOD_SLAB.get()));
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_FENCE.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_GATE.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_BUTTON.get());
-        this.dropSelf(DWBlocks.YELLOW_CORALWOOD_DOOR.get());
+        this.add(DWBlocks.YELLOW_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.YELLOW_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_STAIRS.get());
-        this.dropSelf(DWBlocks.BLUE_CORALWOOD_SLAB.get());
+        this.add(DWBlocks.BLUE_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.BLUE_CORALWOOD_SLAB.get()));
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_FENCE.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_GATE.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_BUTTON.get());
-        this.dropSelf(DWBlocks.BLUE_CORALWOOD_DOOR.get());
+        this.add(DWBlocks.BLUE_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.BLUE_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_STAIRS.get());
-        this.dropSelf(DWBlocks.PINK_CORALWOOD_SLAB.get());
+        this.add(DWBlocks.PINK_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.PINK_CORALWOOD_SLAB.get()));
         this.dropSelf(DWBlocks.PINK_CORALWOOD_FENCE.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_GATE.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_BUTTON.get());
-        this.dropSelf(DWBlocks.PINK_CORALWOOD_DOOR.get());
+        this.add(DWBlocks.PINK_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.PINK_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get());
 
         //Cold Place
