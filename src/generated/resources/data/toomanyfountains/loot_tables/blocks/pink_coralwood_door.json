@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "toomanyfountains:pink_coralwood_door"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "toomanyfountains:blocks/pink_coralwood_door"
+}
