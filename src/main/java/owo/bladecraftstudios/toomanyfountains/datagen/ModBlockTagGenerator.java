@@ -214,6 +214,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.DEEPSTONE.get())
                 .add(DWBlocks.OCEAN_DIRT.get())
                 .add(DWBlocks.OCEAN_SLATE.get())
+                .add(DWBlocks.SLATE_BRICKS.get())
                 .add(DWBlocks.CIRCUS_STONE.get())
                 .add(DWBlocks.SILWARE_DEBRIS.get())
                 .add(DWBlocks.FOAM_ORE.get())

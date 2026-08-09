@@ -32,8 +32,8 @@ public class CreativeTabs {
     }).build());
     public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());
-        output.accept(DWBlocks.OCEAN_DIRT.get());
         output.accept(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get());
+        output.accept(DWBlocks.OCEAN_DIRT.get());
         output.accept(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get());
         output.accept(DWBlocks.OCEAN_SLATE.get());
         output.accept(DWBlocks.FOAM_ORE.get());
@@ -96,6 +96,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.PURPLE_CORALWOOD_BUTTON.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_DOOR.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
+        output.accept(DWBlocks.SLATE_BRICKS.get());
     }).build());
 
     public static final RegistryObject<CreativeModeTab> DESOLATE_TAB = CREATIVE_TABS.register("ocean_second_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.DEAD_CORALWOOD_LOG.get())).title(Component.translatable("creativetab.ocean_second_dw")).displayItems((itemDisplayParameters, output) -> {

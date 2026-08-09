@@ -226,6 +226,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.FOAM_ORE);
         blockWithItem(DWBlocks.ABYSS_ORE);
         blockWithItem(DWBlocks.HYDRON_ORE);
+        blockWithItem(DWBlocks.SLATE_BRICKS);
     }
 
     private void blockWithItem(Block block) {
