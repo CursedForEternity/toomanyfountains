@@ -11,7 +11,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:deepstone"
+          "name": "toomanyfountains:cobbled_deepstone"
         }
       ],
       "rolls": 1.0

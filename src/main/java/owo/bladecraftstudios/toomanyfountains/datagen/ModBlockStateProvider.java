@@ -228,6 +228,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.HYDRON_ORE);
         blockWithItem(DWBlocks.SLATE_BRICKS);
         blockWithItem(DWBlocks.POLISHED_SLATE);
+        blockWithItem(DWBlocks.SMOOTH_SLATE);
+        blockWithItem(DWBlocks.COBBLED_SLATE);
+        blockWithItem(DWBlocks.CHISELED_DEEPSTONE);
+        blockWithItem(DWBlocks.CHISELED_SLATE);
     }
 
     private void blockWithItem(Block block) {
