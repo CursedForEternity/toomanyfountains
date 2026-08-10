@@ -61,6 +61,8 @@ public class DWBlocks {
             //Slate
         public static final RegistryObject<Block> SLATE_BRICKS = registerBlock("slate_bricks",
                 () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
+    public static final RegistryObject<Block> POLISHED_SLATE = registerBlock("polished_slate",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.STONE)));
         //Logs/Woods
     public static final RegistryObject<Block> RED_CORALWOOD_LOG = registerBlock("red_coralwood_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
