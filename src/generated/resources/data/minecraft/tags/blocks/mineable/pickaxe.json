@@ -128,11 +128,23 @@
     "toomanyfountains:frost_marble_tiles_wall",
     "toomanyfountains:frost_marble_tiles_pressure_plate",
     "toomanyfountains:frost_marble_tiles_button",
+    "toomanyfountains:deepstone",
+    "toomanyfountains:ocean_dirt",
+    "toomanyfountains:ocean_slate",
+    "toomanyfountains:slate_bricks",
+    "toomanyfountains:polished_slate",
+    "toomanyfountains:smooth_slate",
+    "toomanyfountains:cobbled_slate",
+    "toomanyfountains:chiseled_slate",
+    "toomanyfountains:deepstone_bricks",
+    "toomanyfountains:polished_deepstone",
+    "toomanyfountains:smooth_deepstone",
+    "toomanyfountains:cobbled_deepstone",
+    "toomanyfountains:chiseled_deepstone",
     "toomanyfountains:circus_stone",
     "toomanyfountains:silware_debris",
     "toomanyfountains:foam_ore",
     "toomanyfountains:abyss_ore",
-    "toomanyfountains:hydron_ore",
-    "toomanyfountains:slate_bricks"
+    "toomanyfountains:hydron_ore"
   ]
 }

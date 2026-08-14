@@ -1,0 +1,17 @@
+{
+  "targets": [
+    "foam_ore",
+    "ocean_dirt",
+    "ocean_slate",
+    "abyss_ore",
+    "deepstone",
+    "hydron_ore",
+    "shallowlight_grass_block",
+    "abysslight_grass_block",
+    "sunkenlight_grass_block",
+    "deeplight_grass_block"
+  ],
+  "append_models": [
+    "toomanyfountains:block/bubble_sand_overlay"
+  ]
+}

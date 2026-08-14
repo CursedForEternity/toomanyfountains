@@ -39,6 +39,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.ABYSS_ORE.get());
         output.accept(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
         output.accept(DWBlocks.HYDRON_ORE.get());
+        output.accept(DWBlocks.BUBBLE_SAND.get());
         output.accept(DWBlocks.RED_CORALWOOD_LOG.get());
         output.accept(DWBlocks.RED_CORALWOOD_WOOD.get());
         output.accept(DWBlocks.RED_CORALWOOD_PLANKS.get());
