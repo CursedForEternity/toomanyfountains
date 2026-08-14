@@ -121,6 +121,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.add(DWBlocks.PINK_CORALWOOD_DOOR.get(),
                 block -> createDoorTable(DWBlocks.PINK_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get());
+        this.dropSelf(DWBlocks.BUBBLE_SAND.get());
 
         //Cold Place
         this.dropSelf(DWBlocks.SOOT_SNOW.get());

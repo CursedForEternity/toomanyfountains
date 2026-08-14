@@ -17,6 +17,78 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
+        //Ocean
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.RED_CORALWOOD_TRAPDOOR.get()), modLoc("block/red_coralwood_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.BLUE_CORALWOOD_TRAPDOOR.get()), modLoc("block/blue_coralwood_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.PINK_CORALWOOD_TRAPDOOR.get()), modLoc("block/pink_coralwood_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get()), modLoc("block/purple_coralwood_trapdoor"), true, "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWBlocks.YELLOW_CORALWOOD_TRAPDOOR.get()), modLoc("block/yellow_coralwood_trapdoor"), true, "cutout");
+        logBlock((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()));
+        blockWithItem(DWBlocks.RED_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.PINK_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
+        blockWithItem(DWBlocks.BUBBLE_SAND);
+        blockWithItem(DWBlocks.DEAD_CORALWOOD_PLANKS);
+        blockFloor(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK);
+        blockFloor(DWBlocks.DEEPLIGHT_GRASS_BLOCK);
+        blockFloor(DWBlocks.ABYSSLIGHT_GRASS_BLOCK);
+        blockFloor(DWBlocks.SUNKENLIGHT_GRASS_BLOCK);
+        blockWithItem(DWBlocks.DEEPSTONE);
+        blockWithItem(DWBlocks.OCEAN_DIRT);
+        blockColumn(DWBlocks.OCEAN_SLATE);
+        blockWithItem(DWBlocks.FOAM_ORE);
+        blockWithItem(DWBlocks.ABYSS_ORE);
+        blockWithItem(DWBlocks.HYDRON_ORE);
+        blockWithItem(DWBlocks.SLATE_BRICKS);
+        blockWithItem(DWBlocks.POLISHED_SLATE);
+        blockWithItem(DWBlocks.SMOOTH_SLATE);
+        blockWithItem(DWBlocks.COBBLED_SLATE);
+        blockWithItem(DWBlocks.CHISELED_DEEPSTONE);
+        blockWithItem(DWBlocks.CHISELED_SLATE);
+        fenceBlock(((FenceBlock) DWBlocks.RED_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.BLUE_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.YELLOW_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.PINK_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()));
+        fenceBlock(((FenceBlock) DWBlocks.PURPLE_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.RED_CORALWOOD_GATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.BLUE_CORALWOOD_GATE.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.YELLOW_CORALWOOD_GATE.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.PURPLE_CORALWOOD_GATE.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()));
+        fenceGateBlock(((FenceGateBlock) DWBlocks.PINK_CORALWOOD_GATE.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.BLUE_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.PURPLE_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()));
+        pressurePlateBlock(((PressurePlateBlock) DWBlocks.PINK_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()));
+        buttonBlock(((ButtonBlock) DWBlocks.RED_CORALWOOD_BUTTON.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()));
+        logBlock((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_LOG.get());
+        axisBlock(((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()));
+        slabBlock(((SlabBlock) DWBlocks.RED_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.BLUE_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.PINK_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.PURPLE_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()));
+        slabBlock(((SlabBlock) DWBlocks.YELLOW_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()));
+        stairsBlock(((StairBlock) DWBlocks.RED_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
+        stairsBlock(((StairBlock) DWBlocks.YELLOW_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_PLANKS.get()));
+        stairsBlock(((StairBlock) DWBlocks.PURPLE_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_PLANKS.get()));
+        stairsBlock(((StairBlock) DWBlocks.PINK_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.PINK_CORALWOOD_PLANKS.get()));
+        stairsBlock(((StairBlock) DWBlocks.BLUE_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_PLANKS.get()));
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.BLUE_CORALWOOD_DOOR.get()), modLoc("block/blue_coralwood_door_bottom"), modLoc("block/blue_coralwood_door_top"), "cutout");
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.PINK_CORALWOOD_DOOR.get()), modLoc("block/pink_coralwood_door_bottom"), modLoc("block/pink_coralwood_door_top"), "cutout");
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.YELLOW_CORALWOOD_DOOR.get()), modLoc("block/yellow_coralwood_door_bottom"), modLoc("block/yellow_coralwood_door_top"), "cutout");
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.PURPLE_CORALWOOD_DOOR.get()), modLoc("block/purple_coralwood_door_bottom"), modLoc("block/purple_coralwood_door_top"), "cutout");
+        doorBlockWithRenderType(((DoorBlock) DWBlocks.RED_CORALWOOD_DOOR.get()), modLoc("block/red_coralwood_door_bottom"), modLoc("block/red_coralwood_door_top"), "cutout");
 
 
     // Cold Place
@@ -191,47 +263,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockColumn(DWBlocks.CIRCUS_ASH);
         blockColumn(DWBlocks.CIRCUS_STONE);
 
-        //Ocean
-        logBlock((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.RED_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()), blockTexture(DWBlocks.RED_CORALWOOD_LOG.get()));
-        stairsBlock(((StairBlock) DWBlocks.RED_CORALWOOD_STAIRS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        blockWithItem(DWBlocks.RED_CORALWOOD_PLANKS);
-        slabBlock(((SlabBlock) DWBlocks.RED_CORALWOOD_SLAB.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        fenceBlock(((FenceBlock) DWBlocks.RED_CORALWOOD_FENCE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        fenceGateBlock(((FenceGateBlock) DWBlocks.RED_CORALWOOD_GATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        pressurePlateBlock(((PressurePlateBlock) DWBlocks.RED_CORALWOOD_PRESSURE_PLATE.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        buttonBlock(((ButtonBlock) DWBlocks.RED_CORALWOOD_BUTTON.get()), blockTexture(DWBlocks.RED_CORALWOOD_PLANKS.get()));
-        logBlock((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.YELLOW_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()), blockTexture(DWBlocks.YELLOW_CORALWOOD_LOG.get()));
-        logBlock((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.BLUE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.BLUE_CORALWOOD_LOG.get()));
-        logBlock((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.PINK_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PINK_CORALWOOD_LOG.get()));
-        logBlock((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.PURPLE_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()), blockTexture(DWBlocks.PURPLE_CORALWOOD_LOG.get()));
-        logBlock((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_LOG.get());
-        axisBlock(((RotatedPillarBlock) DWBlocks.DEAD_CORALWOOD_WOOD.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()), blockTexture(DWBlocks.DEAD_CORALWOOD_LOG.get()));
-        blockWithItem(DWBlocks.PINK_CORALWOOD_PLANKS);
-        blockWithItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
-        blockWithItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
-        blockWithItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
-        blockWithItem(DWBlocks.DEAD_CORALWOOD_PLANKS);
-        blockFloor(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK);
-        blockFloor(DWBlocks.DEEPLIGHT_GRASS_BLOCK);
-        blockFloor(DWBlocks.ABYSSLIGHT_GRASS_BLOCK);
-        blockFloor(DWBlocks.SUNKENLIGHT_GRASS_BLOCK);
-        blockWithItem(DWBlocks.DEEPSTONE);
-        blockWithItem(DWBlocks.OCEAN_DIRT);
-        blockColumn(DWBlocks.OCEAN_SLATE);
-        blockWithItem(DWBlocks.FOAM_ORE);
-        blockWithItem(DWBlocks.ABYSS_ORE);
-        blockWithItem(DWBlocks.HYDRON_ORE);
-        blockWithItem(DWBlocks.SLATE_BRICKS);
-        blockWithItem(DWBlocks.POLISHED_SLATE);
-        blockWithItem(DWBlocks.SMOOTH_SLATE);
-        blockWithItem(DWBlocks.COBBLED_SLATE);
-        blockWithItem(DWBlocks.CHISELED_DEEPSTONE);
-        blockWithItem(DWBlocks.CHISELED_SLATE);
     }
 
     private void blockWithItem(Block block) {

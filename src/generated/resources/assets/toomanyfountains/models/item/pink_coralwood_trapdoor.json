@@ -1,6 +1,0 @@
-{
-  "parent": "minecraft:block/acacia_trapdoor_bottom",
-  "textures": {
-    "texture": "toomanyfountains:block/pink_coralwood_trapdoor"
-  }
-}

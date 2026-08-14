@@ -24,6 +24,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())
                 .add(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get())
                 .add(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get())
+                .add(DWBlocks.BUBBLE_SAND.get())
                 .add(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
         this.tag(BlockTags.MINEABLE_WITH_AXE)
                 .add(DWBlocks.CIRCUS_BOARDS.get())
