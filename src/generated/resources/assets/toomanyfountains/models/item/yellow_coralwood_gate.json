@@ -1,6 +1,3 @@
 {
-  "parent": "minecraft:block/acacia_fence_gate",
-  "textures": {
-    "texture": "toomanyfountains:block/yellow_coralwood_planks"
-  }
+  "parent": "toomanyfountains:block/yellow_coralwood_gate"
 }

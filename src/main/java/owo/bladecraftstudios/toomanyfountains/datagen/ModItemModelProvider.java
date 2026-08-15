@@ -29,18 +29,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         heldItem(DWItems.SILWARE_SWORD);
         heldItem(DWItems.SILWARE_SHOVEL);
 
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_LOG);
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_WOOD);
-        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
-        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
-        simpleBlockItem(DWBlocks.FROZEN_OAK_DOOR);
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_TRAPDOOR);
-        fenceItem(DWBlocks.FROZEN_OAK_FENCE,DWBlocks.FROZEN_OAK_PLANKS);
-        buttonItem(DWBlocks.FROZEN_OAK_BUTTON,DWBlocks.FROZEN_OAK_PLANKS);
-        wallItem(DWBlocks.FROZEN_OAK_WALL,DWBlocks.FROZEN_OAK_PLANKS);
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_STAIRS);
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_SLAB);
-        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_PRESSURE_PLATE);
         evenSimplerBlockItem(DWBlocks.ICESALT_PILLAR);
         buttonItem(DWBlocks.ICESALT_BUTTON,DWBlocks.ICESALT);
         wallItem(DWBlocks.ICESALT_WALL,DWBlocks.ICESALT);
@@ -154,8 +142,46 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_TILES_SLAB);
         evenSimplerBlockItem(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE);
 
+        //Frozen Oak
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_LOG);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_WOOD);
+        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_LOG);
+        evenSimplerBlockItem(DWBlocks.STRIPPED_FROZEN_OAK_WOOD);
+        simpleBlockItem(DWBlocks.FROZEN_OAK_DOOR);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_GATE);
+        fenceItem(DWBlocks.FROZEN_OAK_FENCE,DWBlocks.FROZEN_OAK_PLANKS);
+        buttonItem(DWBlocks.FROZEN_OAK_BUTTON,DWBlocks.FROZEN_OAK_PLANKS);
+        wallItem(DWBlocks.FROZEN_OAK_WALL,DWBlocks.FROZEN_OAK_PLANKS);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_STAIRS);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_SLAB);
+        evenSimplerBlockItem(DWBlocks.FROZEN_OAK_PRESSURE_PLATE);
+        trapdoorItem(DWBlocks.FROZEN_OAK_TRAPDOOR);
+
         //Ocean
+        fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_STAIRS);
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_SLAB);
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE);
+        evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
+        evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_PLANKS);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.YELLOW_CORALWOOD_FENCE,DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.BLUE_CORALWOOD_FENCE,DWBlocks.BLUE_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.PINK_CORALWOOD_FENCE,DWBlocks.PINK_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.YELLOW_CORALWOOD_BUTTON,DWBlocks.YELLOW_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.BLUE_CORALWOOD_BUTTON,DWBlocks.BLUE_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.PINK_CORALWOOD_BUTTON,DWBlocks.PINK_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.PURPLE_CORALWOOD_FENCE,DWBlocks.PURPLE_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.PURPLE_CORALWOOD_BUTTON,DWBlocks.PURPLE_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_LOG);
+        evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_GATE);
+        evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_GATE);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_GATE);
+        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_GATE);
+        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_GATE);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_WOOD);
         evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_LOG);
         evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_WOOD);
@@ -168,34 +194,20 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.DEAD_CORALWOOD_LOG);
         evenSimplerBlockItem(DWBlocks.DEAD_CORALWOOD_WOOD);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_PLANKS);
-        fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
-        buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);
-        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_STAIRS);
-        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_SLAB);
-        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE);
-        simpleBlockItem(DWBlocks.RED_CORALWOOD_DOOR);
-        evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_TRAPDOOR);
-        evenSimplerBlockItem(DWBlocks.BLUE_CORALWOOD_PLANKS);
-        evenSimplerBlockItem(DWBlocks.PINK_CORALWOOD_PLANKS);
-        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PLANKS);
-        fenceItem(DWBlocks.YELLOW_CORALWOOD_FENCE,DWBlocks.YELLOW_CORALWOOD_PLANKS);
-        buttonItem(DWBlocks.YELLOW_CORALWOOD_BUTTON,DWBlocks.YELLOW_CORALWOOD_PLANKS);
-        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_STAIRS);
-        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_SLAB);
-        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE);
-        simpleBlockItem(DWBlocks.YELLOW_CORALWOOD_DOOR);
-        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR);
-        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
-        fenceItem(DWBlocks.PURPLE_CORALWOOD_FENCE,DWBlocks.PURPLE_CORALWOOD_PLANKS);
-        buttonItem(DWBlocks.PURPLE_CORALWOOD_BUTTON,DWBlocks.PURPLE_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_STAIRS);
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_SLAB);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_SLAB);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_PRESSURE_PLATE);
+        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_PRESSURE_PLATE);
-        simpleBlockItem(DWBlocks.PURPLE_CORALWOOD_DOOR);
-        evenSimplerBlockItem(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR);
+        evenSimplerBlockItem(DWBlocks.YELLOW_CORALWOOD_STAIRS);
         evenSimplerBlockItem(DWBlocks.DEAD_CORALWOOD_PLANKS);
-
-
+        simpleBlockItem(DWBlocks.RED_CORALWOOD_DOOR);
+        trapdoorItem(DWBlocks.RED_CORALWOOD_TRAPDOOR);
+        simpleBlockItem(DWBlocks.YELLOW_CORALWOOD_DOOR);
+        trapdoorItem(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR);
+        simpleBlockItem(DWBlocks.PURPLE_CORALWOOD_DOOR);
+        trapdoorItem(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
