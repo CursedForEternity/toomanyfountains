@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/door_bottom_right_open",
+  "render_type": "minecraft:cutout",
+  "textures": {
+    "bottom": "toomanyfountains:block/green_coralwood_door_bottom",
+    "top": "toomanyfountains:block/green_coralwood_door_top"
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab",
+  "textures": {
+    "bottom": "toomanyfountains:block/green_coralwood_planks",
+    "side": "toomanyfountains:block/green_coralwood_planks",
+    "top": "toomanyfountains:block/green_coralwood_planks"
+  }
+}

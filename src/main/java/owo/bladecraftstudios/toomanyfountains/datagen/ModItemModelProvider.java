@@ -160,6 +160,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         //Ocean
         fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
         buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);
+        fenceItem(DWBlocks.GREEN_CORALWOOD_FENCE,DWBlocks.GREEN_CORALWOOD_PLANKS);
+        buttonItem(DWBlocks.GREEN_CORALWOOD_BUTTON,DWBlocks.GREEN_CORALWOOD_PLANKS);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_STAIRS);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_SLAB);
         evenSimplerBlockItem(DWBlocks.RED_CORALWOOD_PRESSURE_PLATE);

@@ -36,6 +36,7 @@ public class CreativeTabs {
         output.accept(DWBlocks.OCEAN_DIRT.get());
         output.accept(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get());
         output.accept(DWBlocks.FOAM_ORE.get());
+        output.accept(DWBlocks.OCEAN_DIRT_FOAM_ORE.get());
         output.accept(DWBlocks.ABYSS_ORE.get());
         output.accept(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
         output.accept(DWBlocks.HYDRON_ORE.get());
@@ -95,6 +96,17 @@ public class CreativeTabs {
         output.accept(DWBlocks.PURPLE_CORALWOOD_BUTTON.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_DOOR.get());
         output.accept(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_LOG.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_WOOD.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_PLANKS.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_STAIRS.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_SLAB.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_FENCE.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_GATE.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_PRESSURE_PLATE.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_BUTTON.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_DOOR.get());
+        output.accept(DWBlocks.GREEN_CORALWOOD_TRAPDOOR.get());
         output.accept(DWBlocks.OCEAN_SLATE.get());
         output.accept(DWBlocks.COBBLED_SLATE.get());
         output.accept(DWBlocks.SLATE_BRICKS.get());

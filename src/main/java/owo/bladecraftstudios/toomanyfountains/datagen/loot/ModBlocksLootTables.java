@@ -35,6 +35,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         //Ocean
         this.dropSelf(DWBlocks.RED_CORALWOOD_LOG.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_WOOD.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_LOG.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_WOOD.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_PLANKS.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_LOG.get());
         this.dropSelf(DWBlocks.BLUE_CORALWOOD_WOOD.get());
         this.dropSelf(DWBlocks.PINK_CORALWOOD_LOG.get());
@@ -63,6 +66,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropOther(DWBlocks.ABYSSLIGHT_GRASS_BLOCK.get(), DWBlocks.OCEAN_SLATE.get());
         this.dropOther(DWBlocks.SUNKENLIGHT_GRASS_BLOCK.get(), DWBlocks.DEEPSTONE.get());
         this.dropSelf(DWBlocks.FOAM_ORE.get());
+        this.dropSelf(DWBlocks.OCEAN_DIRT_FOAM_ORE.get());
         this.dropSelf(DWBlocks.ABYSS_ORE.get());
         this.dropSelf(DWBlocks.HYDRON_ORE.get());
         this.dropSelf(DWBlocks.RED_CORALWOOD_PLANKS.get());
@@ -122,6 +126,16 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
                 block -> createDoorTable(DWBlocks.PINK_CORALWOOD_DOOR.get()));
         this.dropSelf(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWBlocks.BUBBLE_SAND.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_STAIRS.get());
+        this.add(DWBlocks.GREEN_CORALWOOD_SLAB.get(),
+                block -> createSlabItemTable(DWBlocks.GREEN_CORALWOOD_SLAB.get()));
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_FENCE.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_GATE.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_PRESSURE_PLATE.get());
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_BUTTON.get());
+        this.add(DWBlocks.GREEN_CORALWOOD_DOOR.get(),
+                block -> createDoorTable(DWBlocks.GREEN_CORALWOOD_DOOR.get()));
+        this.dropSelf(DWBlocks.GREEN_CORALWOOD_TRAPDOOR.get());
 
         //Cold Place
         this.dropSelf(DWBlocks.SOOT_SNOW.get());
