@@ -9,7 +9,7 @@
         "predicates": [
           {
             "type": "match_block",
-            "block": "bubble_sand"
+            "block": "toomanyfountains:bubble_sand"
           },
           {
             "type": "is_face_visible"
