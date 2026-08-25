@@ -210,6 +210,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         trapdoorItem(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR);
         simpleBlockItem(DWBlocks.PURPLE_CORALWOOD_DOOR);
         trapdoorItem(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR);
+        evenSimplerBlockItem(DWBlocks.HOT_PATH);
+        evenSimplerBlockItem(DWBlocks.HOT_ROCK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

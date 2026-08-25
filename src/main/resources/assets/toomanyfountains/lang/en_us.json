@@ -104,7 +104,7 @@
   "block.toomanyfountains.polished_slate": "Polished Ocean Slate",
   "block.toomanyfountains.smooth_slate": "Smooth Ocean Slate",
   "block.toomanyfountains.cobbled_slate": "Cobbled Ocean Slate",
-  "block.toomanyfountains.chiseled_slate": "Chiseled Ocean Slate (WIP)",
+  "block.toomanyfountains.chiseled_slate": "Chiseled Ocean Slate",
   "block.toomanyfountains.deepstone_bricks": "Deepstone Bricks",
   "block.toomanyfountains.polished_deepstone": "Polished Deepstone",
   "block.toomanyfountains.smooth_deepstone": "Smooth Deepstone",
@@ -120,6 +120,8 @@
   "block.toomanyfountains.green_coralwood_button": "Green Coralwood Button",
   "block.toomanyfountains.green_coralwood_door": "Green Coralwood Door",
   "block.toomanyfountains.green_coralwood_trapdoor": "Green Coralwood Trapdoor",
+  "block.toomanyfountains.hot_path": "Hot Path",
+  "block.toomanyfountains.hot_rock": "Hot Rock",
 
   "creativetab.ocean_second_dw": "Desolate Beaches",
   "biome.toomanyfountains.desolate_beaches": "The Desolate Beach",

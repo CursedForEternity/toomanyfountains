@@ -119,6 +119,8 @@ public class CreativeTabs {
         output.accept(DWBlocks.POLISHED_DEEPSTONE.get());
         output.accept(DWBlocks.SMOOTH_DEEPSTONE.get());
         output.accept(DWBlocks.CHISELED_DEEPSTONE.get());
+        output.accept(DWBlocks.HOT_PATH.get());
+        output.accept(DWBlocks.HOT_ROCK.get());
     }).build());
 
     public static final RegistryObject<CreativeModeTab> DESOLATE_TAB = CREATIVE_TABS.register("ocean_second_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.DEAD_CORALWOOD_LOG.get())).title(Component.translatable("creativetab.ocean_second_dw")).displayItems((itemDisplayParameters, output) -> {

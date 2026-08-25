@@ -61,6 +61,10 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> SUNKENLIGHT_GRASS_BLOCK = registerBlock("sunkenlight_grass_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+    public static final RegistryObject<Block> HOT_PATH = registerBlock("hot_path",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> HOT_ROCK = registerBlock("hot_rock",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
         //Stone Variants
             //Slate
         public static final RegistryObject<Block> SLATE_BRICKS = registerBlock("slate_bricks",

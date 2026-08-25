@@ -93,6 +93,8 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get())
                 .add(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(DWBlocks.HOT_PATH.get())
+                .add(DWBlocks.HOT_ROCK.get())
                 .add(DWBlocks.ICESALT.get())
                 .add(DWBlocks.ICESALT_STAIRS.get())
                 .add(DWBlocks.ICESALT_SLAB.get())
