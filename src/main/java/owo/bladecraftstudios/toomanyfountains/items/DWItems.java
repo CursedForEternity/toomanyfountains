@@ -34,6 +34,45 @@ public class DWItems {
     public static final RegistryObject<Item> SILWARE_HOE = ITEMS.register("silware_hoe",
             () -> new HoeItem(Tiers.IRON, 0, 1, new Item.Properties().stacksTo(1)));
 
+    // a cold place
+    public static final RegistryObject<Item> RED_MARK = ITEMS.register("red_mark",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> THORN = ITEMS.register("thorn",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RED_THORN_FLOWER = ITEMS.register("red_thorn_flower",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> RED_STEM = ITEMS.register("red_stem",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FROZEN_OAK_STICK = ITEMS.register("frozen_oak_stick",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FROZEN_OAK_SEED = ITEMS.register("frozen_oak_seed",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> GLACIEITE = ITEMS.register("glacieite",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> CRYOLITE_INGOT = ITEMS.register("cryolite_ingot",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> WINTER_SPEAR = ITEMS.register("winter_spear",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ICE_KEY = ITEMS.register("ice_key",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> ARTIFACT_OF_STRENGTH = ITEMS.register("artifact_of_strength",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BIRD_FEATHER = ITEMS.register("bird_feather",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> FLOWER_PETAL = ITEMS.register("flower_petal",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BLUE_SCALE = ITEMS.register("blue_scale",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> YELLOW_SCALE = ITEMS.register("yellow_scale",
+            () -> new Item(new Item.Properties()));
+
+
+
+
+
+
+
+
 
 
 

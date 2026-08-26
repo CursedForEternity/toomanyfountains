@@ -271,9 +271,39 @@ public class CreativeTabs {
         output.accept(DWBlocks.FROST_MARBLE_TILES_WALL.get());
         output.accept(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get());
         output.accept(DWBlocks.FROST_MARBLE_TILES_BUTTON.get());
+        output.accept(DWBlocks.GLACIEITE_BLOCK.get());
+        output.accept(DWBlocks.CRYOLITE_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW.get());
         output.accept(DWBlocks.POWDER_ARCTIC_SNOW.get());
+        output.accept(DWItems.WINTER_SPEAR.get());
+        output.accept(DWItems.GLACIEITE.get());
+        output.accept(DWItems.CRYOLITE_INGOT.get());
+        output.accept(DWItems.FROZEN_OAK_STICK.get());
+        output.accept(DWItems.RED_MARK.get());
+        output.accept(DWItems.FROZEN_OAK_SEED.get());
+        output.accept(DWItems.RED_THORN_FLOWER.get());
+        output.accept(DWItems.ARTIFACT_OF_STRENGTH.get());
+        output.accept(DWItems.THORN.get());
+        output.accept(DWItems.RED_STEM.get());
+        output.accept(DWItems.BIRD_FEATHER.get());
+        output.accept(DWItems.FLOWER_PETAL.get());
+        output.accept(DWItems.BLUE_SCALE.get());
+        output.accept(DWItems.YELLOW_SCALE.get());
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
     }).build());

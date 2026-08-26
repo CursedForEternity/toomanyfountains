@@ -223,6 +223,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.FROST_MARBLE_TILES_WALL.get())
                 .add(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get())
                 .add(DWBlocks.FROST_MARBLE_TILES_BUTTON.get())
+                .add(DWBlocks.CRYOLITE_BLOCK.get())
+                .add(DWBlocks.GLACIEITE_BLOCK.get())
+
                 .add(DWBlocks.DEEPSTONE.get())
                 .add(DWBlocks.OCEAN_DIRT.get())
                 .add(DWBlocks.OCEAN_SLATE.get())

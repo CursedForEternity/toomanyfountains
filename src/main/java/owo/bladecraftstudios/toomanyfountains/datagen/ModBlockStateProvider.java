@@ -266,6 +266,9 @@ public class ModBlockStateProvider extends BlockStateProvider {
         pressurePlateBlock(((PressurePlateBlock) DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get()), blockTexture(DWBlocks.FROST_MARBLE_TILES.get()));
         wallBlock(((WallBlock) DWBlocks.FROST_MARBLE_TILES_WALL.get()), blockTexture(DWBlocks.FROST_MARBLE_TILES.get()));
 
+        blockWithItem(DWBlocks.CRYOLITE_BLOCK);
+        blockWithItem(DWBlocks.GLACIEITE_BLOCK);
+
         //COBBLED_ cobbled_
         //POLISHED_ polished_
         //_BRICKS _bricks
