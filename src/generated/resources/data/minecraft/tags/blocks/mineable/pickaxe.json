@@ -1,5 +1,7 @@
 {
   "values": [
+    "toomanyfountains:hot_path",
+    "toomanyfountains:hot_rock",
     "toomanyfountains:icesalt",
     "toomanyfountains:icesalt_stairs",
     "toomanyfountains:icesalt_slab",
@@ -144,6 +146,7 @@
     "toomanyfountains:circus_stone",
     "toomanyfountains:silware_debris",
     "toomanyfountains:foam_ore",
+    "toomanyfountains:ocean_dirt_foam_ore",
     "toomanyfountains:abyss_ore",
     "toomanyfountains:hydron_ore"
   ]

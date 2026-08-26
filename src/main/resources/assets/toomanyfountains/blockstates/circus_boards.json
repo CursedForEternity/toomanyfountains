@@ -1,0 +1,17 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "toomanyfountains:block/circus_boards_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "toomanyfountains:block/circus_boards"
+    },
+    "axis=z": {
+      "model": "toomanyfountains:block/circus_boards_horizontal",
+      "x": 90
+    }
+  }
+  }
+}

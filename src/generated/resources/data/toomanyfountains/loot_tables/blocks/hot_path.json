@@ -11,11 +11,11 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "toomanyfountains:sea_cactus"
+          "name": "toomanyfountains:hot_path"
         }
       ],
       "rolls": 1.0
     }
   ],
-  "random_sequence": "toomanyfountains:blocks/sea_cactus"
+  "random_sequence": "toomanyfountains:blocks/hot_path"
 }

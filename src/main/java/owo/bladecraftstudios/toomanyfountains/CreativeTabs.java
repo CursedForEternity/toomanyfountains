@@ -29,6 +29,12 @@ public class CreativeTabs {
         output.accept(DWItems.RAW_SILWARE.get());
         output.accept(DWItems.SILWARE.get());
         output.accept(DWBlocks.SILWARE_DEBRIS.get());
+        output.accept(DWItems.BOARD_AXE.get());
+        output.accept(DWItems.BOARD_SHOVEL.get());
+        output.accept(DWItems.BOARD_PICKAXE.get());
+        output.accept(DWItems.BOARD_SWORD.get());
+        output.accept(DWItems.BOARD_HOE.get());
+        output.accept(DWItems.FLOORBOARD.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());

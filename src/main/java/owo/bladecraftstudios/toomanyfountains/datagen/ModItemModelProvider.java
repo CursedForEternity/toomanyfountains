@@ -28,6 +28,12 @@ public class ModItemModelProvider extends ItemModelProvider {
         heldItem(DWItems.SILWARE_PICKAXE);
         heldItem(DWItems.SILWARE_SWORD);
         heldItem(DWItems.SILWARE_SHOVEL);
+        simpleItem(DWItems.FLOORBOARD);
+        heldItem(DWItems.BOARD_PICKAXE);
+        heldItem(DWItems.BOARD_HOE);
+        heldItem(DWItems.BOARD_AXE);
+        heldItem(DWItems.BOARD_SHOVEL);
+        heldItem(DWItems.BOARD_SWORD);
 
         evenSimplerBlockItem(DWBlocks.ICESALT_PILLAR);
         buttonItem(DWBlocks.ICESALT_BUTTON,DWBlocks.ICESALT);
@@ -210,8 +216,6 @@ public class ModItemModelProvider extends ItemModelProvider {
         trapdoorItem(DWBlocks.YELLOW_CORALWOOD_TRAPDOOR);
         simpleBlockItem(DWBlocks.PURPLE_CORALWOOD_DOOR);
         trapdoorItem(DWBlocks.PURPLE_CORALWOOD_TRAPDOOR);
-        evenSimplerBlockItem(DWBlocks.HOT_PATH);
-        evenSimplerBlockItem(DWBlocks.HOT_ROCK);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {
