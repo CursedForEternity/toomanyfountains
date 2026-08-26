@@ -163,6 +163,9 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWBlocks.FROZEN_OAK_PRESSURE_PLATE);
         trapdoorItem(DWBlocks.FROZEN_OAK_TRAPDOOR);
 
+        evenSimplerBlockItem(DWBlocks.GLACIEITE_BLOCK);
+        evenSimplerBlockItem(DWBlocks.CRYOLITE_BLOCK);
+
         //Ocean
         fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
         buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);

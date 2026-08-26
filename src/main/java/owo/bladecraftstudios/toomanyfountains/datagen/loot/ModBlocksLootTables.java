@@ -318,6 +318,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.FROST_MARBLE_TILES_PRESSURE_PLATE.get());
         this.dropSelf(DWBlocks.FROST_MARBLE_TILES_BUTTON.get());
 
+        this.dropSelf(DWBlocks.CRYOLITE_BLOCK.get());
+        this.dropSelf(DWBlocks.GLACIEITE_BLOCK.get());
+
     }
 
     private void dropsSelf() {
