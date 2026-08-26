@@ -33,6 +33,18 @@ public class DWItems {
             () -> new SilwareJavelinItem(Tiers.IRON, 6, -1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> SILWARE_HOE = ITEMS.register("silware_hoe",
             () -> new HoeItem(Tiers.IRON, 0, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> FLOORBOARD = ITEMS.register("floorboard",
+            () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> BOARD_HOE = ITEMS.register("board_hoe",
+            () -> new HoeItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BOARD_AXE = ITEMS.register("board_axe",
+            () -> new AxeItem(Tiers.WOOD, 4, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BOARD_PICKAXE = ITEMS.register("board_pickaxe",
+            () -> new PickaxeItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BOARD_SHOVEL = ITEMS.register("board_shovel",
+            () -> new ShovelItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> BOARD_SWORD = ITEMS.register("board_sword",
+            () -> new SwordItem(Tiers.WOOD, 2, 1, new Item.Properties().stacksTo(1)));
 
     // a cold place
     public static final RegistryObject<Item> RED_MARK = ITEMS.register("red_mark",
