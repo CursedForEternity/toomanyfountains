@@ -267,6 +267,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         blockWithItem(DWBlocks.CRYOLITE_BLOCK);
         blockWithItem(DWBlocks.GLACIEITE_BLOCK);
+        blockWithItem(DWBlocks.GLACIER_ICE);
+        blockWithItem(DWBlocks.BITTER_ICE);
+        blockWithItem(DWBlocks.ILL_ICE);
+        blockWithItem(DWBlocks.BLACK_ICE);
 
         //COBBLED_ cobbled_
         //POLISHED_ polished_

@@ -320,6 +320,10 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
 
         this.dropSelf(DWBlocks.CRYOLITE_BLOCK.get());
         this.dropSelf(DWBlocks.GLACIEITE_BLOCK.get());
+        this.dropSelf(DWBlocks.GLACIER_ICE.get());
+        this.dropSelf(DWBlocks.BITTER_ICE.get());
+        this.dropSelf(DWBlocks.ILL_ICE.get());
+        this.dropSelf(DWBlocks.BLACK_ICE.get());
 
     }
 

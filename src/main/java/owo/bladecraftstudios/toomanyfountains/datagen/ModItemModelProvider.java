@@ -165,6 +165,10 @@ public class ModItemModelProvider extends ItemModelProvider {
 
         evenSimplerBlockItem(DWBlocks.GLACIEITE_BLOCK);
         evenSimplerBlockItem(DWBlocks.CRYOLITE_BLOCK);
+        evenSimplerBlockItem(DWBlocks.GLACIER_ICE);
+        evenSimplerBlockItem(DWBlocks.ILL_ICE);
+        evenSimplerBlockItem(DWBlocks.BITTER_ICE);
+        evenSimplerBlockItem(DWBlocks.BLACK_ICE);
 
         //Ocean
         fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);

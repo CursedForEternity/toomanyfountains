@@ -281,6 +281,10 @@
   "block.toomanyfountains.frost_marble_tiles_tiles": "Frost Marble Tiles Button",
   "block.toomanyfountains.glacieite_block": "Glacieite Block",
   "block.toomanyfountains.cryolite_block": "Cryolite Block",
+  "block.toomanyfountains.glacier_ice": "Glacier Ice",
+  "block.toomanyfountains.bitter_cold_ice": "Bitter Cold Ice",
+  "block.toomanyfountains.ill_ice": "Ill Ice",
+  "block.toomanyfountains.black_ice": "Black Ice",
 
   "item.toomanyfountains.winter_spear": "Winter Spear",
   "item.toomanyfountains.cryolite_ingot": "Cryolite",
