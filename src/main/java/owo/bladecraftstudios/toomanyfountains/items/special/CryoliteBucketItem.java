@@ -22,10 +22,10 @@ import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.event.ForgeEventFactory;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
 
-public class DarkBucketItem extends BucketItem {
+public class CryoliteBucketItem extends BucketItem {
     private final Fluid content;
 
-    public DarkBucketItem(Fluid pContent, Properties pProperties) {
+    public CryoliteBucketItem(Fluid pContent, Properties pProperties) {
         super(pContent, pProperties);
         this.content = pContent;
     }
@@ -87,6 +87,6 @@ public class DarkBucketItem extends BucketItem {
     }
 
     public static ItemStack getEmptySuccessItem(ItemStack pBucketStack, Player pPlayer) {
-        return !pPlayer.getAbilities().instabuild ? new ItemStack(DWItems.EXAMPLE_BUCKET.get()) : pBucketStack;
+        return !pPlayer.getAbilities().instabuild ? new ItemStack(DWItems.CRYOLITE_BUCKET.get()) : pBucketStack;
     }
 }

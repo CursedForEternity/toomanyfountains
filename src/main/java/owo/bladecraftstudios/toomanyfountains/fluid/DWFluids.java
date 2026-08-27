@@ -1,4 +1,4 @@
-package owo.bladecraftstudios.toomanyfountains.fluids;
+package owo.bladecraftstudios.toomanyfountains.fluid;
 
 import net.minecraft.world.level.material.FlowingFluid;
 import net.minecraft.world.level.material.Fluid;
@@ -15,17 +15,14 @@ public class DWFluids {
     public static final DeferredRegister<Fluid> FLUIDS =
             DeferredRegister.create(ForgeRegistries.FLUIDS, TooManyFountains.MODID);
 
+    public static final RegistryObject<FlowingFluid> SOURCE_ARCTIC_WATER = FLUIDS.register("arctic_water_fluid",
+            () -> new ForgeFlowingFluid.Source(DWFluids.ARCTIC_WATER_FLUID_PROPERTIES));
+    public static final RegistryObject<FlowingFluid> FLOWING_ARCTIC_WATER = FLUIDS.register("flowing_arctic_water",
+            () -> new ForgeFlowingFluid.Flowing(DWFluids.ARCTIC_WATER_FLUID_PROPERTIES));
 
-    public static final RegistryObject<FlowingFluid> SOURCE_PURE_DARKNESS = FLUIDS.register("pure_darkness",
-            () -> new ForgeFlowingFluid.Source(DWFluids.PURE_DARKNESS_PROPERTIES));
-    public static final RegistryObject<FlowingFluid> FLOWING_PURE_DARKNESS = FLUIDS.register("flowing_pure_darkness",
-            () -> new ForgeFlowingFluid.Flowing(DWFluids.PURE_DARKNESS_PROPERTIES));
-
-    public static final ForgeFlowingFluid.Properties PURE_DARKNESS_PROPERTIES = new ForgeFlowingFluid.Properties(
-            DWFluidRegistry.PURE_DARKNESS, SOURCE_PURE_DARKNESS, FLOWING_PURE_DARKNESS)
-            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DWBlocks.PURE_DARKNESS)
-            .bucket(DWItems.EXAMPLE_BUCKET);
-
+    public static final ForgeFlowingFluid.Properties ARCTIC_WATER_FLUID_PROPERTIES = new ForgeFlowingFluid.Properties(
+            DWFluidTypes.ARCTIC_WATER_FLUID_TYPE, SOURCE_ARCTIC_WATER, FLOWING_ARCTIC_WATER)
+            .slopeFindDistance(2).levelDecreasePerBlock(2).block(DWBlocks.ARCTIC_WATER).bucket(DWItems.CRYOLITE_BUCKET);
 
     public static void register(IEventBus eventBus) {
         FLUIDS.register(eventBus);

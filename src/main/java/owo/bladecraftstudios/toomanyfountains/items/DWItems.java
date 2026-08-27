@@ -7,7 +7,8 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
-import owo.bladecraftstudios.toomanyfountains.items.special.DarkBucketItem;
+import owo.bladecraftstudios.toomanyfountains.fluid.DWFluids;
+import owo.bladecraftstudios.toomanyfountains.items.special.CryoliteBucketItem;
 import owo.bladecraftstudios.toomanyfountains.items.special.SilwareAxItem;
 import owo.bladecraftstudios.toomanyfountains.items.special.SilwareJavelinItem;
 
@@ -37,8 +38,6 @@ public class DWItems {
             () -> new HoeItem(Tiers.IRON, 0, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> FLOORBOARD = ITEMS.register("floorboard",
             () -> new Item(new Item.Properties()));
-    public static final RegistryObject<Item> MEMOSHARD = ITEMS.register("memoshard",
-            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOARD_HOE = ITEMS.register("board_hoe",
             () -> new HoeItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> BOARD_AXE = ITEMS.register("board_axe",
@@ -49,6 +48,8 @@ public class DWItems {
             () -> new ShovelItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> BOARD_SWORD = ITEMS.register("board_sword",
             () -> new SwordItem(Tiers.WOOD, 2, 1, new Item.Properties().stacksTo(1)));
+    public static final RegistryObject<Item> MEMOSHARD = ITEMS.register("memoshard",
+            () -> new Item(new Item.Properties()));
 
     // a cold place
     public static final RegistryObject<Item> RED_MARK = ITEMS.register("red_mark",
@@ -81,15 +82,19 @@ public class DWItems {
             () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> YELLOW_SCALE = ITEMS.register("yellow_scale",
             () -> new Item(new Item.Properties()));
-
+    public static final RegistryObject<Item> CRYOLITE_BUCKET = ITEMS.register("cryolite_bucket",
+            () -> new CryoliteBucketItem(Fluids.EMPTY, new Item.Properties()));
+    public static final RegistryObject<Item> ARCTIC_WATER_BUCKET = ITEMS.register("arctic_water_bucket",
+            () -> new CryoliteBucketItem(DWFluids.SOURCE_ARCTIC_WATER.get(), new Item.Properties().stacksTo(1)
+                    .craftRemainder(DWItems.CRYOLITE_BUCKET.get())));
 
 
 
 
 
     //EXAMPLE STUFF FOR REFERENCE
-    public static final RegistryObject<Item> EXAMPLE_BUCKET = ITEMS.register("example_bucket",
-            () -> new DarkBucketItem(Fluids.EMPTY, new Item.Properties()));
+    //public static final RegistryObject<Item> EXAMPLE_BUCKET = ITEMS.register("example_bucket",
+    //        () -> new DarkBucketItem(Fluids.EMPTY, new Item.Properties()));
 
     //public static final RegistryObject<Item> LUMINESCENT_WATER_BUCKET = ITEMS.register("luminescent_water_bucket",
     //       () -> new FrostBucketItem(FluidRegistry.SOURCE_LUMINESCENT_WATER.get(), new Item.Properties().stacksTo(1).craftRemainder(ItemRegistry.DARK_CANDY_BUCKET.get())));
@@ -97,9 +102,6 @@ public class DWItems {
     //            () -> new ScarletBucketItem(FluidRegistry.SOURCE_PURE_DARKNESS.get(), new Item.Properties().stacksTo(1).craftRemainder(ItemRegistry.DARK_CANDY_BUCKET.get())));
 
     //REPEAT PER FLUID, EACH BUCKET FROM NEW MATERIAL REQUIRES NEW CLASS IDENTICAL TO DarkBucketItem.java, JUST CHANGE THE BUCKET IT GIVES WHEN EMPTY
-
-
-
     public static void register(IEventBus eventBus) {
         ITEMS.register(eventBus);
     }

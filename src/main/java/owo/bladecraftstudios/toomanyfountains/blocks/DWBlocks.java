@@ -3,6 +3,7 @@ package owo.bladecraftstudios.toomanyfountains.blocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
+import net.minecraft.world.entity.ai.behavior.Behavior;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
@@ -16,7 +17,8 @@ import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModFlammableRotatedPillarBlock;
 import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModRotatedPillarBlock;
-import owo.bladecraftstudios.toomanyfountains.fluids.DWFluids;
+import owo.bladecraftstudios.toomanyfountains.fluid.BaseFluidType;
+import owo.bladecraftstudios.toomanyfountains.fluid.DWFluids;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
 
 import java.util.function.Supplier;
@@ -712,19 +714,8 @@ public class DWBlocks {
     public static final RegistryObject<Block> BLACK_ICE = registerBlock("black_ice",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE).sound(SoundType.NETHERITE_BLOCK)));
     //Black Ice is meant to have obsidian durability, mining and explosion wise, but I don't know how to implement that
-
-
-
-
-
-
-    //example shit
-
-    public static final RegistryObject<LiquidBlock> PURE_DARKNESS = BLOCKS.register("pure_darkness",
-            () -> new LiquidBlock(DWFluids.SOURCE_PURE_DARKNESS, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
-
-
-
+    public static final RegistryObject<LiquidBlock> ARCTIC_WATER = BLOCKS.register("arctic_water",
+            () -> new LiquidBlock(DWFluids.SOURCE_ARCTIC_WATER , BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

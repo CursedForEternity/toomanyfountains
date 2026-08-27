@@ -286,10 +286,12 @@ public class CreativeTabs {
         output.accept(DWBlocks.BITTER_ICE.get());
         output.accept(DWBlocks.ILL_ICE.get());
         output.accept(DWBlocks.BLACK_ICE.get());
+        output.accept(DWItems.ARCTIC_WATER_BUCKET.get());
         output.accept(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW.get());
         output.accept(DWBlocks.POWDER_ARCTIC_SNOW.get());
         output.accept(DWItems.WINTER_SPEAR.get());
+        output.accept(DWItems.CRYOLITE_BUCKET.get());
         output.accept(DWItems.GLACIEITE.get());
         output.accept(DWItems.CRYOLITE_INGOT.get());
         output.accept(DWItems.FROZEN_OAK_STICK.get());
