@@ -1,11 +1,13 @@
 package owo.bladecraftstudios.toomanyfountains.items;
 
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
+import owo.bladecraftstudios.toomanyfountains.items.special.DarkBucketItem;
 import owo.bladecraftstudios.toomanyfountains.items.special.SilwareAxItem;
 import owo.bladecraftstudios.toomanyfountains.items.special.SilwareJavelinItem;
 
@@ -85,9 +87,15 @@ public class DWItems {
 
 
 
+    //EXAMPLE STUFF FOR REFERENCE
+    public static final RegistryObject<Item> EXAMPLE_BUCKET = ITEMS.register("example_bucket",
+            () -> new DarkBucketItem(Fluids.EMPTY, new Item.Properties()));
+    // public static final RegistryObject<Item> LUMINESCENT_WATER_BUCKET = ITEMS.register("luminescent_water_bucket",
+    //            () -> new ScarletBucketItem(FluidRegistry.SOURCE_LUMINESCENT_WATER.get(), new Item.Properties().stacksTo(1).craftRemainder(ItemRegistry.DARK_CANDY_BUCKET.get())));
+    //    public static final RegistryObject<Item> PURE_DARKNESS_BUCKET = ITEMS.register("pure_darkness_bucket",
+    //            () -> new ScarletBucketItem(FluidRegistry.SOURCE_PURE_DARKNESS.get(), new Item.Properties().stacksTo(1).craftRemainder(ItemRegistry.DARK_CANDY_BUCKET.get())));
 
-
-
+    //REPEAT PER FLUID, EACH BUCKET FROM NEW MATERIAL REQUIRES NEW CLASS IDENTICAL TO DarkBucketItem.java, JUST CHANGE THE BUCKET IT GIVES WHEN EMPTY
 
 
 
