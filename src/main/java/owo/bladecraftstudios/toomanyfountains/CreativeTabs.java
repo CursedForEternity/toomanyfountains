@@ -282,6 +282,10 @@ public class CreativeTabs {
         output.accept(DWBlocks.FROST_MARBLE_TILES_BUTTON.get());
         output.accept(DWBlocks.GLACIEITE_BLOCK.get());
         output.accept(DWBlocks.CRYOLITE_BLOCK.get());
+        output.accept(DWBlocks.GLACIER_ICE.get());
+        output.accept(DWBlocks.BITTER_ICE.get());
+        output.accept(DWBlocks.ILL_ICE.get());
+        output.accept(DWBlocks.BLACK_ICE.get());
         output.accept(DWBlocks.ARCTIC_SNOW_BLOCK.get());
         output.accept(DWBlocks.ARCTIC_SNOW.get());
         output.accept(DWBlocks.POWDER_ARCTIC_SNOW.get());
@@ -299,20 +303,6 @@ public class CreativeTabs {
         output.accept(DWItems.FLOWER_PETAL.get());
         output.accept(DWItems.BLUE_SCALE.get());
         output.accept(DWItems.YELLOW_SCALE.get());
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     }).build());

@@ -3,7 +3,6 @@ package owo.bladecraftstudios.toomanyfountains.blocks;
 import net.minecraft.core.BlockPos;
 import net.minecraft.core.Direction;
 import net.minecraft.sounds.SoundEvents;
-import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.*;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.*;
@@ -702,6 +701,17 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
     public static final RegistryObject<Block> CRYOLITE_BLOCK = registerBlock("cryolite_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIAMOND_BLOCK).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> GLACIER_ICE = registerBlock("glacier_ice",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BLUE_ICE).sound(SoundType.AMETHYST)));
+    public static final RegistryObject<Block> BITTER_ICE = registerBlock("bitter_ice",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE).sound(SoundType.GLASS)));
+    //Bitter Ice is meant to damage player when stepped on, but I don't know how to implement that
+    public static final RegistryObject<Block> ILL_ICE = registerBlock("ill_ice",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SOUL_SAND).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> BLACK_ICE = registerBlock("black_ice",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE).sound(SoundType.NETHERITE_BLOCK)));
+    //Black Ice is meant to have obsidian durability, mining and explosion wise, but I don't know how to implement that
+
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

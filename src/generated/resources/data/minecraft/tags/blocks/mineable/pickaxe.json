@@ -1,7 +1,5 @@
 {
   "values": [
-    "toomanyfountains:memoshard_ore",
-    "toomanyfountains:memorock",
     "toomanyfountains:hot_path",
     "toomanyfountains:hot_rock",
     "toomanyfountains:icesalt",
@@ -132,8 +130,6 @@
     "toomanyfountains:frost_marble_tiles_wall",
     "toomanyfountains:frost_marble_tiles_pressure_plate",
     "toomanyfountains:frost_marble_tiles_button",
-    "toomanyfountains:cryolite_block",
-    "toomanyfountains:glacieite_block",
     "toomanyfountains:deepstone",
     "toomanyfountains:ocean_dirt",
     "toomanyfountains:ocean_slate",
