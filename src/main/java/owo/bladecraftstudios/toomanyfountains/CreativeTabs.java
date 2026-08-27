@@ -35,6 +35,9 @@ public class CreativeTabs {
         output.accept(DWItems.BOARD_SWORD.get());
         output.accept(DWItems.BOARD_HOE.get());
         output.accept(DWItems.FLOORBOARD.get());
+        output.accept(DWItems.MEMOSHARD.get());
+        output.accept(DWBlocks.MEMOROCK.get());
+        output.accept(DWBlocks.MEMOSHARD_ORE.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());

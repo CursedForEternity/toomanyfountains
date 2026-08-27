@@ -35,6 +35,8 @@ public class DWItems {
             () -> new HoeItem(Tiers.IRON, 0, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> FLOORBOARD = ITEMS.register("floorboard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> MEMOSHARD = ITEMS.register("memoshard",
+            () -> new Item(new Item.Properties()));
     public static final RegistryObject<Item> BOARD_HOE = ITEMS.register("board_hoe",
             () -> new HoeItem(Tiers.WOOD, 0, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> BOARD_AXE = ITEMS.register("board_axe",

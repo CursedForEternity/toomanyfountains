@@ -22,6 +22,7 @@ public class ModItemModelProvider extends ItemModelProvider {
     protected void registerModels() {
         simpleItem(DWItems.RAW_SILWARE);
         simpleItem(DWItems.SILWARE);
+        simpleItem(DWItems.MEMOSHARD);
         heldItem(DWItems.SILWARE_AXE);
         heldItem(DWItems.SILWARE_HOE);
         heldItem(DWItems.SILWARE_BODKIN);

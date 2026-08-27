@@ -35,6 +35,10 @@ public class DWBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.COBBLED_DEEPSLATE).sound(SoundType.DEEPSLATE_TILES)));
     public static final RegistryObject<Block> SILWARE_DEBRIS = registerBlock("silware_debris",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK).sound(SoundType.ANCIENT_DEBRIS)));
+    public static final RegistryObject<Block> MEMOSHARD_ORE = registerBlock("memoshard_ore",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE).sound(SoundType.NETHER_ORE)));
+    public static final RegistryObject<Block> MEMOROCK = registerBlock("memorock",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK).sound(SoundType.NETHERRACK)));
     // Ocean Blues
     //Worldgen Blocks
     public static final RegistryObject<Block> FOAM_ORE = registerBlock("foam_ore",

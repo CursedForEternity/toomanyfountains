@@ -277,6 +277,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.SILWARE_DEBRIS);
         //blockColumn(DWBlocks.CIRCUS_BOARDS);
         blockColumn(DWBlocks.CIRCUS_ASH);
+        blockWithItem(DWBlocks.MEMOROCK);
+        blockWithItem(DWBlocks.MEMOSHARD_ORE);
         blockColumn(DWBlocks.CIRCUS_STONE);
 
     }

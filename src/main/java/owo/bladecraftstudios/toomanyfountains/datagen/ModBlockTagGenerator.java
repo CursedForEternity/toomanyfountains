@@ -20,6 +20,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
     @Override
     protected void addTags(HolderLookup.Provider provider) {
         this.tag(BlockTags.NEEDS_STONE_TOOL);
+        this.tag(BlockTags.NEEDS_IRON_TOOL)
+                .add(DWBlocks.MEMOSHARD_ORE.get())
+                .add(DWBlocks.MEMOROCK.get())
+        ;
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(DWBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())
                 .add(DWBlocks.DEEPLIGHT_GRASS_BLOCK.get())
@@ -93,6 +97,9 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.PINK_CORALWOOD_TRAPDOOR.get())
                 .add(DWBlocks.DEAD_CORALWOOD_PLANKS.get());
         this.tag(BlockTags.MINEABLE_WITH_PICKAXE)
+                .add(DWBlocks.MEMOSHARD_ORE.get())
+                .add(DWBlocks.MEMOROCK.get())
+
                 .add(DWBlocks.HOT_PATH.get())
                 .add(DWBlocks.HOT_ROCK.get())
                 .add(DWBlocks.ICESALT.get())

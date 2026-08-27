@@ -30,6 +30,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.CIRCUS_STONE.get());
         this.add(DWBlocks.SILWARE_DEBRIS.get(),
                 block -> createQroupletDrop(DWBlocks.SILWARE_DEBRIS.get(), DWItems.RAW_SILWARE.get()));
+        this.add(DWBlocks.MEMOSHARD_ORE.get(),
+                block -> createCopperLikeOreDrops(DWBlocks.MEMOSHARD_ORE.get(), DWItems.MEMOSHARD.get()));
+        this.dropSelf(DWBlocks.MEMOROCK.get());
         this.dropSelf(DWBlocks.CIRCUS_BOARDS.get());
 
         //Ocean
