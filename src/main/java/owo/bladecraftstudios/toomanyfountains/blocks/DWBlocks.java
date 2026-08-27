@@ -16,6 +16,7 @@ import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModFlammableRotatedPillarBlock;
 import owo.bladecraftstudios.toomanyfountains.blocks.custom.ModRotatedPillarBlock;
+import owo.bladecraftstudios.toomanyfountains.fluids.DWFluids;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
 
 import java.util.function.Supplier;
@@ -711,6 +712,18 @@ public class DWBlocks {
     public static final RegistryObject<Block> BLACK_ICE = registerBlock("black_ice",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE).sound(SoundType.NETHERITE_BLOCK)));
     //Black Ice is meant to have obsidian durability, mining and explosion wise, but I don't know how to implement that
+
+
+
+
+
+
+    //example shit
+
+    public static final RegistryObject<LiquidBlock> PURE_DARKNESS = BLOCKS.register("pure_darkness",
+            () -> new LiquidBlock(DWFluids.SOURCE_PURE_DARKNESS, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+
+
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {

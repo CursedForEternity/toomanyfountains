@@ -20,7 +20,6 @@ import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.phys.HitResult;
 import net.minecraftforge.event.ForgeEventFactory;
-import owo.bladecraftstudios.toomanyfountains.blocks.DWBlocks;
 import owo.bladecraftstudios.toomanyfountains.items.DWItems;
 
 public class DarkBucketItem extends BucketItem {
