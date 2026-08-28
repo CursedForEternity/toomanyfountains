@@ -716,6 +716,9 @@ public class DWBlocks {
     //Black Ice is meant to have obsidian durability, mining and explosion wise, but I don't know how to implement that
     public static final RegistryObject<LiquidBlock> ARCTIC_WATER = BLOCKS.register("arctic_water",
             () -> new LiquidBlock(DWFluids.SOURCE_ARCTIC_WATER , BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
+    //how do i give this custom textures?
+    public static final RegistryObject<Block> ICE_LOCK = registerBlock("ice_lock",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.NETHERITE_BLOCK)));
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

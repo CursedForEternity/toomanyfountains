@@ -173,6 +173,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         simpleItem(DWItems.ARCTIC_WATER_BUCKET);
         simpleItem(DWItems.CRYOLITE_BUCKET);
 
+        evenSimplerBlockItem(DWBlocks.ICE_LOCK);
+
         //Ocean
         fenceItem(DWBlocks.RED_CORALWOOD_FENCE,DWBlocks.RED_CORALWOOD_PLANKS);
         buttonItem(DWBlocks.RED_CORALWOOD_BUTTON,DWBlocks.RED_CORALWOOD_PLANKS);

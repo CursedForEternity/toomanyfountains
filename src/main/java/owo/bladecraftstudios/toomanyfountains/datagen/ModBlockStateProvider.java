@@ -272,6 +272,8 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWBlocks.ILL_ICE);
         blockWithItem(DWBlocks.BLACK_ICE);
 
+        blockWithItem(DWBlocks.ICE_LOCK);
+
         //COBBLED_ cobbled_
         //POLISHED_ polished_
         //_BRICKS _bricks

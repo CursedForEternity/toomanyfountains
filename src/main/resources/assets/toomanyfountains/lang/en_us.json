@@ -282,9 +282,10 @@
   "block.toomanyfountains.glacieite_block": "Glacieite Block",
   "block.toomanyfountains.cryolite_block": "Cryolite Block",
   "block.toomanyfountains.glacier_ice": "Glacier Ice",
-  "block.toomanyfountains.bitter_cold_ice": "Bitter Cold Ice",
+  "block.toomanyfountains.bitter_ice": "Bitter Cold Ice",
   "block.toomanyfountains.ill_ice": "Ill Ice",
   "block.toomanyfountains.black_ice": "Black Ice",
+  "block.toomanyfountains.ice_lock": "ICE_LOCK",
 
   "item.toomanyfountains.winter_spear": "Winter Spear",
   "item.toomanyfountains.cryolite_ingot": "Cryolite",
@@ -300,5 +301,7 @@
   "item.toomanyfountains.flower_petal": "Flower Petal",
   "item.toomanyfountains.blue_scale": "Blue Scale",
   "item.toomanyfountains.yellow_scale": "Yellow Scale",
-  "item.toomanyfountains.ice_key": "ICE_KEY"
+  "item.toomanyfountains.ice_key": "ICE_KEY",
+  "item.toomanyfountains.cryolite_bucket": "Cryolite Bucket",
+  "item.toomanyfountains.arctic_water_bucket": "Arctic Water Bucket"
 }
