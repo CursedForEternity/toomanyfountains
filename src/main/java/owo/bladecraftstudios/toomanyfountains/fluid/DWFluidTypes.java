@@ -10,8 +10,8 @@ import org.joml.Vector3f;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 
 public class DWFluidTypes {
-    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation("block/water_still");
-    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation("block/water_flow");
+    public static final ResourceLocation WATER_STILL_RL = new ResourceLocation(TooManyFountains.MODID,"block/arctic_water_fluid");
+    public static final ResourceLocation WATER_FLOWING_RL = new ResourceLocation(TooManyFountains.MODID,"block/flowing_arctic_water");
     public static final ResourceLocation ARCTIC_OVERLAY_RL = new ResourceLocation(TooManyFountains.MODID,"misc/in_arctic_water");
 
 public static final DeferredRegister<FluidType> FLUID_TYPES =
@@ -22,7 +22,7 @@ public static final RegistryObject<FluidType> ARCTIC_WATER_FLUID_TYPE = register
 
 private static RegistryObject<FluidType> register(String name, FluidType.Properties proporties) {
     return FLUID_TYPES.register(name, () -> new BaseFluidType(WATER_STILL_RL, WATER_FLOWING_RL, ARCTIC_OVERLAY_RL,
-            0X2f1b69, new Vector3f(47f/255f, 27f/255f, 105f/255f), proporties));
+            0xffffff, new Vector3f(0/255f, 0/255f, 0/255f), proporties));
 }
 
 public static void register(IEventBus eventBus){
