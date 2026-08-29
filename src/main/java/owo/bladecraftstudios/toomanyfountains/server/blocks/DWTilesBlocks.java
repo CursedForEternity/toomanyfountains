@@ -55,4 +55,7 @@ public class DWTilesBlocks {
     public static final RegistryObject<Block> FROST_MARBLE_TILES_PRESSURE_PLATE = DWBlocks.registerBlock("frost_marble_tiles_pressure_plate",
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
                     BlockSetType.STONE));
+
+    // This exists to ensure the class is loaded and statics... staticed
+    public static void register() {}
 }

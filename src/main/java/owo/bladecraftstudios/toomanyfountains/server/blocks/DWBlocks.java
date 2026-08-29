@@ -127,6 +127,14 @@ public class DWBlocks {
     }
 
     public static void register(IEventBus eventBus) {
+        DWBrickBlocks.register();
+        DWCircusBlocks.register();
+        DWCobbledBlocks.register();
+        DWColdBlocks.register();
+        DWOceanWorldgenBlocks.register();
+        DWPolishedBlocks.register();
+        DWTilesBlocks.register();
+        DWWoodBlocks.register();
         DWStoneBlocks.BLOCKS.register(eventBus);
     }
 

@@ -38,4 +38,7 @@ public class DWOceanWorldgenBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> HOT_ROCK = DWBlocks.registerBlock("hot_rock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+
+    // This exists to ensure the class is loaded and statics... staticed
+    public static void register() {}
 }

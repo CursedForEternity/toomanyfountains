@@ -200,4 +200,7 @@ public class DWWoodBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
     public static final RegistryObject<Block> FROZEN_OAK_TRAPDOOR = DWBlocks.registerBlock("frozen_oak_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
+
+    // This exists to ensure the class is loaded and statics... staticed
+    public static void register() {}
 }
