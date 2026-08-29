@@ -1,8 +1,6 @@
 package owo.bladecraftstudios.toomanyfountains;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,10 +14,10 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import owo.bladecraftstudios.toomanyfountains.blocks.DWBlocks;
-import owo.bladecraftstudios.toomanyfountains.fluid.DWFluidTypes;
-import owo.bladecraftstudios.toomanyfountains.fluid.DWFluids;
-import owo.bladecraftstudios.toomanyfountains.items.DWItems;
+import owo.bladecraftstudios.toomanyfountains.server.blocks.DWBlocks;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWFluidTypes;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWFluids;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TooManyFountains.MODID)
