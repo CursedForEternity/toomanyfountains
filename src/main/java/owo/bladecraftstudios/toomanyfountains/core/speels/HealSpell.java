@@ -16,7 +16,7 @@ import owo.bladecraftstudios.toomanyfountains.core.util.QuadConsumer;
 
 import java.util.List;
 
-public class FireballSpell extends AbstractSpell {
+public class HealSpell extends AbstractSpell {
     @Override
     public int requiredTP() {
         return 30;
@@ -24,32 +24,18 @@ public class FireballSpell extends AbstractSpell {
 
     @Override
     public List<TagKey<Item>> requiredTag() {
-        return List.of(ItemTags.CANDLES);
+        return List.of();
     }
 
     @Override
     public Component getName() {
-        return Component.literal("FIREBALL!");
+        return Component.literal("Heal");
     }
 
     @Override
     protected QuadConsumer<Player, Entity, Level, Long> onCast() {
         return (player, entity, level, returnAddr) -> {
-            Vec3 look = player.getLookAngle();
-
-            Fireball ball = EntityType.FIREBALL.create(level);
-
-            Vec3 pos = player.getEyePosition().add(look.scale(2.0));
-            ball.setPos(pos);
-
-            ball.setDeltaMovement(look.scale(1.5));
-
-            level.addFreshEntity(ball);
-
-            player.displayClientMessage(Component.literal(player.getName() + " Cast " + getName().getString()), false);
-            if (entity instanceof Player p)
-                p.displayClientMessage(Component.literal(player.getName() + " Cast " + getName().getString()), false);
-
+            player.heal(Math.min(player.getHealth() * 2, player.getMaxHealth()));
             // Set the byte at the return address to be 1/true
             MemoryUtil.memPutByte(returnAddr, (byte) 1);
         };
