@@ -114,7 +114,7 @@ public class DWBlocks {
             () -> new LiquidBlock(DWFluids.SOURCE_ARCTIC_WATER, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
     //how do i give this custom textures?
     public static final RegistryObject<Block> ICE_LOCK = registerBlock("ice_lock",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.NETHERITE_BLOCK)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.NETHERITE_BLOCK).noLootTable()));
 
     protected static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = DWStoneBlocks.BLOCKS.register(name, block);
