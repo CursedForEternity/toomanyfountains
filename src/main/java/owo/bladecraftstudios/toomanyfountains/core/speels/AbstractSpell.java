@@ -1,5 +1,6 @@
 package owo.bladecraftstudios.toomanyfountains.core.speels;
 
+import net.minecraft.network.chat.Component;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
@@ -20,6 +21,12 @@ public abstract class AbstractSpell {
     /**
      * @return a TriConsumer which will be executed based on `FIREBALL.accept(caster, castedAt, level);`
      * Why is it named FIREBALL? BECAUSE I CAST FIREBALL THAT'S WHY!
+     * Anyway, this is the code that gets executed when the spell is cast
      */
     public abstract TriConsumer<Player, Entity, Level> FIREBALL();
+
+    /**
+     * @return The name to be displayed
+     */
+    public abstract Component getName();
 }
