@@ -96,6 +96,19 @@ public class DWBlocks {
     public static final RegistryObject<Block> BITTER_ICE = registerBlock("bitter_ice",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.PACKED_ICE).sound(SoundType.GLASS)));
 
+
+    public static final RegistryObject<Block> ROOTED_BARK_BRICKS = registerBlock("rooted_bark_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> CHISELED_ROOTED_BARK = registerBlock("chiseled_rooted_bark",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> MOSSY_ROOTED_BARK_BRICKS = registerBlock("mossy_rooted_bark_bricks",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> FOSSILIZED_CARBON = registerBlock("fossilized_carbon",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> ROOTED_LIGHT = registerBlock("rooted_light",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).lightLevel((state -> 10))));
+
+
     //Bitter Ice is meant to damage player when stepped on, but I don't know how to implement that
     // Yw
     // - Codiak

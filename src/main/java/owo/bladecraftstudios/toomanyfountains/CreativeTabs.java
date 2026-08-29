@@ -305,9 +305,15 @@ public class CreativeTabs {
         output.accept(DWColdBlocks.FLOWER_PETAL.get());
         output.accept(DWColdBlocks.BLUE_SCALE.get());
         output.accept(DWColdBlocks.YELLOW_SCALE.get());
-
-
     }).build());
+
+        public static final RegistryObject<CreativeModeTab> ROOT_TAB = CREATIVE_TABS.register("roots_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWBlocks.CHISELED_ROOTED_BARK.get())).title(Component.translatable("creativetab.roots_dw")).displayItems((itemDisplayParameters, output) -> {
+            output.accept(DWBlocks.ROOTED_BARK_BRICKS.get());
+            output.accept(DWBlocks.MOSSY_ROOTED_BARK_BRICKS.get());
+            output.accept(DWBlocks.CHISELED_ROOTED_BARK.get());
+            output.accept(DWBlocks.FOSSILIZED_CARBON.get());
+            output.accept(DWBlocks.ROOTED_LIGHT.get());
+        }).build());
 
     public static void register(IEventBus eventBus){
         CREATIVE_TABS.register(eventBus);
