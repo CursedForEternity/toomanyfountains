@@ -5,6 +5,8 @@ import net.minecraft.nbt.CompoundTag;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.entity.player.Player;
 import owo.bladecraftstudios.toomanyfountains.core.capabilities.interfaces.IPlayerCap;
+import owo.bladecraftstudios.toomanyfountains.core.speels.AbstractSpell;
+import owo.bladecraftstudios.toomanyfountains.core.speels.FireballSpell;
 
 public class PlayerCapability implements IPlayerCap {
 	Player player;
@@ -26,5 +28,15 @@ public class PlayerCapability implements IPlayerCap {
 		CompoundTag tag = new CompoundTag();
 		tag.putInt("tp", this.TP);
 		return tag;
+	}
+
+	@Override
+	public AbstractSpell getSelectedSpell() {
+		return new FireballSpell();
+	}
+
+	@Override
+	public void setSelectedSpell(AbstractSpell spell) {
+
 	}
 }

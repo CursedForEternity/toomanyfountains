@@ -12,6 +12,7 @@ import net.minecraftforge.network.simple.SimpleChannel;
 import org.joml.Vector3d;
 import org.joml.Vector3f;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
+import owo.bladecraftstudios.toomanyfountains.core.networking.ImAPacket;
 import owo.bladecraftstudios.toomanyfountains.entities.DWMobs;
 
 import java.util.function.Supplier;
@@ -110,47 +111,48 @@ public class UniversalCommon {
 	}
 
 	// Don't need this yet, but when it is I'll port it over.
-//	public static class Networking {
-//		private static int ID = 0;
-//		private static final String PROTOCOL = "1";
-//
-//		private static final SimpleChannel Network = NetworkRegistry.ChannelBuilder
-//				.named(new ResourceLocation(TriggerAPI.getModId(), "main")).clientAcceptedVersions(PROTOCOL::equals)
-//				.serverAcceptedVersions(PROTOCOL::equals).networkProtocolVersion(() -> PROTOCOL).simpleChannel();
-//
-//		public static SimpleChannel getInstance() {
-//			return Network;
-//		}
-//
-//		@SuppressWarnings("unchecked")
-//		public static <MSG extends ImAPacket> void registerMsg(Class<MSG> packet) {
-//			register((Class<Object>) (Object) packet); // This works by casting packet down to an object (which it is)
-//														// and
-//														// casting that to Class<Object>, Prob shouldn't do this, but it
-//														// works.
-//		}
-//
-//		private static void register(Class<Object> packet) {
-//			getInstance().registerMessage(com.code.tama.tts.core.networking.Networking.id(), packet, (msg, buf) -> {
-//				try {
-//					packet.getMethod("encode", packet, FriendlyByteBuf.class).invoke(null, msg, buf);
-//				} catch (Exception e) {
-//					throw new RuntimeException(e);
-//				}
-//			}, (buf) -> {
-//				try {
-//					return packet.getMethod("decode", FriendlyByteBuf.class).invoke(null, buf);
-//				} catch (Exception e) {
-//					throw new RuntimeException(e);
-//				}
-//			}, (msg, ctx) -> {
-//				try {
-//					packet.getMethod("handle", packet, Supplier.class).invoke(null, msg, ctx);
-//				} catch (Exception e) {
-//					throw new RuntimeException(e);
-//				}
-//			});
-//		}
-//
-//	}
+	public static class Networking {
+		private static int ID = 0;
+		public static int id() { return ID++; }
+		private static final String PROTOCOL = "1";
+
+		private static final SimpleChannel Network = NetworkRegistry.ChannelBuilder
+				.named(newRL(TooManyFountains.MODID, "main")).clientAcceptedVersions(PROTOCOL::equals)
+				.serverAcceptedVersions(PROTOCOL::equals).networkProtocolVersion(() -> PROTOCOL).simpleChannel();
+
+		public static SimpleChannel getInstance() {
+			return Network;
+		}
+
+		@SuppressWarnings("unchecked")
+		public static <MSG extends ImAPacket> void registerMsg(Class<MSG> packet) {
+			register((Class<Object>) (Object) packet); // This works by casting packet down to an object (which it is)
+														// and
+														// casting that to Class<Object>, Prob shouldn't do this, but it
+														// works.
+		}
+
+		private static void register(Class<Object> packet) {
+			getInstance().registerMessage(Networking.id(), packet, (msg, buf) -> {
+				try {
+					packet.getMethod("encode", packet, FriendlyByteBuf.class).invoke(null, msg, buf);
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			}, (buf) -> {
+				try {
+					return packet.getMethod("decode", FriendlyByteBuf.class).invoke(null, buf);
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			}, (msg, ctx) -> {
+				try {
+					packet.getMethod("handle", packet, Supplier.class).invoke(null, msg, ctx);
+				} catch (Exception e) {
+					throw new RuntimeException(e);
+				}
+			});
+		}
+
+	}
 }
