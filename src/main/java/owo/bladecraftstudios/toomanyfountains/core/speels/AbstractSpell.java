@@ -39,15 +39,15 @@ public abstract class AbstractSpell {
 
     /**
      * Casts a spell
-     * @param harry You're a wizard harry! (The player casting the spell)
+     * @param player You're a wizard player! (The player casting the spell)
      * @param targeted The entity targetted (Leave null if no target)
      * @param level The level the player is in
      * @return Whether the cast was successful
      */
-    public boolean cast(Player harry, Entity targeted, Level level) {
+    public boolean cast(Player player, Entity targeted, Level level) {
         // Allocate 1 byte to the return address
         returnAddress = MemoryUtil.nmemAlloc(Byte.BYTES);
-        onCast().accept(harry, targeted, level, returnAddress);
+        onCast().accept(player, targeted, level, returnAddress);
         // Save the returned value into a boolean
         boolean returned = MemoryUtil.memGetBoolean(returnAddress);
         // Free the memory used by the return address

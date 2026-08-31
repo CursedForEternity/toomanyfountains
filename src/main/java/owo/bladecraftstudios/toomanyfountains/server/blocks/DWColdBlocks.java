@@ -64,6 +64,7 @@ public class DWColdBlocks {
     public static final RegistryObject<Item> ARCTIC_WATER_BUCKET = DWItems.ITEMS.register("arctic_water_bucket",
             () -> new CryoliteBucketItem(DWFluids.SOURCE_ARCTIC_WATER.get(), new Item.Properties().stacksTo(1)
                     .craftRemainder(CRYOLITE_BUCKET.get())));
+
     public static final RegistryObject<Block> ICESALT_PILLAR = DWBlocks.registerBlock("icesalt_pillar",
             () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> HAILSTONE_PILLAR = DWBlocks.registerBlock("hailstone_pillar",

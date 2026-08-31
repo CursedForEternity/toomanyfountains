@@ -287,6 +287,13 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWCircusBlocks.MEMOSHARD_ORE);
         blockColumn(DWCircusBlocks.CIRCUS_STONE);
 
+        //ROOTS
+        blockColumn(DWBlocks.ROOTED_BARK_BRICKS);
+        blockWithItem(DWBlocks.CHISELED_ROOTED_BARK);
+        blockColumn(DWBlocks.MOSSY_ROOTED_BARK_BRICKS);
+        blockWithItem(DWBlocks.FOSSILIZED_CARBON);
+        blockWithItem(DWBlocks.ROOTED_LIGHT);
+
     }
 
     private void blockWithItem(Block block) {
