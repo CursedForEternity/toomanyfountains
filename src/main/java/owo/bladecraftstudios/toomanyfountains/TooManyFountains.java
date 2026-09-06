@@ -1,8 +1,6 @@
 package owo.bladecraftstudios.toomanyfountains;
 
 import com.mojang.logging.LogUtils;
-import net.minecraft.client.renderer.ItemBlockRenderTypes;
-import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -16,10 +14,12 @@ import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
-import owo.bladecraftstudios.toomanyfountains.blocks.DWBlocks;
-import owo.bladecraftstudios.toomanyfountains.fluid.DWFluidTypes;
-import owo.bladecraftstudios.toomanyfountains.fluid.DWFluids;
-import owo.bladecraftstudios.toomanyfountains.items.DWItems;
+import owo.bladecraftstudios.toomanyfountains.core.networking.Networking;
+import owo.bladecraftstudios.toomanyfountains.core.util.UniversalCommon;
+import owo.bladecraftstudios.toomanyfountains.server.blocks.DWBlocks;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWFluidTypes;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWFluids;
+import owo.bladecraftstudios.toomanyfountains.server.registries.DWItems;
 
 // The value here should match an entry in the META-INF/mods.toml file
 @Mod(TooManyFountains.MODID)
@@ -28,7 +28,7 @@ public class TooManyFountains {
     // Define mod id in a common place for everything to reference
     public static final String MODID = "toomanyfountains";
     // Directly reference a slf4j logger
-    private static final Logger LOGGER = LogUtils.getLogger();
+    public static final Logger LOGGER = LogUtils.getLogger();
 
     @SuppressWarnings("removal")
     public TooManyFountains() {
@@ -52,6 +52,8 @@ public class TooManyFountains {
 
         // Register our mod's ForgeConfigSpec so that Forge can create and load the config file for us
         ModLoadingContext.get().registerConfig(ModConfig.Type.COMMON, Config.SPEC);
+
+        Networking.registerPackets();
     }
 
     private void addCreative(BuildCreativeModeTabContentsEvent event) {

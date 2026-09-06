@@ -1,4 +1,4 @@
-// 1.20.1	2026-08-27T15:31:26.9519872	Item Models: toomanyfountains
+// 1.20.1	2026-08-29T10:03:01.3840301	Item Models: toomanyfountains
 be9d76ec857ea906d061039a2b53cb364faecefa assets/toomanyfountains/models/item/arctic_water_bucket.json
 a788b29618406f865a063788b0f47eafe01f4d88 assets/toomanyfountains/models/item/bitter_ice.json
 cf45842f590dd963b670a9af7fa8f9a59c618666 assets/toomanyfountains/models/item/black_ice.json
@@ -102,6 +102,7 @@ a2e6956841e9610ab6102cb5244dee115b7ffaa6 assets/toomanyfountains/models/item/ice
 7a1cd015b33dc125215f67c3de0699e2c841449f assets/toomanyfountains/models/item/icesalt_tiles_tiles.json
 f60be903dd0e62c5b0950c5680ca9f8f5b3456d8 assets/toomanyfountains/models/item/icesalt_tiles_wall.json
 b29c48030fd5177c3fc0bdab0b81dec1916e3792 assets/toomanyfountains/models/item/icesalt_wall.json
+783e5fc00d170a6b635c90522803c5392b80587d assets/toomanyfountains/models/item/ice_lock.json
 954d9da820e24b1a42caf6a65bf0a07a5b7c367c assets/toomanyfountains/models/item/ill_ice.json
 a263cba6c3738f51b2bc2a66d559e445a3d5372f assets/toomanyfountains/models/item/memoshard.json
 e5d34249936970a3eed0ec0097c2f61de2fad91f assets/toomanyfountains/models/item/pink_coralwood_button.json

@@ -302,5 +302,12 @@
   "item.toomanyfountains.yellow_scale": "Yellow Scale",
   "item.toomanyfountains.ice_key": "ICE_KEY",
   "item.toomanyfountains.cryolite_bucket": "Cryolite Bucket",
-  "item.toomanyfountains.arctic_water_bucket": "Arctic Water Bucket"
+  "item.toomanyfountains.arctic_water_bucket": "Arctic Water Bucket",
+
+  "creativetab.roots_dw": "ROOTS",
+  "block.toomanyfountains.rooted_bark_bricks": "Rooted Bark Bricks",
+  "block.toomanyfountains.mossy_rooted_bark_bricks": "Mossy Rooted Bark Bricks",
+  "block.toomanyfountains.chiseled_rooted_bark": "Chiseled Rooted Bark",
+  "block.toomanyfountains.fossilized_carbon": "Fossilized Carbon",
+  "block.toomanyfountains.rooted_light": "Root Light"
 }

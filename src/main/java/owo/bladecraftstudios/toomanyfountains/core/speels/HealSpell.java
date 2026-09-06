@@ -1,0 +1,43 @@
+package owo.bladecraftstudios.toomanyfountains.core.speels;
+
+import net.minecraft.network.chat.Component;
+import net.minecraft.tags.ItemTags;
+import net.minecraft.tags.TagKey;
+import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.EntityType;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.entity.projectile.Fireball;
+import net.minecraft.world.item.Item;
+import net.minecraft.world.level.Level;
+import net.minecraft.world.phys.Vec3;
+import org.apache.logging.log4j.util.TriConsumer;
+import org.lwjgl.system.MemoryUtil;
+import owo.bladecraftstudios.toomanyfountains.core.util.QuadConsumer;
+
+import java.util.List;
+
+public class HealSpell extends AbstractSpell {
+    @Override
+    public int requiredTP() {
+        return 30;
+    }
+
+    @Override
+    public List<TagKey<Item>> requiredTag() {
+        return List.of();
+    }
+
+    @Override
+    public Component getName() {
+        return Component.literal("Heal");
+    }
+
+    @Override
+    protected QuadConsumer<Player, Entity, Level, Long> onCast() {
+        return (player, entity, level, returnAddr) -> {
+            player.heal(Math.min(player.getHealth() * 2, player.getMaxHealth()));
+            // Set the byte at the return address to be 1/true
+            MemoryUtil.memPutByte(returnAddr, (byte) 1);
+        };
+    }
+}
