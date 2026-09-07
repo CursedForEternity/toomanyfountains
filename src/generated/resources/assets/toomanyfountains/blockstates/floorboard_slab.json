@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "toomanyfountains:block/floorboard_slab"
+    },
+    "type=double": {
+      "model": "toomanyfountains:block/floorboards"
+    },
+    "type=top": {
+      "model": "toomanyfountains:block/floorboard_slab_top"
+    }
+  }
+}

@@ -17,6 +17,22 @@ public class ModBlockStateProvider extends BlockStateProvider {
     @Override
     protected void registerStatesAndModels() {
 
+        // Circus
+        blockWithItem(DWCircusBlocks.SILWARE_DEBRIS);
+        blockColumn(DWCircusBlocks.CIRCUS_ASH);
+        blockWithItem(DWCircusBlocks.MEMOROCK);
+        blockWithItem(DWCircusBlocks.MEMOSHARD_ORE);
+        blockWithItem(DWCircusBlocks.SILWARE_BLOCK);
+        blockWithItem(DWCircusBlocks.RAW_SILWARE_BLOCK);
+        blockColumn(DWCircusBlocks.CIRCUS_STONE);
+        blockWithItem(DWCircusBlocks.FLOORBOARDS);
+        stairsBlock(((StairBlock) DWCircusBlocks.FLOORBOARD_STAIRS.get()), blockTexture(DWCircusBlocks.FLOORBOARDS.get()));
+        fenceBlock(((FenceBlock) DWCircusBlocks.FLOORBOARD_FENCE.get()), blockTexture(DWCircusBlocks.FLOORBOARDS.get()));
+        fenceGateBlock(((FenceGateBlock) DWCircusBlocks.FLOORBOARD_FENCE_GATE.get()), blockTexture(DWCircusBlocks.FLOORBOARDS.get()));
+        slabBlock(((SlabBlock) DWCircusBlocks.FLOORBOARD_SLAB.get()), blockTexture(DWCircusBlocks.FLOORBOARDS.get()), blockTexture(DWCircusBlocks.FLOORBOARDS.get()));
+        doorBlockWithRenderType(((DoorBlock) DWCircusBlocks.FLOORBOARD_DOOR.get()), modLoc("block/floorboard_door_bottom"), modLoc("block/floorboard_door_top"), "cutout");
+        trapdoorBlockWithRenderType(((TrapDoorBlock) DWCircusBlocks.FLOORBOARD_TRAPDOOR.get()), modLoc("block/floorboard_trapdoor"), true, "cutout");
+
         //Ocean
         trapdoorBlockWithRenderType(((TrapDoorBlock) DWWoodBlocks.RED_CORALWOOD_TRAPDOOR.get()), modLoc("block/red_coralwood_trapdoor"), true, "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) DWWoodBlocks.BLUE_CORALWOOD_TRAPDOOR.get()), modLoc("block/blue_coralwood_trapdoor"), true, "cutout");
@@ -278,14 +294,6 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //POLISHED_ polished_
         //_BRICKS _bricks
         //_TILES _tiles
-
-        // Circus
-        blockWithItem(DWCircusBlocks.SILWARE_DEBRIS);
-        //blockColumn(DWBlocks.CIRCUS_BOARDS);
-        blockColumn(DWCircusBlocks.CIRCUS_ASH);
-        blockWithItem(DWCircusBlocks.MEMOROCK);
-        blockWithItem(DWCircusBlocks.MEMOSHARD_ORE);
-        blockColumn(DWCircusBlocks.CIRCUS_STONE);
 
         //ROOTS
         blockColumn(DWBlocks.ROOTED_BARK_BRICKS);

@@ -20,21 +20,6 @@ public class ModItemModelProvider extends ItemModelProvider {
 
     @Override
     protected void registerModels() {
-        simpleItem(DWItems.RAW_SILWARE);
-        simpleItem(DWItems.SILWARE);
-        simpleItem(DWItems.MEMOSHARD);
-        heldItem(DWItems.SILWARE_AXE);
-        heldItem(DWItems.SILWARE_HOE);
-        heldItem(DWItems.SILWARE_BODKIN);
-        heldItem(DWItems.SILWARE_PICKAXE);
-        heldItem(DWItems.SILWARE_SWORD);
-        heldItem(DWItems.SILWARE_SHOVEL);
-        simpleItem(DWItems.FLOORBOARD);
-        heldItem(DWItems.BOARD_PICKAXE);
-        heldItem(DWItems.BOARD_HOE);
-        heldItem(DWItems.BOARD_AXE);
-        heldItem(DWItems.BOARD_SHOVEL);
-        heldItem(DWItems.BOARD_SWORD);
 
         evenSimplerBlockItem(DWColdBlocks.ICESALT_PILLAR);
         buttonItem(DWColdBlocks.ICESALT_BUTTON,DWBlocks.ICESALT);
@@ -228,6 +213,30 @@ public class ModItemModelProvider extends ItemModelProvider {
         trapdoorItem(DWWoodBlocks.YELLOW_CORALWOOD_TRAPDOOR);
         simpleBlockItem(DWWoodBlocks.PURPLE_CORALWOOD_DOOR);
         trapdoorItem(DWWoodBlocks.PURPLE_CORALWOOD_TRAPDOOR);
+
+        simpleItem(DWItems.RAW_SILWARE);
+        simpleItem(DWItems.SILWARE);
+        simpleItem(DWItems.MEMOSHARD);
+        heldItem(DWItems.SILWARE_AXE);
+        heldItem(DWItems.SILWARE_HOE);
+        heldItem(DWItems.SILWARE_BODKIN);
+        heldItem(DWItems.SILWARE_PICKAXE);
+        heldItem(DWItems.SILWARE_SWORD);
+        heldItem(DWItems.SILWARE_SHOVEL);
+        simpleItem(DWItems.FLOORBOARD);
+        heldItem(DWItems.BOARD_PICKAXE);
+        heldItem(DWItems.BOARD_HOE);
+        heldItem(DWItems.BOARD_AXE);
+        heldItem(DWItems.BOARD_SHOVEL);
+        heldItem(DWItems.BOARD_SWORD);
+        heldItem(DWItems.SILWARE_BUCKET);
+        heldItem(DWItems.SODA_BUCKET);
+        evenSimplerBlockItem(DWCircusBlocks.FLOORBOARD_STAIRS);
+        evenSimplerBlockItem(DWCircusBlocks.FLOORBOARD_SLAB);
+        evenSimplerBlockItem(DWCircusBlocks.FLOORBOARD_FENCE_GATE);
+        fenceItem(DWCircusBlocks.FLOORBOARD_FENCE, DWCircusBlocks.FLOORBOARDS);
+        simpleBlockItem(DWCircusBlocks.FLOORBOARD_DOOR);
+        trapdoorItem(DWCircusBlocks.FLOORBOARD_TRAPDOOR);
     }
 
     private ItemModelBuilder simpleItem(RegistryObject<Item> item) {

@@ -1,18 +1,7 @@
 {
   "parent": "minecraft:block/cube_column",
-  "loader": "fusion:model",
-  "type": "connecting",
   "textures": {
     "end": "toomanyfountains:block/circus_boards_top",
     "side": "toomanyfountains:block/circus_boards"
-  },
-  "connections": [
-    {
-      "type": "is_same_block"
-    },
-    {
-      "type": "match_block",
-      "block": "toomanyfountains:circus_boards"
-    }
-  ]
+  }
 }

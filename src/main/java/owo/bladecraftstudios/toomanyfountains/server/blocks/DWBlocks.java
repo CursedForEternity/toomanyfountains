@@ -12,6 +12,7 @@ import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.RegistryObject;
 import org.jetbrains.annotations.NotNull;
+import owo.bladecraftstudios.toomanyfountains.core.blocks.RootsCraftingTableBlock;
 import owo.bladecraftstudios.toomanyfountains.server.registries.DWFluids;
 import owo.bladecraftstudios.toomanyfountains.server.registries.DWItems;
 
@@ -125,9 +126,15 @@ public class DWBlocks {
     //Black Ice is meant to have obsidian durability, mining and explosion wise, but I don't know how to implement that
     public static final RegistryObject<LiquidBlock> ARCTIC_WATER = DWStoneBlocks.BLOCKS.register("arctic_water",
             () -> new LiquidBlock(DWFluids.SOURCE_ARCTIC_WATER, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
-    //how do i give this custom textures?
+    public static final RegistryObject<LiquidBlock> SODA = DWStoneBlocks.BLOCKS.register("soda",
+            () -> new LiquidBlock(DWFluids.SOURCE_SODA, BlockBehaviour.Properties.copy(Blocks.WATER).noLootTable()));
     public static final RegistryObject<Block> ICE_LOCK = registerBlock("ice_lock",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.NETHERITE_BLOCK).noLootTable()));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.BEDROCK).sound(SoundType.NETHERITE_BLOCK).noLootTable().emissiveRendering((state, reader, pos) -> true)));
+
+
+
+    public static final RegistryObject<Block> ROOTS_CRAFTING_TABLE = registerBlock("roots_crafting_table",
+            () -> new RootsCraftingTableBlock(BlockBehaviour.Properties.copy(Blocks.DEEPSLATE).sound(SoundType.DEEPSLATE)));
 
     protected static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block) {
         RegistryObject<T> toReturn = DWStoneBlocks.BLOCKS.register(name, block);

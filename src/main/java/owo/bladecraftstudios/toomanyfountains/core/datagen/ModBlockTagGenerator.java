@@ -263,8 +263,10 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
         this.tag(BlockTags.MINEABLE_WITH_SHOVEL)
                 .add(DWCircusBlocks.CIRCUS_ASH.get());
         this.tag(BlockTags.FENCES)
+                .add(DWCircusBlocks.FLOORBOARD_FENCE.get())
                 .add(DWWoodBlocks.FROZEN_OAK_FENCE.get());
         this.tag(BlockTags.FENCE_GATES)
+                .add(DWCircusBlocks.FLOORBOARD_FENCE_GATE.get())
                 .add(DWWoodBlocks.FROZEN_OAK_GATE.get());
         this.tag(BlockTags.WALLS)
                 .add(DWColdBlocks.ICESALT_WALL.get())

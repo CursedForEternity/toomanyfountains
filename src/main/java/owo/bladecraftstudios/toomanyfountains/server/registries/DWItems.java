@@ -1,12 +1,14 @@
 package owo.bladecraftstudios.toomanyfountains.server.registries;
 
 import net.minecraft.world.item.*;
+import net.minecraft.world.level.material.Fluids;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 import owo.bladecraftstudios.toomanyfountains.core.items.SilwareAxItem;
+import owo.bladecraftstudios.toomanyfountains.core.items.SilwareBucketItem;
 import owo.bladecraftstudios.toomanyfountains.core.items.SilwareJavelinItem;
 
 public class DWItems {
@@ -47,6 +49,11 @@ public class DWItems {
             () -> new SwordItem(Tiers.WOOD, 2, 1, new Item.Properties().stacksTo(1)));
     public static final RegistryObject<Item> MEMOSHARD = ITEMS.register("memoshard",
             () -> new Item(new Item.Properties()));
+    public static final RegistryObject<Item> SILWARE_BUCKET = ITEMS.register("silware_bucket",
+                    () -> new SilwareBucketItem(Fluids.EMPTY, new Item.Properties()));
+    public static final RegistryObject<Item> SODA_BUCKET = ITEMS.register("soda_bucket",
+            () -> new SilwareBucketItem(DWFluids.SOURCE_SODA.get(), new Item.Properties().stacksTo(1)
+                    .craftRemainder(SILWARE_BUCKET.get())));
 
 
     //EXAMPLE STUFF FOR REFERENCE

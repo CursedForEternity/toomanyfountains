@@ -34,6 +34,15 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
                 block -> createCopperLikeOreDrops(DWCircusBlocks.MEMOSHARD_ORE.get(), DWItems.MEMOSHARD.get()));
         this.dropSelf(DWCircusBlocks.MEMOROCK.get());
         this.dropSelf(DWCircusBlocks.CIRCUS_BOARDS.get());
+        this.dropSelf(DWCircusBlocks.SILWARE_BLOCK.get());
+        this.dropSelf(DWCircusBlocks.RAW_SILWARE_BLOCK.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARDS.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_SLAB.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_STAIRS.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_FENCE_GATE.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_FENCE.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_TRAPDOOR.get());
+        this.dropSelf(DWCircusBlocks.FLOORBOARD_DOOR.get());
 
         //Ocean
         this.dropSelf(DWWoodBlocks.RED_CORALWOOD_LOG.get());
@@ -334,10 +343,8 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.MOSSY_ROOTED_BARK_BRICKS.get());
         this.dropSelf(DWBlocks.FOSSILIZED_CARBON.get());
         this.dropSelf(DWBlocks.ROOTED_LIGHT.get());
+        this.dropSelf(DWBlocks.ROOTS_CRAFTING_TABLE.get());
 
-    }
-
-    private void dropsSelf() {
     }
 
     protected LootTable.Builder createCopperLikeOreDrops(Block pBlock, Item item) {
