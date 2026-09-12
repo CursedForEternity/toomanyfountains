@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "toomanyfountains:roots_crafting_table"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "toomanyfountains:blocks/roots_crafting_table"
+}

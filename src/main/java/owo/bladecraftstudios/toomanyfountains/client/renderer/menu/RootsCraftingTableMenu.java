@@ -65,6 +65,16 @@ public class RootsCraftingTableMenu extends RecipeBookMenu<CraftingContainer> {
             ServerPlayer serverPlayer = (ServerPlayer)pPlayer;
             ItemStack stack = ItemStack.EMPTY;
             List<CraftingRecipe> recipes = pLevel.getServer().getRecipeManager().getRecipesFor(RecipeType.CRAFTING, pContainer, pLevel);
+            for(CraftingRecipe recipe : recipes)
+            {
+                    ItemStack result = recipe.assemble(pContainer, pLevel.registryAccess());
+                    if(result.isItemEnabled(pLevel.enabledFeatures()))
+                    {
+                        stack = result;
+                        break;
+                    }
+            }
+
             pResult.setItem(0, stack);
             pMenu.setRemoteSlot(0, stack);
             serverPlayer.connection.send(new ClientboundContainerSetSlotPacket(pMenu.containerId, pMenu.incrementStateId(), 0, stack));

@@ -28,13 +28,24 @@ public class CreativeTabs {
         output.accept(DWItems.SILWARE_JAVELIN.get());
         output.accept(DWItems.RAW_SILWARE.get());
         output.accept(DWItems.SILWARE.get());
+        output.accept(DWItems.SILWARE_BUCKET.get());
+        output.accept(DWItems.SODA_BUCKET.get());
         output.accept(DWCircusBlocks.SILWARE_DEBRIS.get());
+        output.accept(DWCircusBlocks.SILWARE_BLOCK.get());
+        output.accept(DWCircusBlocks.RAW_SILWARE_BLOCK.get());
         output.accept(DWItems.BOARD_AXE.get());
         output.accept(DWItems.BOARD_SHOVEL.get());
         output.accept(DWItems.BOARD_PICKAXE.get());
         output.accept(DWItems.BOARD_SWORD.get());
         output.accept(DWItems.BOARD_HOE.get());
         output.accept(DWItems.FLOORBOARD.get());
+        output.accept(DWCircusBlocks.FLOORBOARDS.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_STAIRS.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_SLAB.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_FENCE.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_FENCE_GATE.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_DOOR.get());
+        output.accept(DWCircusBlocks.FLOORBOARD_TRAPDOOR.get());
         output.accept(DWItems.MEMOSHARD.get());
         output.accept(DWCircusBlocks.MEMOROCK.get());
         output.accept(DWCircusBlocks.MEMOSHARD_ORE.get());
@@ -313,6 +324,7 @@ public class CreativeTabs {
             output.accept(DWBlocks.CHISELED_ROOTED_BARK.get());
             output.accept(DWBlocks.FOSSILIZED_CARBON.get());
             output.accept(DWBlocks.ROOTED_LIGHT.get());
+            output.accept(DWBlocks.ROOTS_CRAFTING_TABLE.get());
         }).build());
 
     public static void register(IEventBus eventBus){

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column",
+  "textures": {
+    "end": "toomanyfountains:block/mossy_rooted_bark_bricks_top",
+    "side": "toomanyfountains:block/mossy_rooted_bark_bricks"
+  }
+}
