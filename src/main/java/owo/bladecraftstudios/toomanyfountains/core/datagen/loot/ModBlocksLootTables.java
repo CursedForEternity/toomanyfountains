@@ -26,6 +26,9 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
     protected void generate() {
         //Circus
         this.dropSelf(DWCircusBlocks.CIRCUS_FLOOR.get());
+        this.dropSelf(DWCircusBlocks.CARPET_SOIL.get());
+        this.dropOther(DWCircusBlocks.CARPET_ROOTS.get(), DWCircusBlocks.CARPET_SOIL.get());
+        this.dropSelf(DWCircusBlocks.DENSE_CARPET.get());
         this.dropSelf(DWCircusBlocks.CIRCUS_ASH.get());
         this.dropSelf(DWCircusBlocks.CIRCUS_STONE.get());
         this.add(DWCircusBlocks.SILWARE_DEBRIS.get(),
@@ -43,6 +46,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWCircusBlocks.FLOORBOARD_FENCE.get());
         this.dropSelf(DWCircusBlocks.FLOORBOARD_TRAPDOOR.get());
         this.dropSelf(DWCircusBlocks.FLOORBOARD_DOOR.get());
+        this.dropSelf(DWCircusBlocks.MEMOSHARD_BLOCK.get());
 
         //Ocean
         this.dropSelf(DWWoodBlocks.RED_CORALWOOD_LOG.get());

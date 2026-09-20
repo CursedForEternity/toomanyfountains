@@ -19,7 +19,10 @@ public class ModBlockStateProvider extends BlockStateProvider {
 
         // Circus
         blockWithItem(DWCircusBlocks.SILWARE_DEBRIS);
+        blockWithItem(DWCircusBlocks.MEMOSHARD_BLOCK);
         blockColumn(DWCircusBlocks.CIRCUS_ASH);
+        blockWithItem(DWCircusBlocks.CARPET_SOIL);
+        blockWithItem(DWCircusBlocks.DENSE_CARPET);
         blockWithItem(DWCircusBlocks.MEMOROCK);
         blockWithItem(DWCircusBlocks.MEMOSHARD_ORE);
         blockWithItem(DWCircusBlocks.SILWARE_BLOCK);

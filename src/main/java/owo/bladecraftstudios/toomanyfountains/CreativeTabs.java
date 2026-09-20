@@ -47,8 +47,12 @@ public class CreativeTabs {
         output.accept(DWCircusBlocks.FLOORBOARD_DOOR.get());
         output.accept(DWCircusBlocks.FLOORBOARD_TRAPDOOR.get());
         output.accept(DWItems.MEMOSHARD.get());
+        output.accept(DWCircusBlocks.MEMOSHARD_BLOCK.get());
         output.accept(DWCircusBlocks.MEMOROCK.get());
         output.accept(DWCircusBlocks.MEMOSHARD_ORE.get());
+        output.accept(DWCircusBlocks.CARPET_SOIL.get());
+        output.accept(DWCircusBlocks.CARPET_ROOTS.get());
+        output.accept(DWCircusBlocks.DENSE_CARPET.get());
     }).build());
     public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());

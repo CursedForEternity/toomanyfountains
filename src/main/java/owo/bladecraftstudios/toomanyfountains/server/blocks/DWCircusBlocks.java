@@ -24,6 +24,15 @@ public class DWCircusBlocks {
     public static final RegistryObject<Block> CIRCUS_FLOOR = registerBlock("circus_floor",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOL)));
 
+    public static final RegistryObject<Block> CARPET_SOIL = registerBlock("carpet_soil",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.WOOL)));
+
+    public static final RegistryObject<Block> CARPET_ROOTS = registerBlock("carpet_roots",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.WOOL)));
+
+    public static final RegistryObject<Block> DENSE_CARPET = registerBlock("dense_carpet",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.GRAVEL)));
+
     public static final RegistryObject<Block> CIRCUS_ASH = registerBlock("circus_ash",
             () -> new FallingBlock(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
 
@@ -35,6 +44,9 @@ public class DWCircusBlocks {
 
     public static final RegistryObject<Block> MEMOSHARD_ORE = registerBlock("memoshard_ore",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_ORE).sound(SoundType.NETHER_ORE)));
+
+    public static final RegistryObject<Block> MEMOSHARD_BLOCK = registerBlock("memoshard_block",
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.copy(Blocks.LAPIS_BLOCK).sound(SoundType.AMETHYST)));
 
     public static final RegistryObject<Block> MEMOROCK = registerBlock("memorock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.NETHERRACK).sound(SoundType.NETHERRACK)));

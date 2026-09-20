@@ -17,7 +17,7 @@ public class DWFluidTypes {
     public static final ResourceLocation WATER_FLOWING_RL = UniversalCommon.modRL("block/flowing_arctic_water");
     public static final ResourceLocation ARCTIC_OVERLAY_RL = UniversalCommon.modRL("misc/in_arctic_water");
     public static final ResourceLocation SODA_STILL_RL = UniversalCommon.modRL("block/soda_fluid");
-    public static final ResourceLocation SODA_FLOWING_RL = UniversalCommon.modRL("block/soda_fluid");
+    public static final ResourceLocation SODA_FLOWING_RL = UniversalCommon.modRL("block/soda_flowing");
     public static final ResourceLocation SODA_OVERLAY_RL = UniversalCommon.modRL("block/soda_fluid");
 
     public static final DeferredRegister<FluidType> FLUID_TYPES =
