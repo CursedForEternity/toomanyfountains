@@ -324,11 +324,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //_TILES _tiles
 
         //ROOTS
-//        blockColumn(DWBlocks.ROOTED_BARK_BRICKS);
-//        blockWithItem(DWBlocks.CHISELED_ROOTED_BARK);
-//        blockColumn(DWBlocks.MOSSY_ROOTED_BARK_BRICKS);
-//        blockWithItem(DWBlocks.FOSSILIZED_CARBON);
-//        blockWithItem(DWBlocks.ROOTED_LIGHT);
+        blockColumn(DWBlocks.ROOTED_BARK_BRICKS);
+        blockWithItem(DWBlocks.CHISELED_ROOTED_BARK);
+        blockColumn(DWBlocks.MOSSY_ROOTED_BARK_BRICKS);
+        blockWithItem(DWBlocks.FOSSILIZED_CARBON);
+        blockWithItem(DWBlocks.ROOTED_LIGHT);
 
     }
 
