@@ -6,7 +6,11 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.core.blocks.ModFlammableRotatedPillarBlock;
+//import owo.bladecraftstudios.toomanyfountains.core.blocks.ModHangingSignBlock;
+//import owo.bladecraftstudios.toomanyfountains.core.blocks.ModStandingSignBlock;
+//import owo.bladecraftstudios.toomanyfountains.core.blocks.ModWallHangingSignBlock;
 import owo.bladecraftstudios.toomanyfountains.core.blocks.frozen.*;
+//import owo.bladecraftstudios.toomanyfountains.core.util.ModWoodTypes;
 
 public class DWWoodBlocks {
     //Logs/Woods
@@ -167,15 +171,16 @@ public class DWWoodBlocks {
             () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
     public static final RegistryObject<Block> GREEN_CORALWOOD_TRAPDOOR = DWBlocks.registerBlock("green_coralwood_trapdoor",
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
+
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> FROZEN_OAK_LOG = DWBlocks.registerBlock("frozen_oak_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.NETHER_WOOD).strength(3f)));
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.NETHER_WOOD).strength(3f).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROZEN_OAK_WOOD = DWBlocks.registerBlock("frozen_oak_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).strength(3f)));
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).strength(3f).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> STRIPPED_FROZEN_OAK_LOG = DWBlocks.registerBlock("stripped_frozen_oak_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).sound(SoundType.NETHER_WOOD).strength(3f)));//The blocks above do not seem to follow seem to follow the same properties as the blocks I set them as in their behaviour
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_LOG).sound(SoundType.NETHER_WOOD).strength(3f).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));//The blocks above do not seem to follow seem to follow the same properties as the blocks I set them as in their behaviour
     public static final RegistryObject<Block> STRIPPED_FROZEN_OAK_WOOD = DWBlocks.registerBlock("stripped_frozen_oak_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).sound(SoundType.NETHER_WOOD).strength(3f)));
+            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.STRIPPED_OAK_WOOD).sound(SoundType.NETHER_WOOD).strength(3f).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROZEN_OAK_PLANKS = DWBlocks.registerBlock("frozen_oak_planks",
             FrozenWood::new);
     public static final RegistryObject<Block> FROZEN_OAK_STAIRS = DWBlocks.registerBlock("frozen_oak_stairs",
@@ -189,17 +194,26 @@ public class DWWoodBlocks {
     public static final RegistryObject<Block> FROZEN_OAK_WALL = DWBlocks.registerBlock("frozen_oak_wall",
             FrozenWall::new);
     public static final RegistryObject<Block> SOOT_SNOW = DWBlocks.registerBlock("soot_snow",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.SNOW)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.SNOW).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROZEN_OAK_BUTTON = DWBlocks.registerBlock("frozen_oak_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.NETHER_WOOD),
                     BlockSetType.OAK, 10, true));
     public static final RegistryObject<Block> FROZEN_OAK_PRESSURE_PLATE = DWBlocks.registerBlock("frozen_oak_pressure_plate",
-            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.NETHER_WOOD),
+            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.NETHER_WOOD).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15),
                     BlockSetType.OAK));
     public static final RegistryObject<Block> FROZEN_OAK_DOOR = DWBlocks.registerBlock("frozen_oak_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
+            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion().emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15), BlockSetType.OAK));
     public static final RegistryObject<Block> FROZEN_OAK_TRAPDOOR = DWBlocks.registerBlock("frozen_oak_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion(), BlockSetType.OAK));
+            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.NETHER_WOOD).noOcclusion().emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15), BlockSetType.OAK));
+//    public static final RegistryObject<Block> FROZEN_OAK_SIGN = DWBlocks.registerBlock("frozen_oak_sign",
+//            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_SIGN).sound(SoundType.NETHER_WOOD).strength(3f), ModWoodTypes.FROZEN_OAK));
+//    public static final RegistryObject<Block> FROZEN_OAK_WALL_SIGN = DWBlocks.registerBlock("frozen_oak_wall_sign",
+//            () -> new ModStandingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_SIGN).sound(SoundType.NETHER_WOOD).strength(3f), ModWoodTypes.FROZEN_OAK));
+//    public static final RegistryObject<Block> FROZEN_OAK_HANGING_SIGN = DWBlocks.registerBlock("frozen_oak_hanging_sign",
+//            () -> new ModHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_HANGING_SIGN).sound(SoundType.NETHER_WOOD).strength(3f), ModWoodTypes.FROZEN_OAK));
+//    public static final RegistryObject<Block> FROZEN_OAK_WALL_HANGING_SIGN = DWBlocks.registerBlock("frozen_oak_wall_hanging_sign",
+//            () -> new ModWallHangingSignBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WALL_HANGING_SIGN).sound(SoundType.NETHER_WOOD).strength(3f), ModWoodTypes.FROZEN_OAK));
+
 
     // This exists to ensure the class is loaded and statics... staticed
     public static void register() {}

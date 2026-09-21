@@ -1,13 +1,17 @@
 package owo.bladecraftstudios.toomanyfountains.core.datagen;
 
 import net.minecraft.data.PackOutput;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.block.*;
 import net.minecraftforge.client.model.generators.BlockStateProvider;
+import net.minecraftforge.client.model.generators.ModelFile;
 import net.minecraftforge.common.data.ExistingFileHelper;
 import net.minecraftforge.registries.RegistryObject;
 import owo.bladecraftstudios.toomanyfountains.TooManyFountains;
 import owo.bladecraftstudios.toomanyfountains.core.util.UniversalCommon;
 import owo.bladecraftstudios.toomanyfountains.server.blocks.*;
+
+//import static jdk.javadoc.internal.doclets.formats.html.markup.HtmlStyle.block;
 
 public class ModBlockStateProvider extends BlockStateProvider {
     public ModBlockStateProvider(PackOutput output, ExistingFileHelper exFileHelper) {
@@ -174,6 +178,27 @@ public class ModBlockStateProvider extends BlockStateProvider {
         doorBlockWithRenderType(((DoorBlock) DWWoodBlocks.FROZEN_OAK_DOOR.get()), modLoc("block/frozen_oak_door_bottom"), modLoc("block/frozen_oak_door_top"), "cutout");
         trapdoorBlockWithRenderType(((TrapDoorBlock) DWWoodBlocks.FROZEN_OAK_TRAPDOOR.get()), modLoc("block/frozen_oak_trapdoor"), true, "cutout");
 
+//        signBlock(((StandingSignBlock) DWWoodBlocks.FROZEN_OAK_SIGN.get()), ((WallSignBlock) DWWoodBlocks.FROZEN_OAK_WALL_SIGN.get()),
+//                blockTexture(DWWoodBlocks.FROZEN_OAK_PLANKS.get()));
+//
+//        hangingSignBlock(DWWoodBlocks.FROZEN_OAK_HANGING_SIGN).get(), DWWoodBlocks.FROZEN_OAK_WALL_HANGING_SIGN.get(),
+//                blockTexture(DWWoodBlocks.FROZEN_OAK_PLANKS.get());
+//
+//        public void hangingSignBlock(Block signBlock, Block wallSignBlock, ResourceLocation texture) {
+//            ModelFile sign = models().sign(name(signBlock), texture);
+//            hangingSignBlock(signBlock, wallSignBlock, sign);
+//        }
+//        public void hangingSignBlock(Block signBlock, Block wallSignBlock, MoselFile sign) {
+//            simpleBlock(signBlock, sign);
+//            simpleBlock(wallSignBlock, sign);
+//        }
+//        private String name(Block block) {
+//            return key(block).getPath();
+//        }
+//        private ResourceLocation key(Block block) {
+//            return ForgeRedistries.BLOCKS.getKry(block);
+//        }
+
         logBlock((RotatedPillarBlock) DWColdBlocks.ICESALT_PILLAR.get());
         logBlock((RotatedPillarBlock) DWColdBlocks.HAILSTONE_PILLAR.get());
         logBlock((RotatedPillarBlock) DWColdBlocks.SUBZERO_STONE_PILLAR.get());
@@ -299,11 +324,11 @@ public class ModBlockStateProvider extends BlockStateProvider {
         //_TILES _tiles
 
         //ROOTS
-        blockColumn(DWBlocks.ROOTED_BARK_BRICKS);
-        blockWithItem(DWBlocks.CHISELED_ROOTED_BARK);
-        blockColumn(DWBlocks.MOSSY_ROOTED_BARK_BRICKS);
-        blockWithItem(DWBlocks.FOSSILIZED_CARBON);
-        blockWithItem(DWBlocks.ROOTED_LIGHT);
+//        blockColumn(DWBlocks.ROOTED_BARK_BRICKS);
+//        blockWithItem(DWBlocks.CHISELED_ROOTED_BARK);
+//        blockColumn(DWBlocks.MOSSY_ROOTED_BARK_BRICKS);
+//        blockWithItem(DWBlocks.FOSSILIZED_CARBON);
+//        blockWithItem(DWBlocks.ROOTED_LIGHT);
 
     }
 
