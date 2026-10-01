@@ -24,7 +24,8 @@ public class FireballSpell extends AbstractSpell {
 
     @Override
     public List<TagKey<Item>> requiredTag() {
-        return List.of(ItemTags.CANDLES);
+        return List.of(//ItemTags.CANDLES
+                    );
     }
 
     @Override
