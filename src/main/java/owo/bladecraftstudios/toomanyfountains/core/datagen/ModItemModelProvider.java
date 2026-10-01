@@ -148,6 +148,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         evenSimplerBlockItem(DWWoodBlocks.FROZEN_OAK_SLAB);
         evenSimplerBlockItem(DWWoodBlocks.FROZEN_OAK_PRESSURE_PLATE);
         trapdoorItem(DWWoodBlocks.FROZEN_OAK_TRAPDOOR);
+//        simpleItem(DWColdBlocks.FROZEN_OAK_SIGN);
+//        simpleItem(DWColdBlocks.FROZEN_OAK_HANGING_SIGN);
 
         evenSimplerBlockItem(DWBlocks.GLACIEITE_BLOCK);
         evenSimplerBlockItem(DWBlocks.CRYOLITE_BLOCK);

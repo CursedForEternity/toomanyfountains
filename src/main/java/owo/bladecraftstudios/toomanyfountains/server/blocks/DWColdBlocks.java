@@ -1,6 +1,8 @@
 package owo.bladecraftstudios.toomanyfountains.server.blocks;
 
+import net.minecraft.world.item.HangingSignItem;
 import net.minecraft.world.item.Item;
+import net.minecraft.world.item.SignItem;
 import net.minecraft.world.level.block.*;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.state.properties.BlockSetType;
@@ -65,20 +67,25 @@ public class DWColdBlocks {
             () -> new CryoliteBucketItem(DWFluids.SOURCE_ARCTIC_WATER.get(), new Item.Properties().stacksTo(1)
                     .craftRemainder(CRYOLITE_BUCKET.get())));
 
+//    public static final RegistryObject<Item> FROZEN_OAK_SIGN = DWItems.ITEMS.register("frozen_oak_sign",
+//            () -> new SignItem(new Item.Properties().stacksTo(16), DWWoodBlocks.FROZEN_OAK_SIGN.get(), DWWoodBlocks.FROZEN_OAK_WALL_SIGN.get()));
+//    public static final RegistryObject<Item> FROZEN_OAK_HANGING_SIGN = DWItems.ITEMS.register("frozen_oak_hanging_sign",
+//            () -> new HangingSignItem(DWWoodBlocks.FROZEN_OAK_HANGING_SIGN.get(), DWWoodBlocks.FROZEN_OAK_WALL_HANGING_SIGN.get(), new Item.Properties().stacksTo(16)));
+
     public static final RegistryObject<Block> ICESALT_PILLAR = DWBlocks.registerBlock("icesalt_pillar",
-            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> HAILSTONE_PILLAR = DWBlocks.registerBlock("hailstone_pillar",
-            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> SUBZERO_STONE_PILLAR = DWBlocks.registerBlock("subzero_stone_pillar",
-            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROST_MARBLE_PILLAR = DWBlocks.registerBlock("frost_marble_pillar",
-            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE)));
+            () -> new ModRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.PURPUR_PILLAR).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> ICESALT_STAIRS = DWBlocks.registerBlock("icesalt_stairs",
-            () -> new StairBlock(() -> DWBlocks.ICESALT.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new StairBlock(() -> DWBlocks.ICESALT.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> ICESALT_SLAB = DWBlocks.registerBlock("icesalt_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> ICESALT_WALL = DWBlocks.registerBlock("icesalt_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> ICESALT_BUTTON = DWBlocks.registerBlock("icesalt_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
                     BlockSetType.STONE, 10, true));
@@ -86,11 +93,11 @@ public class DWColdBlocks {
             () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE),
                     BlockSetType.STONE));
     public static final RegistryObject<Block> SUBZERO_STONE_STAIRS = DWBlocks.registerBlock("subzero_stone_stairs",
-            () -> new StairBlock(() -> DWBlocks.SUBZERO_STONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new StairBlock(() -> DWBlocks.SUBZERO_STONE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> SUBZERO_STONE_SLAB = DWBlocks.registerBlock("subzero_stone_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> SUBZERO_STONE_WALL = DWBlocks.registerBlock("subzero_stone_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> SUBZERO_STONE_BUTTON = DWBlocks.registerBlock("subzero_stone_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
                     BlockSetType.STONE, 10, true));
@@ -100,9 +107,9 @@ public class DWColdBlocks {
     public static final RegistryObject<Block> FROST_MARBLE_STAIRS = DWBlocks.registerBlock("frost_marble_stairs",
             () -> new StairBlock(() -> DWBlocks.FROST_MARBLE.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> FROST_MARBLE_SLAB = DWBlocks.registerBlock("frost_marble_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROST_MARBLE_WALL = DWBlocks.registerBlock("frost_marble_wall",
-            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+            () -> new WallBlock(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE).emissiveRendering((state, reader, pos) -> true).lightLevel((state) -> 15)));
     public static final RegistryObject<Block> FROST_MARBLE_BUTTON = DWBlocks.registerBlock("frost_marble_button",
             () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.STONE_BUTTON).sound(SoundType.DEEPSLATE),
                     BlockSetType.STONE, 10, true));

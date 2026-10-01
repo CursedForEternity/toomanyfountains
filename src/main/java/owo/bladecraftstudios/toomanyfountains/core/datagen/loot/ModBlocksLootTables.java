@@ -341,7 +341,7 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWBlocks.ILL_ICE.get());
         this.dropSelf(DWBlocks.BLACK_ICE.get());
 
-        //ROOTS
+//        ROOTS
         this.dropSelf(DWBlocks.ROOTED_BARK_BRICKS.get());
         this.dropSelf(DWBlocks.CHISELED_ROOTED_BARK.get());
         this.dropSelf(DWBlocks.MOSSY_ROOTED_BARK_BRICKS.get());
