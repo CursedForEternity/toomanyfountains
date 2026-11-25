@@ -25,6 +25,13 @@
   "item.toomanyfountains.board_hoe": "Board Hoe",
   "item.toomanyfountains.board_shovel": "Board Shovel",
   "item.toomanyfountains.floorboard": "Floorboard",
+  "item.toomanyfountains.memoshard": "Memoshard",
+  "block.toomanyfountains.memoshard_block": "Memoshard Block",
+  "block.toomanyfountains.memorock": "Memorock",
+  "block.toomanyfountains.memoshard_ore": "Memoshard Ore",
+  "block.toomanyfountains.carpet_soil": "Carpet Soil",
+  "block.toomanyfountains.carpet_roots": "Carpet Roots",
+  "block.toomanyfountains.dense_carpet": "Dense Carpet",
 
   "creativetab.ocean_dw": "Ocean Blues",
   "biome.toomanyfountains.shallows": "Shallows",
