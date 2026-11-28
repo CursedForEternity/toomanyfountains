@@ -37,6 +37,7 @@ public class SilwareBucketItem extends BucketItem {
         ItemStack itemstack = pPlayer.getItemInHand(pHand);
         BlockHitResult blockhitresult = getPlayerPOVHitResult(pLevel, pPlayer, this.content == Fluids.EMPTY ? net.minecraft.world.level.ClipContext.Fluid.SOURCE_ONLY : net.minecraft.world.level.ClipContext.Fluid.NONE);
         InteractionResultHolder<ItemStack> ret = ForgeEventFactory.onBucketUse(pPlayer, pLevel, itemstack, blockhitresult);
+
         if (ret != null) {
             return ret;
         } else if (blockhitresult.getType() == HitResult.Type.MISS) {
@@ -47,6 +48,7 @@ public class SilwareBucketItem extends BucketItem {
             BlockPos blockpos = blockhitresult.getBlockPos();
             Direction direction = blockhitresult.getDirection();
             BlockPos blockpos1 = blockpos.relative(direction);
+
             if (pLevel.mayInteract(pPlayer, blockpos) && pPlayer.mayUseItemAt(blockpos1, direction, itemstack)) {
                 if (this.content == Fluids.EMPTY) {
                     BlockState blockstate1 = pLevel.getBlockState(blockpos);
