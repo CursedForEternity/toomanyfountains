@@ -54,7 +54,7 @@ public class ModBlockStateProvider extends BlockStateProvider {
         blockWithItem(DWWoodBlocks.YELLOW_CORALWOOD_PLANKS);
         blockWithItem(DWWoodBlocks.PURPLE_CORALWOOD_PLANKS);
         blockWithItem(DWOceanWorldgenBlocks.BUBBLE_SAND);
-        //blockWithItem(DWBlocks.HOT_ROCK);
+        blockWithItem(DWOceanWorldgenBlocks.BUBBLE_SANDSTONE);
         blockWithItem(DWWoodBlocks.DEAD_CORALWOOD_PLANKS);
         blockFloor(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS_BLOCK);
         blockFloor(DWOceanWorldgenBlocks.DEEPLIGHT_GRASS_BLOCK);

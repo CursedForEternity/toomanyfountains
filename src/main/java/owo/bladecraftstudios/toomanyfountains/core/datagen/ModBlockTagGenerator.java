@@ -231,6 +231,7 @@ public class ModBlockTagGenerator extends BlockTagsProvider {
                 .add(DWBlocks.BITTER_ICE.get())
                 .add(DWBlocks.ILL_ICE.get())
                 .add(DWBlocks.BLACK_ICE.get())
+                .add(DWOceanWorldgenBlocks.BUBBLE_SANDSTONE.get())
 
                 .add(DWOceanWorldgenBlocks.DEEPSTONE.get())
                 .add(DWOceanWorldgenBlocks.OCEAN_DIRT.get())

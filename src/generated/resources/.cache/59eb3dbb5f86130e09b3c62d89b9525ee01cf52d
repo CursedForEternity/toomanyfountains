@@ -1,4 +1,4 @@
-// 1.20.1	2026-11-28T18:24:00.8363465	Loot Tables
+// 1.20.1	2026-11-28T20:30:42.872035	Loot Tables
 91c39e9e330daeeee07897011d2a05f4f8fc3393 data/toomanyfountains/loot_tables/blocks/abysslight_grass.json
 43b09c93f2c1df774960975f8ce8b87c30700ae7 data/toomanyfountains/loot_tables/blocks/abysslight_grass_block.json
 fd853f8e65693bc7d44df9337e9ba21a9e0521af data/toomanyfountains/loot_tables/blocks/abyss_ore.json
@@ -18,6 +18,7 @@ b3c9077a3b80d24e65a22e14fe28f1d0f206741e data/toomanyfountains/loot_tables/block
 bc3fecbe11ec68f9f4eeecead66931a0e96d7ef2 data/toomanyfountains/loot_tables/blocks/blue_coralwood_trapdoor.json
 a38371e662ed33e8695dafe36a9d2bcc692dee82 data/toomanyfountains/loot_tables/blocks/blue_coralwood_wood.json
 07ea2ab2c804ab92bfb11bcab44ff58686b16b15 data/toomanyfountains/loot_tables/blocks/bubble_sand.json
+9995d85a4d64b00e82730bab6457963783d3e637 data/toomanyfountains/loot_tables/blocks/bubble_sandstone.json
 26798c9877976a750a37d716049f26c36080c7b7 data/toomanyfountains/loot_tables/blocks/carpet_roots.json
 9af9a8ed3fa3a1447693cd3ffdbacf74cab57feb data/toomanyfountains/loot_tables/blocks/carpet_soil.json
 f940bc09183a48d566bff5bb8176516e0a7a6b9f data/toomanyfountains/loot_tables/blocks/chiseled_deepstone.json

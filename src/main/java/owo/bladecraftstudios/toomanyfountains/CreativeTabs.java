@@ -58,6 +58,7 @@ public class CreativeTabs {
         output.accept(DWOceanWorldgenBlocks.SUNKENLIGHT_GRASS.get());
         output.accept(DWOceanWorldgenBlocks.HYDRON_ORE.get());
         output.accept(DWOceanWorldgenBlocks.BUBBLE_SAND.get());
+        output.accept(DWOceanWorldgenBlocks.BUBBLE_SANDSTONE.get());
         output.accept(DWWoodBlocks.RED_CORALWOOD_LOG.get());
         output.accept(DWWoodBlocks.RED_CORALWOOD_WOOD.get());
         output.accept(DWWoodBlocks.RED_CORALWOOD_PLANKS.get());

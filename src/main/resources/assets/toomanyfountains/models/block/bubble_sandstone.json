@@ -1,0 +1,19 @@
+{
+  "parent": "minecraft:block/cube_bottom_top",
+  "loader": "fusion:model",
+  "type": "connecting",
+  "textures": {
+    "top": "toomanyfountains:block/bubble_sandstone_top",
+    "bottom": "toomanyfountains:block/bubble_sandstone_bottom",
+    "side": "toomanyfountains:block/bubble_sandstone"
+  },
+  "connections": [
+    {
+      "type": "is_same_block"
+    },
+    {
+      "type": "match_block",
+      "block": "toomanyfountains:bubble_sandstone"
+    }
+  ]
+}

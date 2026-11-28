@@ -26,6 +26,8 @@ public class DWOceanWorldgenBlocks {
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
     public static final RegistryObject<Block> BUBBLE_SAND = DWBlocks.registerBlock("bubble_sand",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
+    public static final RegistryObject<Block> BUBBLE_SANDSTONE = DWBlocks.registerBlock("bubble_sandstone",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.SANDSTONE).sound(SoundType.STONE)));
     public static final RegistryObject<Block> SHALLOWLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("shallowlight_grass_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.MUD)));
     public static final RegistryObject<Block> DEEPLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("deeplight_grass_block",
