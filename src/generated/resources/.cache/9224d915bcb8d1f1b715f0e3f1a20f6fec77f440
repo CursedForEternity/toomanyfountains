@@ -1,4 +1,4 @@
-// 1.20.1	2026-09-06T17:26:26.6525613	Item Models: toomanyfountains
+// 1.20.1	2026-11-28T18:24:00.839347	Item Models: toomanyfountains
 be9d76ec857ea906d061039a2b53cb364faecefa assets/toomanyfountains/models/item/arctic_water_bucket.json
 a788b29618406f865a063788b0f47eafe01f4d88 assets/toomanyfountains/models/item/bitter_ice.json
 cf45842f590dd963b670a9af7fa8f9a59c618666 assets/toomanyfountains/models/item/black_ice.json
@@ -74,8 +74,6 @@ e1e3f298d5ec536692efd47b8d1830a95dd9b79e assets/toomanyfountains/models/item/fro
 b5b5c0c486f544976c14302c705f04f8bb588af8 assets/toomanyfountains/models/item/frozen_oak_wood.json
 48a0838bd2190695e54507e902912ff371a05090 assets/toomanyfountains/models/item/glacieite_block.json
 9a706cc61090642f9a1e8fc37633741dfac806ca assets/toomanyfountains/models/item/glacier_ice.json
-9524d47a7cdc6db2b5c8ac1c95f47dfcdc5fe32a assets/toomanyfountains/models/item/green_coralwood_button.json
-013a1ca1702c315f81779774aebb4c33d038aab4 assets/toomanyfountains/models/item/green_coralwood_fence.json
 1ba116b4f1c4d4c437d27965173df191f764ddf0 assets/toomanyfountains/models/item/hailstone_bricks_button.json
 d0f10cd18b77fffb1ba000935eca627284a20e7a assets/toomanyfountains/models/item/hailstone_bricks_pressure_plate.json
 aef69809a21835fa4c68d30d9f1c94214051bfbd assets/toomanyfountains/models/item/hailstone_bricks_slab.json

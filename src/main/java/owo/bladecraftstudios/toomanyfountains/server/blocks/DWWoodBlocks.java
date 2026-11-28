@@ -34,10 +34,6 @@ public class DWWoodBlocks {
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
     public static final RegistryObject<Block> BLUE_CORALWOOD_WOOD = DWBlocks.registerBlock("blue_coralwood_wood",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_LOG = DWBlocks.registerBlock("green_coralwood_log",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.WOOD).strength(3f)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_WOOD = DWBlocks.registerBlock("green_coralwood_wood",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).strength(3f)));
     public static final RegistryObject<Block> DEAD_CORALWOOD_LOG = DWBlocks.registerBlock("dead_coralwood_log",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_LOG).sound(SoundType.NETHER_WOOD).strength(3f)));
     public static final RegistryObject<Block> DEAD_CORALWOOD_WOOD = DWBlocks.registerBlock("dead_coralwood_wood",
@@ -150,27 +146,6 @@ public class DWWoodBlocks {
             () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
     public static final RegistryObject<Block> DEAD_CORALWOOD_PLANKS = DWBlocks.registerBlock("dead_coralwood_planks",
             () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.NETHER_WOOD).strength(3f)));
-    //Green Coralwood
-    public static final RegistryObject<Block> GREEN_CORALWOOD_PLANKS = DWBlocks.registerBlock("green_coralwood_planks",
-            () -> new ModFlammableRotatedPillarBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD).strength(3f)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_STAIRS = DWBlocks.registerBlock("green_coralwood_stairs",
-            () -> new StairBlock(() -> GREEN_CORALWOOD_PLANKS.get().defaultBlockState(), BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_SLAB = DWBlocks.registerBlock("green_coralwood_slab",
-            () -> new SlabBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_FENCE = DWBlocks.registerBlock("green_coralwood_fence",
-            () -> new FenceBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD)));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_GATE = DWBlocks.registerBlock("green_coralwood_gate",
-            () -> new FenceGateBlock(BlockBehaviour.Properties.copy(Blocks.OAK_PLANKS).sound(SoundType.WOOD), SoundEvents.CHERRY_WOOD_FENCE_GATE_CLOSE, SoundEvents.CHERRY_WOOD_FENCE_GATE_OPEN));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_BUTTON = DWBlocks.registerBlock("green_coralwood_button",
-            () -> new ButtonBlock(BlockBehaviour.Properties.copy(Blocks.OAK_BUTTON).sound(SoundType.WOOD),
-                    BlockSetType.STONE, 10, true));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_PRESSURE_PLATE = DWBlocks.registerBlock("green_coralwood_pressure_plate",
-            () -> new PressurePlateBlock(PressurePlateBlock.Sensitivity.EVERYTHING, BlockBehaviour.Properties.copy(Blocks.OAK_PRESSURE_PLATE).sound(SoundType.WOOD),
-                    BlockSetType.OAK));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_DOOR = DWBlocks.registerBlock("green_coralwood_door",
-            () -> new DoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
-    public static final RegistryObject<Block> GREEN_CORALWOOD_TRAPDOOR = DWBlocks.registerBlock("green_coralwood_trapdoor",
-            () -> new TrapDoorBlock(BlockBehaviour.Properties.copy(Blocks.OAK_WOOD).sound(SoundType.WOOD).noOcclusion(), BlockSetType.OAK));
 
     //BLOCKS FROM A COLD PLACE
     public static final RegistryObject<Block> FROZEN_OAK_LOG = DWBlocks.registerBlock("frozen_oak_log",

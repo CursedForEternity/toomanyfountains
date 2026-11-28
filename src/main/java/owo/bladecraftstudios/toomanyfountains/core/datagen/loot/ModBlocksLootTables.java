@@ -51,9 +51,6 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         //Ocean
         this.dropSelf(DWWoodBlocks.RED_CORALWOOD_LOG.get());
         this.dropSelf(DWWoodBlocks.RED_CORALWOOD_WOOD.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_LOG.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_WOOD.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_PLANKS.get());
         this.dropSelf(DWWoodBlocks.BLUE_CORALWOOD_LOG.get());
         this.dropSelf(DWWoodBlocks.BLUE_CORALWOOD_WOOD.get());
         this.dropSelf(DWWoodBlocks.PINK_CORALWOOD_LOG.get());
@@ -83,6 +80,10 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropOther(DWOceanWorldgenBlocks.DEEPLIGHT_GRASS_BLOCK.get(), DWOceanWorldgenBlocks.OCEAN_DIRT.get());
         this.dropOther(DWOceanWorldgenBlocks.ABYSSLIGHT_GRASS_BLOCK.get(), DWOceanWorldgenBlocks.OCEAN_SLATE.get());
         this.dropOther(DWOceanWorldgenBlocks.SUNKENLIGHT_GRASS_BLOCK.get(), DWOceanWorldgenBlocks.DEEPSTONE.get());
+        this.dropWhenSilkTouch(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS.get());
+        this.dropWhenSilkTouch(DWOceanWorldgenBlocks.DEEPLIGHT_GRASS.get());
+        this.dropWhenSilkTouch(DWOceanWorldgenBlocks.ABYSSLIGHT_GRASS.get());
+        this.dropWhenSilkTouch(DWOceanWorldgenBlocks.SUNKENLIGHT_GRASS.get());
         this.dropSelf(DWOceanWorldgenBlocks.FOAM_ORE.get());
         this.dropSelf(DWOceanWorldgenBlocks.OCEAN_DIRT_FOAM_ORE.get());
         this.dropSelf(DWOceanWorldgenBlocks.ABYSS_ORE.get());
@@ -140,20 +141,11 @@ public class ModBlocksLootTables extends BlockLootSubProvider {
         this.dropSelf(DWWoodBlocks.PINK_CORALWOOD_GATE.get());
         this.dropSelf(DWWoodBlocks.PINK_CORALWOOD_PRESSURE_PLATE.get());
         this.dropSelf(DWWoodBlocks.PINK_CORALWOOD_BUTTON.get());
+        this.dropSelf(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS.get());
         this.add(DWWoodBlocks.PINK_CORALWOOD_DOOR.get(),
                 block -> createDoorTable(DWWoodBlocks.PINK_CORALWOOD_DOOR.get()));
         this.dropSelf(DWWoodBlocks.PINK_CORALWOOD_TRAPDOOR.get());
         this.dropSelf(DWOceanWorldgenBlocks.BUBBLE_SAND.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_STAIRS.get());
-        this.add(DWWoodBlocks.GREEN_CORALWOOD_SLAB.get(),
-                block -> createSlabItemTable(DWWoodBlocks.GREEN_CORALWOOD_SLAB.get()));
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_FENCE.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_GATE.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_PRESSURE_PLATE.get());
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_BUTTON.get());
-        this.add(DWWoodBlocks.GREEN_CORALWOOD_DOOR.get(),
-                block -> createDoorTable(DWWoodBlocks.GREEN_CORALWOOD_DOOR.get()));
-        this.dropSelf(DWWoodBlocks.GREEN_CORALWOOD_TRAPDOOR.get());
 
         //Cold Place
         this.dropSelf(DWWoodBlocks.SOOT_SNOW.get());

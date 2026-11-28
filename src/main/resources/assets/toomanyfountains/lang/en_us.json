@@ -128,6 +128,10 @@
   "block.toomanyfountains.green_coralwood_trapdoor": "Green Coralwood Trapdoor",
   "block.toomanyfountains.hot_path": "Hot Path",
   "block.toomanyfountains.hot_rock": "Hot Rock",
+  "block.toomanyfountains.shallowlight_grass": "Shallowlight Grass",
+  "block.toomanyfountains.deeplight_grass": "Deeeplight Grass",
+  "block.toomanyfountains.abysslight_grass": "Abysslight Grass",
+  "block.toomanyfountains.sunkenlight_grass": "Sunkenlight Grass",
 
   "creativetab.ocean_second_dw": "Desolate Beaches",
   "biome.toomanyfountains.desolate_beaches": "The Desolate Beach",

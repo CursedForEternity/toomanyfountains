@@ -27,17 +27,25 @@ public class DWOceanWorldgenBlocks {
     public static final RegistryObject<Block> BUBBLE_SAND = DWBlocks.registerBlock("bubble_sand",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.SAND).sound(SoundType.SAND)));
     public static final RegistryObject<Block> SHALLOWLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("shallowlight_grass_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.MUD)));
     public static final RegistryObject<Block> DEEPLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("deeplight_grass_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.MUD)));
     public static final RegistryObject<Block> ABYSSLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("abysslight_grass_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.MUD)));
     public static final RegistryObject<Block> SUNKENLIGHT_GRASS_BLOCK = DWBlocks.registerBlock("sunkenlight_grass_block",
-            () -> new Block(BlockBehaviour.Properties.copy(Blocks.DIRT).sound(SoundType.MUD)));
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS_BLOCK).sound(SoundType.MUD)));
     public static final RegistryObject<Block> HOT_PATH = DWBlocks.registerBlock("hot_path",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
     public static final RegistryObject<Block> HOT_ROCK = DWBlocks.registerBlock("hot_rock",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.STONE).sound(SoundType.DEEPSLATE)));
+    public static final RegistryObject<Block> SHALLOWLIGHT_GRASS = DWBlocks.registerBlock("shallowlight_grass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> DEEPLIGHT_GRASS = DWBlocks.registerBlock("deeplight_grass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> ABYSSLIGHT_GRASS = DWBlocks.registerBlock("abysslight_grass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS)));
+    public static final RegistryObject<Block> SUNKENLIGHT_GRASS = DWBlocks.registerBlock("sunkenlight_grass",
+            () -> new Block(BlockBehaviour.Properties.copy(Blocks.GRASS).sound(SoundType.GRASS)));
 
     // This exists to ensure the class is loaded and statics... staticed
     public static void register() {}

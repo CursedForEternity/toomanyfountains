@@ -154,5 +154,4 @@ public class DWBlocks {
         DWWoodBlocks.register();
         DWStoneBlocks.BLOCKS.register(eventBus);
     }
-
 }

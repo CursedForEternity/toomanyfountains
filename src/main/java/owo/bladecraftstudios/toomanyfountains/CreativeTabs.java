@@ -45,13 +45,17 @@ public class CreativeTabs {
     }).build());
     public static final RegistryObject<CreativeModeTab> OCEAN_TAB = CREATIVE_TABS.register("ocean_dw", () -> CreativeModeTab.builder().icon(() -> new ItemStack(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS_BLOCK.get())).title(Component.translatable("creativetab.ocean_dw")).displayItems((itemDisplayParameters, output) -> {
         output.accept(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS_BLOCK.get());
+        output.accept(DWOceanWorldgenBlocks.SHALLOWLIGHT_GRASS.get());
         output.accept(DWOceanWorldgenBlocks.DEEPLIGHT_GRASS_BLOCK.get());
+        output.accept(DWOceanWorldgenBlocks.DEEPLIGHT_GRASS.get());
         output.accept(DWOceanWorldgenBlocks.OCEAN_DIRT.get());
         output.accept(DWOceanWorldgenBlocks.ABYSSLIGHT_GRASS_BLOCK.get());
+        output.accept(DWOceanWorldgenBlocks.ABYSSLIGHT_GRASS.get());
         output.accept(DWOceanWorldgenBlocks.FOAM_ORE.get());
         output.accept(DWOceanWorldgenBlocks.OCEAN_DIRT_FOAM_ORE.get());
         output.accept(DWOceanWorldgenBlocks.ABYSS_ORE.get());
         output.accept(DWOceanWorldgenBlocks.SUNKENLIGHT_GRASS_BLOCK.get());
+        output.accept(DWOceanWorldgenBlocks.SUNKENLIGHT_GRASS.get());
         output.accept(DWOceanWorldgenBlocks.HYDRON_ORE.get());
         output.accept(DWOceanWorldgenBlocks.BUBBLE_SAND.get());
         output.accept(DWWoodBlocks.RED_CORALWOOD_LOG.get());
@@ -109,17 +113,6 @@ public class CreativeTabs {
         output.accept(DWWoodBlocks.PURPLE_CORALWOOD_BUTTON.get());
         output.accept(DWWoodBlocks.PURPLE_CORALWOOD_DOOR.get());
         output.accept(DWWoodBlocks.PURPLE_CORALWOOD_TRAPDOOR.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_LOG.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_WOOD.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_PLANKS.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_STAIRS.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_SLAB.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_FENCE.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_GATE.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_PRESSURE_PLATE.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_BUTTON.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_DOOR.get());
-        output.accept(DWWoodBlocks.GREEN_CORALWOOD_TRAPDOOR.get());
         output.accept(DWOceanWorldgenBlocks.OCEAN_SLATE.get());
         output.accept(DWStoneBlocks.COBBLED_SLATE.get());
         output.accept(DWStoneBlocks.SLATE_BRICKS.get());
